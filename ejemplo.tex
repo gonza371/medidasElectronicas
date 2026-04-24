@@ -1,0 +1,52 @@
+\documentclass{plantilla}
+
+% --- Metadatos del Informe ---
+\titulo{Plantilla para informes en fomato IEEE}
+\autores{Filsinger Gonzalo, Perea Ignacio, Parfait Manuel}
+\materia{Nombre de la materia}
+\comision{4R2}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+En este informe se describe es un ejemplo de como utilizar una plantilla en formato cls para la redaccion de informes en formto IEEE.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Formato IEEE, plantilla.
+\end{IEEEkeywords}
+
+\section{Introducción}
+\IEEEPARstart{E}{l} En el siguiente informe analizaremos...
+
+\section{Desarrollo Experimental}
+Para el cálculo de las resistencias de polarización, utilizamos las unidades que definimos en la plantilla:
+$R_1 = 10\kohm$ y $C_1 = 100\uF$.
+
+\begin{equation}
+    V_{out} = A_v \cdot V_{in}
+\end{equation}
+
+\section{Resultados}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=6.5cm]{images/circuito.png}
+\caption{Imagen del circuito implementado.}
+\label{fig_circuito}
+\end{figure}
+
+\section{Conclusión}
+Se logró verificar que.
+
+% Referencias bibliográficas
+\begin{thebibliography}{1}
+\bibitem{IEEEhowto:kopka}
+H. Kopka and P. W. Daly, \emph{A Guide to \LaTeX}, 3rd ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+Bubylibro Medios de enlace, La vida hecha libro. 
+\end{thebibliography}
+
+\end{document}
