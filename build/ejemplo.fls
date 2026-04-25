@@ -378,6 +378,11 @@ OUTPUT C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\build\ejemplo.o
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT .\parte1.tex
+INPUT .\parte1.tex
+INPUT .\parte1.tex
+INPUT .\parte1.tex
+INPUT parte1.tex
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
@@ -424,6 +429,11 @@ INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT parte2.tex
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\gonfi\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\gonfi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
