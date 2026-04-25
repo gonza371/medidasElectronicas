@@ -16,6 +16,7 @@
 \RequirePackage{circuitikz}
 \RequirePackage{hyperref}
 \RequirePackage{caption}
+\RequirePackage[table]{xcolor}
 
 \usetikzlibrary{plotmarks}
 \captionsetup{font=footnotesize, justification=centering, labelsep=period}
