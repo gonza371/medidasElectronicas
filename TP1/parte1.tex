@@ -38,9 +38,9 @@ Luego en base a los $\Delta V$ calculados, armaremos una gráfica de correción 
 \hline
 \rowcolor[HTML]{FFCE93} 
 $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ \hline
-\cellcolor[HTML]{FFCCC9}$V_P$ (Pasada hacia arriba) &   &   &   &   &   &   &   \\ \hline
-\cellcolor[HTML]{FFCCC9}$V_P$ (Pasada hacia abajo)  &   &   &   &   &   &   &   \\ \hline
-\cellcolor[HTML]{FFCCC9}$\Delta V$ (mayor valor)     &   &   &   &   &   &   &   \\ \hline
+\cellcolor[HTML]{FFCCC9}$V_P$ (Pasada hacia arriba) &  0.95 & 1.99  &  3.04 &  3.87 &  4.89 &  5.94 & 6.98  \\ \hline
+\cellcolor[HTML]{FFCCC9}$V_P$ (Pasada hacia abajo)  & 0.96  & 1.99  & 3.04  & 3.87  & 4.91  & 5.97  & 6.98  \\ \hline
+\cellcolor[HTML]{FFCCC9}$\Delta V$ (mayor valor)     & 0.05  & 0.01  & 0.04  & 0.13  & 0.11  & 0.06  &  0.02 \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -48,14 +48,14 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 \begin{table}[H]
 \begin{center}
 
-\resizebox{5.5cm}{0.9cm}{%
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
 \rowcolor[HTML]{FFCE93} 
 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\ \hline
-  &   &    &    &    &    &    &    \\ \hline
-  &   &    &    &    &    &    &    \\ \hline
-  &   &    &    &    &    &    &    \\ \hline
+8.06  & 9.06  & 10.10   & 10.56   & 11.63   & 12.69   & 13.70   & 14.86   \\ \hline
+8.05  & 9.08  & 10.14   & 10.51   & 11.65   & 12.75   & 13.67   & 14.86   \\ \hline
+0.06  & 0.08  & 0.14   & 0.49   &  0.37  & 0.31   & 0.33   & 0.14   \\ \hline
 \end{tabular}%
 }
 \end{center}
@@ -70,23 +70,23 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (9.5, 9.5){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (9.5, 9.5){Patrón};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (12.5, 9.5){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (12.5, 9.5){Fecha};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (15.5, 9.5){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (15.5, 9.5){Operador};
-	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (6.5, 8.625){} node[anchor=north west, align=left, text width=2.577cm, inner sep=6pt] at (5, 9.25){Marca\\Nro};
-	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (9.5, 8.625){} node[anchor=north west, align=left, text width=2.577cm, inner sep=6pt] at (8, 9.25){Marca: Uni-T\\Nro:};
-	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (12.5, 8.625){};
+	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (6.5, 8.625){} node[anchor=west, align=left, text width=2.788cm, inner sep=3pt] at (5, 8.625){\footnotesize Marca: GANZ\\Nro: Univo Elektronik};
+	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (9.5, 8.625){} node[anchor=north west, align=left, text width=2.577cm, inner sep=6pt] at (8, 9.25){\footnotesize Marca: Uni-T\\Nro: UT89X};
+	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (12.5, 8.625){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (12.5, 8.625){\large 10/04/26};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (15.5, 8.625){} node[anchor=west, align=left, text width=2.711cm, inner sep=4.1pt] at (14, 8.625){Gonzalo Filsinger};
 	\draw (6, 8) -- (6, 3);
 	\draw (6.5, 8) -- (6.5, 3);
-	\draw (2, 3) -| (17, 3);
-	\draw (2, 5) -| (17, 5);
-	\draw (2, 4.5) -| (17, 4.5);
-	\draw (2, 4) -| (17, 4);
-	\draw (2, 3.5) -| (17, 3.5);
-	\draw (2, 6) -| (17, 6);
-	\draw[line width=1.5pt] (2, 5.5) -| (17, 5.5);
-	\draw (2, 6.5) -| (17, 6.5);
-	\draw (2, 7) -| (17, 7);
-	\draw (2, 7.5) -| (17, 7.5);
-	\draw (2, 8) -| (17, 8);
+	\draw (2, 3) -- (17, 3);
+	\draw (2, 5) -- (17, 5);
+	\draw (2, 4.5) -- (17, 4.5);
+	\draw (2, 4) -- (17, 4);
+	\draw (2, 3.5) -- (17, 3.5);
+	\draw (2, 6) -- (17, 6);
+	\draw[line width=1.5pt] (2, 5.5) -- (17, 5.5);
+	\draw (2, 6.5) -- (17, 6.5);
+	\draw (2, 7) -- (17, 7);
+	\draw (2, 7.5) -- (17, 7.5);
+	\draw (2, 8) -- (17, 8);
 	\draw (7, 8) -- (7, 3);
 	\draw (7.5, 8) -- (7.5, 3);
 	\draw (8, 8) -- (8, 3);
@@ -116,7 +116,7 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 	\draw (3, 8) -- (3, 3);
 	\draw (2.5, 3) -- (2.5, 8);
 	\draw (2, 8) -- (2, 3);
-	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.75, 5.25){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.5, 5.5){0};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.78, 5.567){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.53, 5.817){0};
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (2.75, 5.25){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (2.5, 5.5){1};
 	\node[shape=rectangle, minimum width=0.436cm, minimum height=0.465cm] at (3.765, 5.25){} node[anchor=north west, align=left, text width=0.047cm, inner sep=6pt] at (3.529, 5.5){2};
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (4.75, 5.25){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (4.5, 5.5){3};
@@ -132,6 +132,33 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (14.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (14.375, 5.5){13};
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (15.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (15.375, 5.5){14};
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (16.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (16.375, 5.5){15};
+	\node[circ] at (3, 5.75){};
+	\node[circ] at (3.995, 5.55){};
+	\node[circ] at (5.005, 5.284){};
+	\node[circ] at (6, 6.186){};
+	\node[circ] at (7, 6.044){};
+	\node[circ] at (8, 5.795){};
+	\node[circ] at (9.006, 5.595){};
+	\node[circ] at (10, 5.208){};
+	\node[circ] at (10.997, 5.107){};
+	\node[circ] at (12.003, 4.787){};
+	\node[circ] at (13, 7.973){};
+	\node[circ, yscale=-1] at (14, 7.351){};
+	\node[circ] at (15, 7.05){};
+	\node[circ] at (16, 7.153){};
+	\node[circ] at (16.995, 6.208){};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 6.129){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 6.379){+0.1};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 6.629){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 6.879){+0.2};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 7.129){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 7.379){+0.3};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 7.629){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 7.879){+0.4};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 8.129){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 8.379){+0.5};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.425, 5.149){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.175, 5.399){-0.1};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.425, 4.649){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.175, 4.899){-0.2};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.425, 4.149){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.175, 4.399){-0.3};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.425, 3.649){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.175, 3.899){-0.4};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.425, 3.149){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.175, 3.399){-0.5};
+	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (17.122, 5.617){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (16.872, 5.867){[V]};
+	\node[shape=rectangle, minimum width=0.965cm, minimum height=0.657cm] at (2.019, 8.451){} node[anchor=north west, align=left, text width=0.577cm, inner sep=6pt] at (1.519, 8.797){[V]};
 \end{tikzpicture}%
 }
 \begingroup
@@ -141,6 +168,8 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 \label{grafico1}
 \endgroup
 \end{figure}
+
+
 
 \section{Conclusión}
 Se logró verificar que...
