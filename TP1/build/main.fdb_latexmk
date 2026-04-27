@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777240456.85356 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777240459.06875 0
+["pdflatex"] 1777261472.18833 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777261473.66103 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777056237 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1750266454 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635 13234938 d58bb3502aaad703297f3d501f0c0d64 ""
@@ -233,11 +233,11 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "build/main.aux" 1777240458 1707 7907d13ee6cc66816861f8cd7e4319d0 "pdflatex"
-  "build/main.out" 1777240458 582 f0726cb0f59d49dff402f129f0b7960b "pdflatex"
-  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" 1777240456 1175 6930f82fd1b4aefa1be515bec94afaac ""
-  "main.tex" 1777240456 1175 6930f82fd1b4aefa1be515bec94afaac ""
-  "parte1.tex" 1777240456 12426 b37c099f200a4ac4c13dafc1ccca7b86 ""
+  "build/main.aux" 1777261473 1707 7907d13ee6cc66816861f8cd7e4319d0 "pdflatex"
+  "build/main.out" 1777261473 582 f0726cb0f59d49dff402f129f0b7960b "pdflatex"
+  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" 1777249324 1172 4a9bc4ad9190442b3a132f1c10775832 ""
+  "main.tex" 1777249324 1172 4a9bc4ad9190442b3a132f1c10775832 ""
+  "parte1.tex" 1777261470 12544 a25ca6e5e373358e92b5034a5a75ddd5 ""
   "parte2.tex" 1777143913 0 d41d8cd98f00b204e9800998ecf8427e ""
   "plantilla.cls" 1777136865 2415 a471c7aeaed056b8e25b86d6a5c2d473 ""
   (generated)
