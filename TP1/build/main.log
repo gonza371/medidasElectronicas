@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  30 APR 2026 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  30 APR 2026 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,7 +844,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 
 
-<images/medicion1.jpeg, id=53, 677.53125pt x 485.56406pt>
+<images/medicion1.jpeg, id=57, 677.53125pt x 485.56406pt>
 File: images/medicion1.jpeg Graphic file (type jpg)
 <use images/medicion1.jpeg>
 Package pdftex.def Info: images/medicion1.jpeg  used on input line 33.
@@ -1025,7 +1025,7 @@ Overfull \hbox (9.76668pt too wide) in paragraph at lines 75--176
  []
 
 ) (parte2.tex) (parte3.tex
-<images/planchas.jpeg, id=69, 903.375pt x 903.375pt>
+<images/planchas.jpeg, id=73, 903.375pt x 903.375pt>
 File: images/planchas.jpeg Graphic file (type jpg)
 <use images/planchas.jpeg>
 Package pdftex.def Info: images/planchas.jpeg  used on input line 7.
@@ -1037,7 +1037,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 7--8
 
 
 
-<images/telurimetro.jpeg, id=70, 773.89125pt x 498.36188pt>
+<images/telurimetro.jpeg, id=74, 773.89125pt x 498.36188pt>
 File: images/telurimetro.jpeg Graphic file (type jpg)
 <use images/telurimetro.jpeg>
 Package pdftex.def Info: images/telurimetro.jpeg  used on input line 15.
@@ -1072,20 +1072,20 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 670689A413E7BA5790A1B8068FDFCFFC;2006.
+(rerunfilecheck)             Checksum: 3FA7C9207C42FA9C6496DD8DC0EA3E75;2157.
  ) 
 Here is how much of TeX's memory you used:
- 52080 strings out of 468225
- 1338070 string characters out of 5432973
+ 52082 strings out of 468225
+ 1338100 string characters out of 5432973
  2109877 words of memory out of 5000000
- 79971 multiletter control sequences out of 15000+600000
+ 79972 multiletter control sequences out of 15000+600000
  683232 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,105p,822b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP1\build\main.pdf (3 pages, 779945 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP1\build\main.pdf (3 pages, 780896 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

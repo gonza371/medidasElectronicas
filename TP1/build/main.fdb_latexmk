@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777576222.62962 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777576224.34378 0
+["pdflatex"] 1777577993.08879 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777577994.72453 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777490165.9922 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1750266454.65037 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635.6902 13234938 30f860a347630bc1469083995ce6332b ""
@@ -233,12 +233,12 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/build/main.aux" 1777576224.07933 3083 c1608ed3d2c370674fd6b93efea81865 ""
-  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/build/main.out" 1777576224.08258 2006 670689a413e7ba5790a1b8068fdfcffc ""
-  "build/main.aux" 1777576224.07933 3083 c1608ed3d2c370674fd6b93efea81865 "pdflatex"
-  "build/main.out" 1777576224.08258 2006 670689a413e7ba5790a1b8068fdfcffc "pdflatex"
+  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/build/main.aux" 1777577994.46438 3217 d05835486198dde73435022802fc0da3 ""
+  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/build/main.out" 1777577994.46889 2157 3fa7c9207c42fa9c6496dd8dc0ea3e75 ""
+  "build/main.aux" 1777577994.46438 3217 d05835486198dde73435022802fc0da3 "pdflatex"
+  "build/main.out" 1777577994.46889 2157 3fa7c9207c42fa9c6496dd8dc0ea3e75 "pdflatex"
   "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP1/main.tex" 1777576221.94954 2252 ef1673348c184ea463271d1ad261ead0 ""
-  "conclusiones.tex" 1777575621.83811 664 7345170f658b90f168d3488363e50e4a ""
+  "conclusiones.tex" 1777577990.55298 1124 d9cb33059addeb62266f7280c370f555 ""
   "images/medicion1.jpeg" 1777575279.59907 131225 af2370007b6a2634df830c203cd009f4 ""
   "images/planchas.jpeg" 1777572397.76517 337940 740ec963253cb04541ad6a7c1e13e372 ""
   "images/telurimetro.jpeg" 1777572397.76517 194594 7338a57b717514923803e348db0b0ae0 ""
