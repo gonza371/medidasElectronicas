@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777517768.02195 "c:/Users/manul/Desktop/4to año/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777517770.11344 0
+["pdflatex"] 1777568226.9863 "c:/Users/manul/Desktop/4to año/medidasElectronicas/TP1/main.tex" "build/main.pdf" "main" 1777568229.40971 0
   "C:/Users/manul/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777488413 164858 1926c8d7bd1823f0c8393a5c0272d2d9 ""
   "C:/Users/manul/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1751378669 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/manul/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1728002354 24228329 12943edaca0cb3d2910ccc3509455c9a ""
@@ -241,13 +241,15 @@
   "C:/Users/manul/AppData/Local/Programs/Paquete_Latex/tex/latex/tools/array.sty" 1700599895 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/manul/AppData/Local/Programs/Paquete_Latex/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/manul/AppData/Local/Programs/Paquete_Latex/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "build/main.aux" 1777517769 1669 6f12694127f2c7214815ee604e0cd4cb "pdflatex"
-  "build/main.out" 1777517769 582 f0726cb0f59d49dff402f129f0b7960b "pdflatex"
-  "c:/Users/manul/Desktop/4to año/medidasElectronicas/TP1/main.tex" 1777517763 1228 cdf4045eeb3c6dbaa9a8780e53c44b4d ""
-  "main.tex" 1777517763 1228 cdf4045eeb3c6dbaa9a8780e53c44b4d ""
-  "parte1.tex" 1777325829 12544 a25ca6e5e373358e92b5034a5a75ddd5 ""
+  "build/main.aux" 1777568229 2794 5c096d38a90e054cd07855258def27c7 "pdflatex"
+  "build/main.out" 1777568229 1856 ef751e5c2d2cf03e301536cb98789b4a "pdflatex"
+  "c:/Users/manul/Desktop/4to año/medidasElectronicas/TP1/main.tex" 1777568226 2136 48cdd830f49fb1b8b426620b8a6cac32 ""
+  "images/planchas.jpeg" 1777561910 337940 8ca4e13f254bf1f741f27186a9e79635 ""
+  "images/telurimetro.jpeg" 1777562599 194594 f6b4dfe41aa0b6325cf1b8d7a2383bb0 ""
+  "main.tex" 1777568226 2136 48cdd830f49fb1b8b426620b8a6cac32 ""
+  "parte1.tex" 1777560251 12544 a25ca6e5e373358e92b5034a5a75ddd5 ""
   "parte2.tex" 1777325829 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "parte3.tex" 1777517760 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "parte3.tex" 1777567141 4069 b8d93557a731a513685ac919df53df12 ""
   "plantilla.cls" 1777325829 2510 a471c7aeaed056b8e25b86d6a5c2d473 ""
   (generated)
   "build/main.aux"

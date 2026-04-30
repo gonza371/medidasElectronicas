@@ -446,16 +446,6 @@ INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\public\amsfo
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT .\parte2.tex
-INPUT .\parte2.tex
-INPUT .\parte2.tex
-INPUT .\parte2.tex
-INPUT parte2.tex
-INPUT .\parte3.tex
-INPUT .\parte3.tex
-INPUT .\parte3.tex
-INPUT .\parte3.tex
-INPUT parte3.tex
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\manul\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -502,6 +492,32 @@ INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\vf\adobe\times\p
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\vf\adobe\times\zptmcm7y.vf
 INPUT C:\Users\manul\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT .\parte2.tex
+INPUT parte2.tex
+INPUT .\parte3.tex
+INPUT .\parte3.tex
+INPUT .\parte3.tex
+INPUT .\parte3.tex
+INPUT parte3.tex
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\planchas.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT .\images\telurimetro.jpeg
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP1\build\main.aux
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP1\build\main.out
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP1\build\main.out
