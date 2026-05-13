@@ -1,1 +1,97 @@
 \section{Desarrollo Experimental 5}
+
+Para esta actividad, dejaremos tal cual todo como quedó de la actividad anterior pero ahora conectaremos la salida ''SYNC'' del generador de funciones con la entrada de ''TRIGGER EXTERNO'' del osciloscopio, y cambiaremos la fuente de disparo de la base de tiempo a ''EXTERNO''. De esta forma, el osciloscopio se disparará con la señal del generador de funciones, y podremos observar la señal cuadrada de 50Hz con una sincronización perfecta.
+
+\begin{figure}[H]
+	\includegraphics[width=0.4\textwidth]{images/parte5a.jpeg}
+	\caption{Señal en x10 con acoplamiento en CA}
+	\label{fig:calibracion}
+\end{figure} 
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+V/div (Y1)                & V/div (Y2)               & T/div & Aten Y1                  & Aten Y2                  \\ \hline
+\multicolumn{1}{|c|}{50mV} & \multicolumn{1}{c|}{50mV} & 0.2ms & \multicolumn{1}{c|}{x10} & \multicolumn{1}{c|}{x10} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Veremos que ahora por mas que variemos la escada de amplitud, la señal no se perderá, a diferencia de antes que se perdía en 1V/div.
+
+\section{Desarrollo Experimental 6}
+
+\section{Desarrollo Experimental 7}
+
+Para esta parte haremos uso del generador de funciones GF3015 y lo condiguraremos con los siguientes datos:
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Frec.} & \textbf{Func.} & \textbf{Ampl.} & \textbf{Duty} & \textbf{Trig.} & \textbf{Trig. Ext.} \\ \hline
+2KHz           & Cuadr.         & 5Vpp           & 50\%          & Mult.          & Desact.             \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Rate} & \textbf{Sym.} & \textbf{Trig. Phase} & \textbf{Source} & \textbf{Trig. on/off} \\ \hline
+0.5KHz        & 50\%          & 30\%                 & Triang.         & on                    \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Ahora conectaremos al osciloscopio y pondremos la base de tiempo entre 1ms/div y 0.1ms/div, veremos lo siguiente:
+
+\begin{figure}[H]
+    \includegraphics[width=0.4\textwidth]{images/parte7a.jpeg}
+    \caption{Señal en x10 con acoplamiento en CA}
+    \label{fig:calibracion}
+\end{figure}
+
+Se ven dos imagenes solapadas entre sí, una siendo la parte ancha del tren de pulsos y la otra siendo la parte angosta, para ver esto con mayor claridad, vamosa ajustar el Holf-of y el Nivel de disparo para llegar a lo siguiente:
+
+\begin{figure}[H]
+    \includegraphics[width=0.4\textwidth]{images/parte7b.jpeg}
+    \caption{Señal en x10 con acoplamiento en CA}
+    \label{fig:calibracion}
+\end{figure}
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+V/div (Y1)                & V/div (Y2)               & T/div & Aten Y1                  & Aten Y2                  \\ \hline
+\multicolumn{1}{|c|}{0.1V} & \multicolumn{1}{c|}{0.1V} & 0.2ms & \multicolumn{1}{c|}{x10} & \multicolumn{1}{c|}{x10} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\section{Desarrollo Experimental 8}
+
+Ahora tal cual y como dejamos todos, usaremos el Doble Trazo, para ello usando solo el canal 1, conectaremos al canal 2 al generador en la parte de ''MOD''. Activamos el doble trazo en modo ''ALTERNADO'', y ajustamos la amplitud para ver una imagen adecuada.
+
+\begin{figure}[H]
+    \includegraphics[width=0.4\textwidth]{images/parte8a.jpeg}
+    \caption{Señal en x10 con acoplamiento en CA}
+    \label{fig:calibracion}
+\end{figure}
+
+Ahora calculamos los siguientes datos:
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+V/div (Y1)                & V/div (Y2)               & T/div & Aten Y1                  & Aten Y2                  \\ \hline
+\multicolumn{1}{|c|}{0.1V} & \multicolumn{1}{c|}{1V} & 0.2ms & \multicolumn{1}{c|}{x10} & \multicolumn{1}{c|}{x10} \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Grafica de ambas señales:

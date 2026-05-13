@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  12 MAY 2026 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  13 MAY 2026 20:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -799,6 +799,24 @@ LaTeX Warning: Label `fig:calibracion' multiply defined.
 
 LaTeX Warning: Label `fig:calibracion' multiply defined.
 
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -871,7 +889,7 @@ File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
  (parte1-4.tex
-<images/calibraciona.jpeg, id=46, 528.47438pt x 423.08063pt>
+<images/calibraciona.jpeg, id=66, 528.47438pt x 423.08063pt>
 File: images/calibraciona.jpeg Graphic file (type jpg)
 <use images/calibraciona.jpeg>
 Package pdftex.def Info: images/calibraciona.jpeg  used on input line 6.
@@ -881,7 +899,7 @@ Underfull \vbox (badness 2057) has occurred while \output is active []
 
 
 
-<images/calibracionb.jpeg, id=47, 524.71031pt x 402.75468pt>
+<images/calibracionb.jpeg, id=67, 524.71031pt x 402.75468pt>
 File: images/calibracionb.jpeg Graphic file (type jpg)
 <use images/calibracionb.jpeg>
 Package pdftex.def Info: images/calibracionb.jpeg  used on input line 18.
@@ -892,12 +910,12 @@ Package pdftex.def Info: images/calibracionb.jpeg  used on input line 18.
 
 
  <./images/calibraciona.jpeg> <./images/calibracionb.jpeg>]
-<images/parte2.jpeg, id=59, 542.025pt x 475.7775pt>
+<images/parte2.jpeg, id=79, 542.025pt x 475.7775pt>
 File: images/parte2.jpeg Graphic file (type jpg)
 <use images/parte2.jpeg>
 Package pdftex.def Info: images/parte2.jpeg  used on input line 53.
 (pdftex.def)             Requested size: 206.39685pt x 181.16757pt.
-<images/parte2b.jpeg, id=60, 542.025pt x 413.29407pt>
+<images/parte2b.jpeg, id=80, 542.025pt x 413.29407pt>
 File: images/parte2b.jpeg Graphic file (type jpg)
 <use images/parte2b.jpeg>
 Package pdftex.def Info: images/parte2b.jpeg  used on input line 61.
@@ -906,12 +924,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 
 
-<images/parte3a.jpeg, id=61, 542.025pt x 601.4972pt>
+<images/parte3a.jpeg, id=81, 542.025pt x 601.4972pt>
 File: images/parte3a.jpeg Graphic file (type jpg)
 <use images/parte3a.jpeg>
 Package pdftex.def Info: images/parte3a.jpeg  used on input line 76.
 (pdftex.def)             Requested size: 206.39685pt x 229.03938pt.
-<images/parte3b.jpeg, id=62, 542.025pt x 511.9125pt>
+<images/parte3b.jpeg, id=82, 542.025pt x 511.9125pt>
 File: images/parte3b.jpeg Graphic file (type jpg)
 <use images/parte3b.jpeg>
 Package pdftex.def Info: images/parte3b.jpeg  used on input line 84.
@@ -919,24 +937,24 @@ Package pdftex.def Info: images/parte3b.jpeg  used on input line 84.
 
 
 [2 <./images/parte2.jpeg> <./images/parte2b.jpeg> <./images/parte3a.jpeg> <./images/parte3b.jpeg>]
-<images/parte3c.jpeg, id=72, 542.025pt x 570.63188pt>
+<images/parte3c.jpeg, id=92, 542.025pt x 570.63188pt>
 File: images/parte3c.jpeg Graphic file (type jpg)
 <use images/parte3c.jpeg>
 Package pdftex.def Info: images/parte3c.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 206.39685pt x 217.28642pt.
-<images/parte4a.jpeg, id=73, 542.025pt x 418.56375pt>
+<images/parte4a.jpeg, id=93, 542.025pt x 418.56375pt>
 File: images/parte4a.jpeg Graphic file (type jpg)
 <use images/parte4a.jpeg>
 Package pdftex.def Info: images/parte4a.jpeg  used on input line 131.
 (pdftex.def)             Requested size: 206.39685pt x 159.38159pt.
 
 
-<images/parte4b.jpeg, id=74, 542.025pt x 461.47406pt>
+<images/parte4b.jpeg, id=94, 542.025pt x 461.47406pt>
 File: images/parte4b.jpeg Graphic file (type jpg)
 <use images/parte4b.jpeg>
 Package pdftex.def Info: images/parte4b.jpeg  used on input line 139.
 (pdftex.def)             Requested size: 206.39685pt x 175.72107pt.
-<images/parte4c.jpeg, id=75, 542.025pt x 368.87813pt>
+<images/parte4c.jpeg, id=95, 542.025pt x 368.87813pt>
 File: images/parte4c.jpeg Graphic file (type jpg)
 <use images/parte4c.jpeg>
 Package pdftex.def Info: images/parte4c.jpeg  used on input line 147.
@@ -950,13 +968,47 @@ Underfull \vbox (badness 1629) has occurred while \output is active []
 
 
 
-[3 <./images/parte3c.jpeg> <./images/parte4a.jpeg> <./images/parte4b.jpeg> <./images/parte4c.jpeg>]) (parte5-8.tex) (parte9-11.tex) (conclusiones.tex)
+[3 <./images/parte3c.jpeg> <./images/parte4a.jpeg> <./images/parte4b.jpeg> <./images/parte4c.jpeg>]) (parte5-8.tex
+<images/parte5a.jpeg, id=108, 1284.8pt x 722.7pt>
+File: images/parte5a.jpeg Graphic file (type jpg)
+<use images/parte5a.jpeg>
+Package pdftex.def Info: images/parte5a.jpeg  used on input line 6.
+(pdftex.def)             Requested size: 206.39685pt x 116.0975pt.
 
 
+<images/parte7a.jpeg, id=109, 722.7pt x 615.80063pt>
+File: images/parte7a.jpeg Graphic file (type jpg)
+<use images/parte7a.jpeg>
+Package pdftex.def Info: images/parte7a.jpeg  used on input line 52.
+(pdftex.def)             Requested size: 206.39685pt x 175.86206pt.
+<images/parte7b.jpeg, id=110, 674.52pt x 648.92438pt>
+File: images/parte7b.jpeg Graphic file (type jpg)
+<use images/parte7b.jpeg>
+Package pdftex.def Info: images/parte7b.jpeg  used on input line 60.
+(pdftex.def)             Requested size: 206.39685pt x 198.5603pt.
+<images/parte8a.jpeg, id=111, 963.6pt x 1284.8pt>
+File: images/parte8a.jpeg Graphic file (type jpg)
+<use images/parte8a.jpeg>
+Package pdftex.def Info: images/parte8a.jpeg  used on input line 80.
+(pdftex.def)             Requested size: 206.39685pt x 275.18758pt.
 
-[4
 
-] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
+[4 <./images/parte5a.jpeg> <./images/parte7a.jpeg> <./images/parte7b.jpeg>]) (parte9-11.tex
+<images/parte10a.jpeg, id=125, 722.7pt x 627.09282pt>
+File: images/parte10a.jpeg Graphic file (type jpg)
+<use images/parte10a.jpeg>
+Package pdftex.def Info: images/parte10a.jpeg  used on input line 7.
+(pdftex.def)             Requested size: 206.39685pt x 179.08691pt.
+
+
+<images/parte10b.jpeg, id=126, 722.7pt x 790.45313pt>
+File: images/parte10b.jpeg Graphic file (type jpg)
+<use images/parte10b.jpeg>
+Package pdftex.def Info: images/parte10b.jpeg  used on input line 27.
+(pdftex.def)             Requested size: 206.39685pt x 225.7398pt.
+) (conclusiones.tex)
+
+[5 <./images/parte8a.jpeg> <./images/parte10a.jpeg> <./images/parte10b.jpeg>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -969,20 +1021,20 @@ L3 programming layer <2025-05-26>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5017A3CE2ABBFF693339C1B9D8F1C638;1496.
+(rerunfilecheck)             Checksum: C90F48FF90A97ED6818C26E683D0CEAA;2386.
  ) 
 Here is how much of TeX's memory you used:
- 52034 strings out of 468225
- 1337199 string characters out of 5432973
+ 52097 strings out of 468225
+ 1338594 string characters out of 5432973
  2084797 words of memory out of 5000000
- 79928 multiletter control sequences out of 15000+600000
- 678202 words of font info for 135 fonts, out of 8000000 for 9000
+ 79972 multiletter control sequences out of 15000+600000
+ 676617 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (4 pages, 876522 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (5 pages, 1539265 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
