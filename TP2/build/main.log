@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  13 MAY 2026 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  13 MAY 2026 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,6 +817,9 @@ LaTeX Warning: Label `fig:calibracion' multiply defined.
 
 LaTeX Warning: Label `fig:calibracion' multiply defined.
 
+
+LaTeX Warning: Label `fig:calibracion' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1006,9 +1009,18 @@ File: images/parte10b.jpeg Graphic file (type jpg)
 <use images/parte10b.jpeg>
 Package pdftex.def Info: images/parte10b.jpeg  used on input line 27.
 (pdftex.def)             Requested size: 206.39685pt x 225.7398pt.
-) (conclusiones.tex)
+) (conclusiones.tex
 
-[5 <./images/parte8a.jpeg> <./images/parte10a.jpeg> <./images/parte10b.jpeg>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
+[5 <./images/parte8a.jpeg> <./images/parte10a.jpeg> <./images/parte10b.jpeg>]
+
+<images/conclusiones.png, id=138, 585.68813pt x 475.7775pt>
+File: images/conclusiones.png Graphic file (type png)
+<use images/conclusiones.png>
+Package pdftex.def Info: images/conclusiones.png  used on input line 79.
+(pdftex.def)             Requested size: 206.39685pt x 167.6644pt.
+)
+
+[6 <./images/conclusiones.png>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1021,20 +1033,20 @@ L3 programming layer <2025-05-26>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C90F48FF90A97ED6818C26E683D0CEAA;2386.
+(rerunfilecheck)             Checksum: F05CB1DE86A2FC25BE3FFDF923521F00;2386.
  ) 
 Here is how much of TeX's memory you used:
- 52097 strings out of 468225
- 1338594 string characters out of 5432973
+ 52114 strings out of 468225
+ 1338980 string characters out of 5432973
  2084797 words of memory out of 5000000
- 79972 multiletter control sequences out of 15000+600000
+ 79987 multiletter control sequences out of 15000+600000
  676617 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (5 pages, 1539265 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (6 pages, 1629699 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
