@@ -1,11 +1,52 @@
 \section{Desarrollo experimental 9}
 
+En esta parte debemos configurar el osciloscopio con los siguientes datos:
+
+ \begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Frec.} & \textbf{Func.} & \textbf{Ampl.} & \textbf{Duty} & \textbf{Trig.} & \textbf{Trig. Ext.} \\ \hline
+15.6KHz           & Sen.         & 5Vpp           & 50\%          & Mult.          & Desact.             \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Rate} & \textbf{Sym.} & \textbf{Trig. Phase} & \textbf{Source} & \textbf{Trig. on/off} \\ \hline
+50Hz        & 50\%          & 30\%                 & Triang.         & on                    \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+A continuación observamos la señal en el osciloscopio a 5ms/div lo siguiente:
+ \begin{figure}[H]
+	\centering
+    \includegraphics[width=0.4\textwidth]{images/parte9a.jpeg}
+    \caption{Señal de paquetes}
+    \label{fig:parte9a}
+\end{figure}
+
+Ahora la consigna nos pedía usar el filtro TV-V, pero no encontramos dicha opción en el osciloscopio.\\
+Ahora llevamos la base de tiempo a 50$\mu$s/div y ajustamos el nivel de disparo para obtener lo siguiente:
+
+A continuación observamos la señal en el osciloscopio a 5ms/div lo siguiente:
+ \begin{figure}[H]
+	\centering
+    \includegraphics[width=0.4\textwidth]{images/parte9b.jpeg}
+    \caption{Señal de paquetes}
+    \label{fig:parte9b}
+\end{figure}
+
 \section{Desarrollo experimental 10}
  Para esta parte conectaremos un circuito auxiliar a la salida del generador de funciones:
 
  \begin{figure}[H]
 	\centering
-    \includegraphics[width=0.4\textwidth]{images/parte10a.jpeg}
+    \includegraphics[width=0.34\textwidth]{images/parte10a.jpeg}
     \caption{Circuito auxiliar}
     \label{fig:parte10a}
 \end{figure}

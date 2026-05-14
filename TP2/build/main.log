@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  14 MAY 2026 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  14 MAY 2026 17:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,6 +772,9 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 
 LaTeX Warning: Label `fig:parte6' multiply defined.
 
+
+LaTeX Warning: Label `fig:parte2b' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -1004,69 +1007,99 @@ Package pdftex.def Info: images/parte8a.jpeg  used on input line 137.
 
 
 [6 <./images/parte6a.jpeg> <./images/parte6b.jpeg> <./images/parte7a.jpeg> <./images/parte7b.jpeg>]) (parte9-11.tex
-<images/parte10a.jpeg, id=153, 722.7pt x 627.09282pt>
+<images/parte9a.jpeg, id=153, 645.91313pt x 547.2947pt>
+File: images/parte9a.jpeg Graphic file (type jpg)
+<use images/parte9a.jpeg>
+Package pdftex.def Info: images/parte9a.jpeg  used on input line 28.
+(pdftex.def)             Requested size: 206.39685pt x 174.879pt.
+
+Underfull \vbox (badness 2884) has occurred while \output is active []
+
+
+
+<images/parte9b.jpeg, id=154, 697.8572pt x 665.48625pt>
+File: images/parte9b.jpeg Graphic file (type jpg)
+<use images/parte9b.jpeg>
+Package pdftex.def Info: images/parte9b.jpeg  used on input line 39.
+(pdftex.def)             Requested size: 206.39685pt x 196.82446pt.
+<images/parte10a.jpeg, id=155, 722.7pt x 513.41812pt>
 File: images/parte10a.jpeg Graphic file (type jpg)
 <use images/parte10a.jpeg>
-Package pdftex.def Info: images/parte10a.jpeg  used on input line 8.
-(pdftex.def)             Requested size: 206.39685pt x 179.08691pt.
+Package pdftex.def Info: images/parte10a.jpeg  used on input line 49.
+(pdftex.def)             Requested size: 175.43811pt x 124.633pt.
 
 
-<images/parte10b.jpeg, id=154, 722.7pt x 790.45313pt>
+[7 <./images/parte8a.jpeg> <./images/parte9a.jpeg> <./images/parte9b.jpeg> <./images/parte10a.jpeg>]
+<images/parte10b.jpeg, id=169, 722.7pt x 790.45313pt>
 File: images/parte10b.jpeg Graphic file (type jpg)
 <use images/parte10b.jpeg>
-Package pdftex.def Info: images/parte10b.jpeg  used on input line 29.
+Package pdftex.def Info: images/parte10b.jpeg  used on input line 70.
 (pdftex.def)             Requested size: 206.39685pt x 225.7398pt.
-<images/11telefono.jpeg, id=155, 742.27313pt x 582.67688pt>
+<images/11telefono.jpeg, id=170, 742.27313pt x 582.67688pt>
 File: images/11telefono.jpeg Graphic file (type jpg)
 <use images/11telefono.jpeg>
-Package pdftex.def Info: images/11telefono.jpeg  used on input line 59.
+Package pdftex.def Info: images/11telefono.jpeg  used on input line 100.
 (pdftex.def)             Requested size: 206.39685pt x 162.01926pt.
 
 
-[7 <./images/parte8a.jpeg> <./images/parte10a.jpeg> <./images/parte10b.jpeg> <./images/11telefono.jpeg>]
-<images/11atren.jpeg, id=169, 584.1825pt x 456.20438pt>
+<images/11atren.jpeg, id=171, 584.1825pt x 456.20438pt>
 File: images/11atren.jpeg Graphic file (type jpg)
 <use images/11atren.jpeg>
-Package pdftex.def Info: images/11atren.jpeg  used on input line 88.
+Package pdftex.def Info: images/11atren.jpeg  used on input line 129.
 (pdftex.def)             Requested size: 206.39685pt x 161.1775pt.
 
 
-<images/11btren.jpeg, id=170, 615.0478pt x 467.49657pt>
+[8 <./images/parte10b.jpeg> <./images/11telefono.jpeg> <./images/11atren.jpeg>]
+<images/11btren.jpeg, id=182, 615.0478pt x 467.49657pt>
 File: images/11btren.jpeg Graphic file (type jpg)
 <use images/11btren.jpeg>
-Package pdftex.def Info: images/11btren.jpeg  used on input line 116.
+Package pdftex.def Info: images/11btren.jpeg  used on input line 157.
 (pdftex.def)             Requested size: 206.39685pt x 156.88516pt.
-<images/11bdemora.jpeg, id=171, 660.96938pt x 483.30562pt>
+<images/11bdemora.jpeg, id=183, 660.96938pt x 483.30562pt>
 File: images/11bdemora.jpeg Graphic file (type jpg)
 <use images/11bdemora.jpeg>
-Package pdftex.def Info: images/11bdemora.jpeg  used on input line 123.
+Package pdftex.def Info: images/11bdemora.jpeg  used on input line 164.
 (pdftex.def)             Requested size: 206.39685pt x 150.92201pt.
 ) (conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
-[8 <./images/11atren.jpeg> <./images/11btren.jpeg> <./images/11bdemora.jpeg>]) (conclusiones2.tex
+ []
+
+
+
+<images/conclusionesa.jpeg, id=184, 1606.0pt x 1400.23125pt>
+File: images/conclusionesa.jpeg Graphic file (type jpg)
+<use images/conclusionesa.jpeg>
+Package pdftex.def Info: images/conclusionesa.jpeg  used on input line 9.
+(pdftex.def)             Requested size: 206.39685pt x 179.9426pt.
+<images/conclusionesc.jpeg, id=185, 1501.61pt x 1501.61pt>
+File: images/conclusionesc.jpeg Graphic file (type jpg)
+<use images/conclusionesc.jpeg>
+Package pdftex.def Info: images/conclusionesc.jpeg  used on input line 20.
+(pdftex.def)             Requested size: 206.39685pt x 206.39755pt.
+
+
+[9 <./images/11btren.jpeg> <./images/11bdemora.jpeg> <./images/conclusionesa.jpeg> <./images/conclusionesc.jpeg>]) (conclusiones2.tex
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--34
 
  []
 
-<images/conclusiones.png, id=179, 585.68813pt x 475.7775pt>
+<images/conclusiones.png, id=194, 585.68813pt x 475.7775pt>
 File: images/conclusiones.png Graphic file (type png)
 <use images/conclusiones.png>
 Package pdftex.def Info: images/conclusiones.png  used on input line 37.
 (pdftex.def)             Requested size: 206.39685pt x 167.6644pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10 <./images/conclusiones.png>])
 
 
 
-[9])
+[11
 
-
-
-[10
-
- <./images/conclusiones.png>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
+] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1079,20 +1112,20 @@ L3 programming layer <2025-05-26>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AA688537360E81FC1337F94FEB74DDB9;2587.
+(rerunfilecheck)             Checksum: CD26A559258D113A6C9045FD8FE08A58;2587.
  ) 
 Here is how much of TeX's memory you used:
- 52716 strings out of 468225
- 1355015 string characters out of 5432973
- 2152657 words of memory out of 5000000
- 80556 multiletter control sequences out of 15000+600000
+ 52754 strings out of 468225
+ 1355969 string characters out of 5432973
+ 2152791 words of memory out of 5000000
+ 80587 multiletter control sequences out of 15000+600000
  681165 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,105p,822b,2265s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (10 pages, 2510242 bytes).
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (11 pages, 3208204 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 291 words of extra memory for PDF output out of 10000 (max. 10000000)
 
