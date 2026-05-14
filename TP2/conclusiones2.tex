@@ -1,7 +1,7 @@
 5.	En el panel de controles de todo osciloscopio, suele haber un punto de prueba (TP) donde hay disponible una señal, generada internamente, de 1KHz, con forma de onda cuadrada que según lo indicado habitualmente en los manuales se emplea para “calibra la punta de pruebas”. Dicho procedimiento se realiza:
 \begin{enumerate}
 \item[A.] Con la punta en posición X10 y es para calibrar la base de tiempos.
-\item[B.] Con la punta en posición X10 y es para compensar la respuesta en frecuencia.
+\item[\fbox{B}] Con la punta en posición X10 y es para compensar la respuesta en frecuencia.
 \item[C.] Con la punta en la posición X1 y es para compensar la respuesta en frecuencia.
 \item[D.] Con la punta en la posición X1 y es para calibrar el nivel de disparo.
 \end{enumerate}
@@ -11,7 +11,7 @@
 6.	La calibración de la punta, se hace observando la forma de onda cuadrada, y normalmente debe retocarse un ajuste que suele encontrarse:
 \begin{enumerate}
 \item[A.] En el panel del instrumento y se accede mediante un destornillador de plástico.
-\item[B.] En la propia punta de pruebas, y se accede mediante un destornillador de plástico.
+\item[\fbox{B}] En la propia punta de pruebas, y se accede mediante un destornillador de plástico.
 \item[C.] En la propia punta de pruebas, y para ello suele haber una llave de tres posiciones.
 \item[D.] Debe retirarse la cubierta del osciloscopio ya que el ajuste suele estar en su interior.
 \end{enumerate}
@@ -19,18 +19,18 @@
 7.	Por lo general todos los osciloscopios de doble trazo disponen, en el selector de “Modo Vertical”, de una posición denominada “ADD” (Suma). Este modo suele utilizarse juntamente con la opción “INV” (inversión) de uno de los canales Y. Cuando un osciloscopio se emplea de esta forma:
 \begin{enumerate}
 \item[A.] Es posible determinar la diferencia de fase entre dos señales de la misma frecuencia.
-\item[B.] Funciona como un instrumento de canal único y entrada diferencial.
+\item[\fbox{B}] Funciona como un instrumento de canal único y entrada diferencial.
 \item[C.] Permite visualizar una señal restando la componente de CC.
 \item[D.] No es un modo que tenga utilidad. Debe ser evitado.
 \end{enumerate}
 
 \vspace{1em}
 
-8.	La siguiente imagen representa un oscilograma obtenido con un osciloscopio, cuyos controles se encuentra en las siguientes posiciones: 
-A.	Eje Y= 2V/div;
-B.	Base de T = 1ms/div. 
-C.	La sonda de pruebas se encuentra en la posición X 10, 
-D.	La forma de onda observada no tiene componente de CC.
+8.	La siguiente imagen representa un oscilograma obtenido con un osciloscopio, cuyos controles se encuentra en las siguientes posiciones: \\
+A.	Eje Y= 2V/div;\\
+B.	Base de T = 1ms/div. \\
+C.	La sonda de pruebas se encuentra en la posición X 10, \\
+D.	La forma de onda observada no tiene componente de CC.\\
  
 \begin{figure}[H]
     \centering
@@ -42,5 +42,21 @@ D.	La forma de onda observada no tiene componente de CC.
 E.	Se pide determinar:
 \begin{enumerate}
 \item[1.] El ciclo de trabajo de la forma de onda observada.
+
+Primero debemos obtener el período de la señal y el ancho del pulso, para el período observamos que entre pulso y pulso hay 8 cuadrados, a 1ms/div, el período es de 8ms. Para el ancho del pulso, observamos que el pulso tiene una duración de 2 cuadrados, lo que significa que el ancho del pulso es de 2ms. Por lo tanto, el ciclo de trabajo se calcula como:
+\begin{equation}
+\text{Ciclo de trabajo} = \frac{\text{Ancho del pulso}}{\text{Período}} = \frac{2ms}{8ms} = 0.25
+\end{equation}
+
 \item[2.] El valor eficaz de la tensión.
+
+Para calcular el valor eficaz de la tensión, primero debemos determinar la amplitud de la señal. Observamos que la señal alcanza un máximo de 4 cuadrados a 2V/div tenemos que la amplitud es de 8V. Como tenemos el ciclo de trabajo, podemos calcularlo con la siguiente fórmula:
+\begin{equation}
+\text{Valor eficaz} = V_{pp} \cdot \sqrt{D-D^2} 
+\end{equation}
+\begin{equation}
+	8V \cdot \sqrt{0.25-0.25^2} = 3.46V
+\end{equation}
+
+
 \end{enumerate}
