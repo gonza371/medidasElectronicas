@@ -53,4 +53,74 @@ V/div (Y1)                & V/div (Y2)               & T/div & Aten Y1          
 }
 \end{table}
 
-\section{Desarrollo experimental 11}
+\section{Desarrollo experimental 11-a}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/11telefono.jpeg}
+    \caption{Conexión del teléfono de disco rotativo al osciloscopio y energía}
+    \label{fig:telefono}
+    
+\end{figure}
+En esta actividad visualizaremos la señal generada por un teléfono de disco rotativo la cual es un evento transitorio, ya que no es una señal que exista constantemente en el tiempo, sino que el teléfono la genera solo en el instante que se marca un número. Por esto es necesario configurar el osciloscopio para que el disparo sea un barrido único, es decir, que el osciloscopio solo realice un barrido cuando se detecte una señal en la entrada. Para esto se necesita un osciloscopio de almacenamiento digital y configurarlo de la siguiente manera:
+\begin{center}
+    En el menú de trigger:
+\end{center}
+\begin{itemize}
+    \item Modo: Flanco.
+    \item Fuente: CH1.
+    \item Pendiente: Subida.
+    \item Barrido: Único.
+\end{itemize}
+\begin{center}
+    En el menú del canal 1:
+\end{center}
+\begin{itemize}
+    \item Acoplamiento: DC.
+    \item Banda 20M: Activado.
+    \item Sonda: x10.
+    \item Volt/div: 2V.
+    \item Trigger Level: 2V.
+\end{itemize}
+Junto a esta configuración, se ajusta la base de tiempo a 100ms/div y la primera posición horizontal de la gratícula en 500ms, para poder visualizar la señal completa. Luego se pulsa el botón de "Run/Stop" para que el osciloscopio quede en modo de espera.
+Al marcar un número en el teléfono, se genera una señal que se muestra en la pantalla del osciloscopio, la cual tiene una forma de tren de pulsos, donde la cantidad de pulsos corresponde al número marcado. Por ejemplo, al marcar el número 7, se generan 7 pulsos.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/11atren.jpeg}
+    \caption{Señal generada al marcar el número 7}
+    \label{fig:tren7}
+\end{figure}
+Cada pulso tiene una duración de aproximadamente \newline $t_0=68ms$ y un periodo de aproximadamente $T=108ms$.
+\section{Desarrollo experimental 11-b}
+El disco del teléfono también posee un interruptor adicional cuya función es cortocircuitar el receptor del microteléfono para que los pulsos del discado no sean escuchados por la persona que llama. Por lo que en esta actividad visualizaremos la señal generada por este interruptor junto al tren de pulsos del discado. Para esto se conecta el canal 2 del osciloscopio a la salida del interruptor, para esto se necesita aplicar junto a la configuración efectuada en la experiencia anterior la siguiente configuración al canal 2:
+\begin{center}
+    En el menú del canal 2:
+\end{center}
+\begin{itemize}
+    \item Acoplamiento: DC.
+    \item Sonda: x10.
+    \item Volt/div: 2V.
+    \item Colocar el trazo de manera que no se superponga con el canal 1.
+\end{itemize}
+\begin{center}
+    En el menú de trigger:
+\end{center}    
+\begin{itemize}
+    \item Fuente: CH2.
+    \item Pendiente: Bajada.
+    \item Trigger Level: 2V.
+\end{itemize}
+Luego de realizar esta configuración hay que ajustar la base de tiempo a 200ms/div y reajustar la posición horizontal sobre la división horizontal de la primera gratícula.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/11btren.jpeg}
+    \caption{Señal del interruptor junto al tren de pulsos del discado}
+    \label{fig:interruptor}
+\end{figure}
+En el osciloscopio se puede observar que el interruptor se activa el silenciamiento apenas se detecta un movimiento en el disco y lo termina apenas el disco vuelve a su posición de reposo. Si se disminuye la escala de volt/div junto a la base de tiempo, se puede observar de cerca el momento donde el interruptor se desactiva y de esta forma se puede observar la demora que tiene este respecto al tren de pulsos, esta demora es de aproximadamente $t_d=6,8ms$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/11bdemora.jpeg}
+    \caption{Demora del interruptor respecto al tren de pulsos}
+    \label{fig:zoom}
+\end{figure}
