@@ -3,26 +3,207 @@ Para esta primera actividad, aprenderemosa calibrar la punta de osciloscopio, pa
 
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/calibraciona.jpeg}
 	\caption{Señal de calibración del osciloscopio}
-	\label{fig:calibracion}
+	\label{fig:parte3a}
 \end{figure} 
 
 Luego conectaremos la punta a la salida del generador de funciones, y ajustaremos el generador para que entregue una señal senoidal efectuando un barrido desde 100 Hz hasta 1 MHz, y obtendremos las siguientes amplitudes:
 
+\begin{table}[H]
+	\centering
+\resizebox{0.6\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+Frecuencias & Ch1  & Ch2  \\ \hline
+100Hz       & 40mV & 40mV \\ \hline
+500Hz       & 40mV & 40mV \\ \hline
+800Hz       & 40mV & 40mV \\ \hline
+1KHz        & 43mV & 43mV \\ \hline
+2KHz        & 44mV & 46mV \\ \hline
+4KHz        & 47mV & 49mV \\ \hline
+8KHz        & 47mV & 49mV \\ \hline
+10KHz       & 47mV & 47mV \\ \hline
+20KHz       & 47mV & 48mV \\ \hline
+40KHz       & 46mV & 48mV \\ \hline
+80KHz       & 46mV & 48mV \\ \hline
+100KHz      & 46mV & 48mV \\ \hline
+200KHz      & 47mV & 49mV \\ \hline
+400KHz      & 46mV & 48mV \\ \hline
+800KHz      & 47mV & 49mV \\ \hline
+1MHz        & 46mV & 48mV \\ \hline
+\end{tabular}%
+}
+\end{table}
+
 Ahora podremos armar un grafico con la relación entre la frecuencia y la amplitud.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+	width=0.5\textwidth,
+	height=0.3\textwidth,
+	xlabel={Frecuencia (Hz)},
+	ylabel={Amplitud (mV)},
+	xmin=100, xmax=1000000,
+	ymin=20, ymax=60,
+	grid=both,
+	legend pos=south east,
+	mark options={solid}
+]
+
+\addplot[color=blue, mark=*] coordinates {
+	(100,40)
+	(500,40)
+	(800,40)
+	(1000,43)
+	(2000,44)
+	(4000,47)
+	(8000,47)
+	(10000,47)
+	(20000,47)
+	(40000,46)
+	(80000,46)
+	(100000,46)
+	(200000,47)
+	(400000,46)
+	(800000,47)
+	(1000000,46)
+};
+\addlegendentry{Ch1}
+
+\addplot[color=red, mark=square*] coordinates {
+	(100,40)
+	(500,40)
+	(800,40)
+	(1000,43)
+	(2000,46)
+	(4000,49)
+	(8000,49)
+	(10000,47)
+	(20000,48)
+	(40000,48)
+	(80000,48)
+	(100000,48)
+	(200000,49)
+	(400000,48)
+	(800000,49)
+	(1000000,48)
+};
+\addlegendentry{Ch2}
+
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption{Amplitud vs frecuencia (Ch1 y Ch2)}
+\label{fig:frecuencia-amplitud-ch1-ch2}
+\end{figure}
+
+
 
 A continuación volveremos a conectar la punta del osciloscopio al mismo osciloscopio, y ajustaremos el trimer de calibración para que la señal tenga la siguiente forma de onda.
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/calibracionb.jpeg}
 	\caption{Señal de calibración del osciloscopio}
-	\label{fig:calibracion}
+	\label{fig:calibracionb}
 \end{figure} 
 
 Realizamos los mismos pasos y obtendremos las siguientes amplitudes:
 
+\begin{table}[H]
+	\centering
+\resizebox{0.6\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+Frecuencias & Ch1  & Ch2  \\ \hline
+100Hz       & 40mV & 40mV \\ \hline
+500Hz       & 39mV & 40mV \\ \hline
+800Hz       & 38mV & 39mV \\ \hline
+1KHz        & 36mV & 38mV \\ \hline
+2KHz        & 36mV & 38mV \\ \hline
+4KHz        & 36mV & 38mV \\ \hline
+8KHz        & 36mV & 38mV \\ \hline
+10KHz       & 37mV & 38mV \\ \hline
+20KHz       & 37mV & 38mV \\ \hline
+40KHz       & 37mV & 38mV \\ \hline
+80KHz       & 37mV & 38mV \\ \hline
+100KHz      & 37mV & 38mV \\ \hline
+200KHz      & 37mV & 38mV \\ \hline
+400KHz      & 37mV & 38mV \\ \hline
+800KHz      & 37mV & 38mV \\ \hline
+1MHz        & 37mV & 38mV \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
 Ahora podremos armar un grafico con la relación entre la frecuencia y la amplitud.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+	width=0.5\textwidth,
+	height=0.3\textwidth,
+	xlabel={Frecuencia (Hz)},
+	ylabel={Amplitud (mV)},
+	xmin=100, xmax=1000000,
+	ymin=20, ymax=60,
+	grid=both,
+	legend pos=south east,
+	mark options={solid}
+]
+
+\addplot[color=blue, mark=*] coordinates {
+	(100,40)
+	(500,39)
+	(800,38)
+	(1000,36)
+	(2000,36)
+	(4000,36)
+	(8000,36)
+	(10000,37)
+	(20000,37)
+	(40000,37)
+	(80000,37)
+	(100000,37)
+	(200000,37)
+	(400000,37)
+	(800000,37)
+	(1000000,37)
+};
+\addlegendentry{Ch1}
+
+\addplot[color=red, mark=square*] coordinates {
+	(100,40)
+	(500,40)
+	(800,39)
+	(1000,38)
+	(2000,38)
+	(4000,38)
+	(8000,38)
+	(10000,38)
+	(20000,38)
+	(40000,38)
+	(80000,38)
+	(100000,38)
+	(200000,38)
+	(400000,38)
+	(800000,38)
+	(1000000,38)
+};
+\addlegendentry{Ch2}
+
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption{Amplitud vs frecuencia (Ch1 y Ch2)}
+\label{fig:frecuencia-amplitud-ch1-ch2-b}
+\end{figure}
+
+
 
 Para finalizar esta primera actividad, conectaremos la punta del osciloscopio nuevamente, pero ahora ajustaremos el trimer de calibración para que la señal tenga la siguiente forma de onda, la que sería la calibrada.
 
@@ -30,37 +211,124 @@ Para finalizar esta primera actividad, conectaremos la punta del osciloscopio nu
 % 	\centering
 %	\includegraphics[width=0.5\textwidth]{images/calibracionc.jpeg}
 %	\caption{Señal de calibración del osciloscopio}
-%	\label{fig:calibracion}
+%	\label{fig:calibracionc}
 %\end{figure} 
 
 Nuevamente tomamos datos de las amplitudes.
 
+\begin{table}[H]
+	\centering
+\resizebox{0.6\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+Frecuencias & Ch1  & Ch2  \\ \hline
+100Hz       & 40mV & 40mV \\ \hline
+500Hz       & 40mV & 40mV \\ \hline
+800Hz       & 40mV & 40mV \\ \hline
+1KHz        & 40mV & 40mV \\ \hline
+2KHz        & 40mV & 40mV \\ \hline
+4KHz        & 40mV & 40mV \\ \hline
+8KHz        & 40mV & 40mV \\ \hline
+10KHz       & 40mV & 39mV \\ \hline
+20KHz       & 40mV & 39mV \\ \hline
+40KHz       & 40mV & 39mV \\ \hline
+80KHz       & 40mV & 39mV \\ \hline
+100KHz      & 40mV & 39mV \\ \hline
+200KHz      & 40mV & 39mV \\ \hline
+400KHz      & 40mV & 39mV \\ \hline
+800KHz      & 40mV & 39mV \\ \hline
+1MHz        & 40mV & 39mV \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+
 Y obtendremos el siguiente grafico con la relación entre la frecuencia y la amplitud.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}
+\begin{semilogxaxis}[
+	width=0.5\textwidth,
+	height=0.3\textwidth,
+	xlabel={Frecuencia (Hz)},
+	ylabel={Amplitud (mV)},
+	xmin=100, xmax=1000000,
+	ymin=20, ymax=60,
+	grid=both,
+	legend pos=south east,
+	mark options={solid}
+]
+\addplot[color=blue, mark=*] coordinates {
+	(100,40)
+	(500,40)
+	(800,40)
+	(1000,40)
+	(2000,40)
+	(4000,40)
+	(8000,40)
+	(10000,40)
+	(20000,40)
+	(40000,40)
+	(80000,40)
+	(100000,40)
+	(200000,40)
+	(400000,40)
+	(800000,40)
+	(1000000,40)
+};
+\addlegendentry{Ch1}
+\addplot[color=red, mark=square*] coordinates {
+	(100,40)
+	(500,40)
+	(800,40)
+	(1000,40)
+	(2000,39)
+	(4000,39)
+	(8000,39)
+	(10000,39)
+	(20000,39)
+	(40000,39)
+	(80000,39)
+	(100000,39)
+	(200000,39)
+	(400000,39)
+	(800000,39)
+	(1000000,39)
+};
+\addlegendentry{Ch2}
+\end{semilogxaxis}
+\end{tikzpicture}
+\caption{Amplitud vs frecuencia (Ch1 y Ch2)} 
+\label{fig:frecuencia-amplitud-ch1-ch2-c}
+\end{figure}
 
 Completando las frases tendremos que:
 
-A.	El oscilograma \_\_\_ corresponde a ``caída de respuesta en frecuencias elevadas''.
+A.	El oscilograma 2 corresponde a ``caída de respuesta en frecuencias elevadas''.
 
-B.	El oscilograma \_\_\_ corresponde a ``exceso de respuesta en frecuencias elevadas''.
+B.	El oscilograma 1 corresponde a ``exceso de respuesta en frecuencias elevadas''.
 
-C.	El oscilograma \_\_\_ corresponde a ``respuesta plana''.
+C.	El oscilograma 3 corresponde a ``respuesta plana''.
 
 \section{Desarrollo Experimental 2}
 
 Para la actividad 2 encenderemos el generador de funciones y pondremos una onda cuadrada de aproximadamente 50Hz, con la amplitud de salida al máximo. Conectaremos la punta en x1 y ajustaremos los controles del osciloscopio para visualizar la señal y cambiaremos el acoplamiento de la entrada vertical de CC a CA y veremos la siguiente señal:
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte2.jpeg}
 	\caption{Señal en x1 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\label{fig:parte2}
 \end{figure} 
 
 Ahora cambiaremos la punta a x10 y veremos lo siguiente:
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte2b.jpeg}
 	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\label{fig:parte2b}
 \end{figure} 
 
 
@@ -73,17 +341,19 @@ En primer lugar el modo de disparo en automático, un valor de sensibilidad acor
 Ahora conectamos la punta de pruebas del osciloscopio a la salida sin regular:
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte3a.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Fuente no regulada}
+	\label{fig:parte3a}
 \end{figure} 
 
 Mediremos la amplitud de la señal, teniendo en cuenta que la punta esta en x10. Obtendremos los siguientes valores:
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte3b.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Señal de fuente no regulada}
+	\label{fig:parte3b}
 \end{figure} 
 
 
@@ -92,23 +362,24 @@ $$V_{cc}=1.88V$$
 Ahora intentaremos visualizar el ripple, para ello cambiaremos el acoplamiento a CA y usaremos el disparo ''Interno'' de la base de tiempo y mediremos:
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte3c.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Señal de ripple}
+	\label{fig:parte3c}
 \end{figure} 
 
-$$V_{ripple}=$$
+$$V_{ripple}=106mV$$
 
-Como se dificulta ahustar el disparo debido a la forma de onda con mucho ruido, usaremos el disparo por ''Línea'' y ahora podremos determinar los siguientes datos:
+Como se dificulta ajustar el disparo debido a la forma de onda con mucho ruido, usaremos el disparo por ''Línea'' y ahora podremos determinar los siguientes datos:
 
-$$T=$$
-$$V_{pp}=$$
+$$T=10ms$$
+$$V_{pp}=212mV$$
 
 Y completamos las siguientes frases:
 
-A. La frecuencia del ripple es \_\_\_.
+A. La frecuencia del ripple es 100 Hz.
 
-B. El porcentaje de ripple respecto del valor Vcc es del \_\_\_.
+B. El porcentaje de ripple respecto del valor Vcc es del 1.62\%.
 
 \section{Desarrollo Experimental 4}
 
@@ -116,7 +387,8 @@ En esta parte usaremos el disparo interno del osciloscopio, el trigger. Para ell
 
 
 \begin{table}[H]
-\resizebox{\columnwidth}{!}{%
+	\centering
+\resizebox{0.6\columnwidth}{!}{%
 \begin{tabular}{|c|c|c|}
 \hline
 \textbf{Frecuencia} & \textbf{Función} & \textbf{Amplitud} \\ \hline
@@ -128,33 +400,37 @@ En esta parte usaremos el disparo interno del osciloscopio, el trigger. Para ell
 Ahora conectamos el osciloscopio al generador y coon el acoplamiento en ''Interno'', seleccionamos la ''Pendiente'' o ''Slope'' en Positivo, y reulamos el nivel de disparo.
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte4a.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Señal en con slope positivo}
+	\label{fig:parte4a}
 \end{figure} 
 
 Invertimos el control de ''Pendiente'' y obtendremos lo siguiente
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte4b.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Señal con slope negativo}
+	\label{fig:parte4b}
 \end{figure} 
 
 Luego pondremos el generador con una onda cuadrada, de amplitud 300mVpp y reajustamos el nivel de disparo 
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[width=0.4\textwidth]{images/parte4c.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\caption{Señal cuadrada}
+	\label{fig:parte4c}
 \end{figure} 
 
 Reducimos presentación con el vernier de ganancias del amplificado, hasta obtener lo siguiente:
 
 \begin{figure}[H]
-	\includegraphics[width=0.4\textwidth]{images/parte4c.jpeg}
-	\caption{Señal en x10 con acoplamiento en CA}
-	\label{fig:calibracion}
+	\centering
+	\includegraphics[width=0.4\textwidth]{images/parte4d.jpeg}
+	\caption{Perdida de señal}
+	\label{fig:parte4d}
 \end{figure} 
 
 Cuadro de controles:
