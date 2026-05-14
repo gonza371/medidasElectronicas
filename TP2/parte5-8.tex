@@ -19,9 +19,62 @@ V/div (Y1)                & V/div (Y2)               & T/div & Aten Y1          
 }
 \end{table}
 
-Veremos que ahora por mas que variemos la escada de amplitud, la señal no se perderá, a diferencia de antes que se perdía en 1V/div.
+Veremos que ahora por mas que variemos la escala de amplitud, la señal no se perderá, a diferencia de antes que se perdía en 1V/div.
 
 \section{Desarrollo Experimental 6}
+
+En esta parte usaremos el modo x-y del osciloscopio para medir la frecuencia de una determinada señal usando como referencia el “Generador de funciones GFG 3015 (B)” 
+
+La señal que queremos medir es la proporcionada por el generador de funciones incluido en la fuente que usamos anteriormente, cuya Frecuencia nominal es de 300 Hz.
+Cabe aclarar que esta medición solo se puede realizar si se tiene una idea bastante aproximada de cuál es la frecuencia de la señal a medir.
+Ahora procedemos a conectar la salida del generador que tiene la fuente al canal 1 del osciloscopio y medimos la amplitud de la señal.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/parte6a0.jpeg}
+    \caption{Señal del generador de funciones de la fuente}
+    \label{fig:parte6}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+\resizebox{0.6\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Frec(Nominal)} & \textbf{Función} & \textbf{Amplitud} \\ \hline
+300 Hz              & Senoidal         & 11Vpp              \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Ahora conectamos la salida del generador de funciones GFG 3015 al canal 2 del osciloscopio, ajustamos los valores de amplitud y frecuencia iguales a los de la señal de la fuente.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/6ach2.jpeg}
+    \caption{Generador de funciones GFG 3015 configurado}
+    \label{fig:parte6a}
+\end{figure}
+
+Ahora ponemos el osciloscopio en modo x-y y observamos que la figura que se forma no es estable y se mueve constantemente. Eso quiere decir que la frecuencia de la señal del canal 1 no es exactamente la frecuencia de 300Hz que pensamos anteriormente, sino que es un poco diferente y por eso la figura se ve inestable. Para estabilizar la figura, ajustamos la frecuencia del generador de funciones GFG 3015 hasta que la figura se vea estable. De esta forma, podemos medir la frecuencia de la señal del canal 1 con mayor precisión. Lo que se logra ver al estabilizar la figura es lo siguiente:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/parte6a.jpeg}
+    \caption{Figura estable en modo x-y}
+    \label{fig:parte6}
+\end{figure}
+
+La frecuencia que se obtiene al ajustar el generador de funciones GFG 3015 es de:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/parte6b.jpeg}
+    \caption{Frecuencia ajustada del generador de funciones GFG 3015}
+    \label{fig:parte6b}
+\end{figure}
+
+Por lo tanto concluimos que la frecuencia de la señal del canal 1 es de aproximadamente \textbf{Frecuencia}: 403.38Hz.
 
 \section{Desarrollo Experimental 7}
 
