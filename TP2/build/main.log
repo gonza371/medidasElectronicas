@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  14 MAY 2026 17:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  14 MAY 2026 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -911,17 +911,17 @@ Package pdftex.def Info: images/parte2b.jpeg  used on input line 329.
 <images/parte3a.jpeg, id=95, 542.025pt x 601.4972pt>
 File: images/parte3a.jpeg Graphic file (type jpg)
 <use images/parte3a.jpeg>
-Package pdftex.def Info: images/parte3a.jpeg  used on input line 345.
+Package pdftex.def Info: images/parte3a.jpeg  used on input line 347.
 (pdftex.def)             Requested size: 206.39685pt x 229.03938pt.
 <images/parte3b.jpeg, id=96, 542.025pt x 511.9125pt>
 File: images/parte3b.jpeg Graphic file (type jpg)
 <use images/parte3b.jpeg>
-Package pdftex.def Info: images/parte3b.jpeg  used on input line 354.
+Package pdftex.def Info: images/parte3b.jpeg  used on input line 356.
 (pdftex.def)             Requested size: 206.39685pt x 194.92714pt.
 <images/parte3c.jpeg, id=97, 542.025pt x 570.63188pt>
 File: images/parte3c.jpeg Graphic file (type jpg)
 <use images/parte3c.jpeg>
-Package pdftex.def Info: images/parte3c.jpeg  used on input line 366.
+Package pdftex.def Info: images/parte3c.jpeg  used on input line 368.
 (pdftex.def)             Requested size: 206.39685pt x 217.28642pt.
 
 
@@ -929,7 +929,7 @@ Package pdftex.def Info: images/parte3c.jpeg  used on input line 366.
 <images/parte4a.jpeg, id=110, 542.025pt x 418.56375pt>
 File: images/parte4a.jpeg Graphic file (type jpg)
 <use images/parte4a.jpeg>
-Package pdftex.def Info: images/parte4a.jpeg  used on input line 404.
+Package pdftex.def Info: images/parte4a.jpeg  used on input line 406.
 (pdftex.def)             Requested size: 206.39685pt x 159.38159pt.
 
 Underfull \vbox (badness 2173) has occurred while \output is active []
@@ -939,17 +939,17 @@ Underfull \vbox (badness 2173) has occurred while \output is active []
 <images/parte4b.jpeg, id=111, 542.025pt x 461.47406pt>
 File: images/parte4b.jpeg Graphic file (type jpg)
 <use images/parte4b.jpeg>
-Package pdftex.def Info: images/parte4b.jpeg  used on input line 413.
+Package pdftex.def Info: images/parte4b.jpeg  used on input line 415.
 (pdftex.def)             Requested size: 206.39685pt x 175.72107pt.
 <images/parte4c.jpeg, id=112, 542.025pt x 368.87813pt>
 File: images/parte4c.jpeg Graphic file (type jpg)
 <use images/parte4c.jpeg>
-Package pdftex.def Info: images/parte4c.jpeg  used on input line 422.
+Package pdftex.def Info: images/parte4c.jpeg  used on input line 424.
 (pdftex.def)             Requested size: 206.39685pt x 140.46219pt.
 <images/parte4d.jpeg, id=113, 1606.0pt x 1204.5pt>
 File: images/parte4d.jpeg Graphic file (type jpg)
 <use images/parte4d.jpeg>
-Package pdftex.def Info: images/parte4d.jpeg  used on input line 431.
+Package pdftex.def Info: images/parte4d.jpeg  used on input line 433.
 (pdftex.def)             Requested size: 206.39685pt x 154.78934pt.
 
 Underfull \vbox (badness 1629) has occurred while \output is active []
@@ -964,11 +964,11 @@ Package pdftex.def Info: images/parte5a.jpeg  used on input line 7.
 (pdftex.def)             Requested size: 206.39685pt x 116.0975pt.
 
 
-<images/parte6a0.jpeg, id=124, 482.80376pt x 582.175pt>
+<images/parte6a0.jpeg, id=124, 362.10281pt x 266.49562pt>
 File: images/parte6a0.jpeg Graphic file (type jpg)
 <use images/parte6a0.jpeg>
 Package pdftex.def Info: images/parte6a0.jpeg  used on input line 35.
-(pdftex.def)             Requested size: 206.39685pt x 248.87352pt.
+(pdftex.def)             Requested size: 206.39685pt x 151.90407pt.
 <images/6ach2.jpeg, id=125, 457.71pt x 373.395pt>
 File: images/6ach2.jpeg Graphic file (type jpg)
 <use images/6ach2.jpeg>
@@ -992,29 +992,27 @@ Package pdftex.def Info: images/parte6b.jpeg  used on input line 72.
 <images/parte7a.jpeg, id=139, 722.7pt x 615.80063pt>
 File: images/parte7a.jpeg Graphic file (type jpg)
 <use images/parte7a.jpeg>
-Package pdftex.def Info: images/parte7a.jpeg  used on input line 107.
+Package pdftex.def Info: images/parte7a.jpeg  used on input line 109.
 (pdftex.def)             Requested size: 206.39685pt x 175.86206pt.
 <images/parte7b.jpeg, id=140, 674.52pt x 648.92438pt>
 File: images/parte7b.jpeg Graphic file (type jpg)
 <use images/parte7b.jpeg>
-Package pdftex.def Info: images/parte7b.jpeg  used on input line 116.
+Package pdftex.def Info: images/parte7b.jpeg  used on input line 118.
 (pdftex.def)             Requested size: 206.39685pt x 198.5603pt.
-<images/parte8a.jpeg, id=141, 963.6pt x 1284.8pt>
+
+
+[6 <./images/parte6a.jpeg> <./images/parte6b.jpeg> <./images/parte7a.jpeg> <./images/parte7b.jpeg>]
+<images/parte8a.jpeg, id=152, 963.6pt x 1284.8pt>
 File: images/parte8a.jpeg Graphic file (type jpg)
 <use images/parte8a.jpeg>
-Package pdftex.def Info: images/parte8a.jpeg  used on input line 137.
+Package pdftex.def Info: images/parte8a.jpeg  used on input line 139.
 (pdftex.def)             Requested size: 206.39685pt x 275.18758pt.
-
-
-[6 <./images/parte6a.jpeg> <./images/parte6b.jpeg> <./images/parte7a.jpeg> <./images/parte7b.jpeg>]) (parte9-11.tex
+) (parte9-11.tex
 <images/parte9a.jpeg, id=153, 645.91313pt x 547.2947pt>
 File: images/parte9a.jpeg Graphic file (type jpg)
 <use images/parte9a.jpeg>
 Package pdftex.def Info: images/parte9a.jpeg  used on input line 28.
 (pdftex.def)             Requested size: 206.39685pt x 174.879pt.
-
-Underfull \vbox (badness 2884) has occurred while \output is active []
-
 
 
 <images/parte9b.jpeg, id=154, 697.8572pt x 665.48625pt>
@@ -1123,7 +1121,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,19n,105p,822b,2265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (11 pages, 3208204 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP2\build\main.pdf (11 pages, 3183689 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  82 named destinations out of 1000 (max. 500000)
