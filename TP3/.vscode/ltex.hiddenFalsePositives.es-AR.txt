@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVolt/div: 2V.\\E$"}
