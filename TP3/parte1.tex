@@ -46,3 +46,36 @@ f1 &
 \end{tabular}%
 }
 \end{table}
+
+\section{Desarrollo Experimental 2}
+
+Para este experimento se conectará el amplificador de la siguiente forma.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/esquema2.png}
+    \caption{Conexiones realizadas}
+    \label{fig:conexiones2}
+\end{figure}
+
+Como se puede observar ahora desconectamos la carga Rc1 y conectaremos el Jumper J1 entre las terminbales 2 y 3, con la carga variable R1 al mínimo, para luego lentamente ir aumentando el valor de R1 hasta que la tensión de salida se reduzca a la mitad. En este punto el valor de R1 es igual a la impedancia de salida del amplificador.\\
+Los datos obtenidos se muestran en la siguiente tabla.
+
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+f1 &
+  \begin{tabular}[c]{@{}c@{}}"Valor nominal" \\ de Zent = Ri\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Vs \\ (Rc1 desconectada)\end{tabular} &
+  Re1 = R1 &
+  \begin{tabular}[c]{@{}c@{}}Incertidumbre \\ de Re1\end{tabular} \\ \hline
+1KHz &
+  50 ohms &
+  a &
+  vg &
+  f \\ \hline
+\end{tabular}%
+}
+\end{table}
