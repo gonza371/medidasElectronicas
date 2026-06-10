@@ -7,7 +7,7 @@ Para empezar debemos identificar el numero del conjunto de placas que usaremos.
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|l|l|}
 \hline
-Conjunto de Placas Nro: &  \\ \hline
+Conjunto de Placas Nro: & AAA \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -21,13 +21,32 @@ Ahora realizamos las siguientes conexiones.
     \label{fig:conexiones}
 \end{figure}
 
-Alimentaremos el amlificador con 12V y usaremos una señal de 1KHz. La amplitud de la señal para todos los experimentos seá la máxima posible sin distorsión.\\
-Ahora mediremos sin carga a la salida del amplificador y obtendremos la siguiente señal.
+Alimentaremos el amplificador con 12 V y usaremos una señal de 1 kHz. La amplitud de la señal para todos los experimentos sea la máxima posible sin distorsión.\\
+Ahora mediremos la salida sin carga y obtendremos la siguiente señal.
 
-IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/punto1.jpeg}
+    \caption{Señal de salida sin carga}
+    \label{fig:senal1}
+\end{figure}
 
-Luego conectamos la resistencia de carga RC1 y ajustamos para que la lectura de la tension de salida se reduzca a la mitad. En este puntoi el valor de la impedancia de salida del amplificador es igual a la resistencia de carga.\\
-Por lo que pasaremos a desconectar la fuente y abrir el circuito para medir la resistencia de carga. De esta forma obtenemos el valor de la impedancia de salida del amplificador.\\
+Luego conectamos la resistencia de carga RC1 y ajustamos para que la lectura de la tensión de salida se reduzca a la mitad. En este punto el valor de la impedancia de salida del amplificador es igual a la resistencia de carga.
+Por lo tanto procederemos a desconectar la fuente y abrir el circuito para medir la resistencia de carga. De esta forma obtenemos el valor de la impedancia de salida del amplificador.\\
+    
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/punto1b.jpeg}
+    \caption{Medición de señal de entrada}
+    \label{fig:resistencia}
+\end{figure}
+
+\begin{table}[H]
+  \centering
+  \includegraphics[width=0.4\textwidth]{images/punto1c.jpeg}
+  \caption{Medición de señal de salida}
+  \label{fig:resistencia2}
+\end{table}
 
 \begin{table}[H]
 \resizebox{\columnwidth}{!}{%
@@ -39,10 +58,10 @@ f1 &
   Rc1 = Ro &
   \begin{tabular}[c]{@{}c@{}}Incertidumbre \\ de Rc1\end{tabular} \\ \hline
 1KHz &
-  50 ohms &
-  a &
-  vg &
-  f \\ \hline
+  50 $\Omega$ &
+  1.03V &
+  $48\Omega$ &
+  $0.192\Omega$ \\ \hline
 \end{tabular}%
 }
 \end{table}
@@ -58,7 +77,15 @@ Para este experimento se conectará el amplificador de la siguiente forma.
     \label{fig:conexiones2}
 \end{figure}
 
-Como se puede observar ahora desconectamos la carga Rc1 y conectaremos el Jumper J1 entre las terminbales 2 y 3, con la carga variable R1 al mínimo, para luego lentamente ir aumentando el valor de R1 hasta que la tensión de salida se reduzca a la mitad. En este punto el valor de R1 es igual a la impedancia de salida del amplificador.\\
+Como se puede observar ahora desconectamos la carga Rc1 y conectaremos el Jumper J1 entre las terminales 2 y 3, con la carga variable R1 al mínimo, para luego ir aumentando lentamente el valor de R1 hasta que la tensión de salida se reduzca a la mitad. En este punto el valor de R1 es igual a la impedancia de salida del amplificador.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/punto2.jpeg}
+    \caption{Medición de señal de salida}
+    \label{fig:resistencia3}
+\end{figure}
+
 Los datos obtenidos se muestran en la siguiente tabla.
 
 
@@ -71,11 +98,11 @@ f1 &
   \begin{tabular}[c]{@{}c@{}}Vs \\ (Rc1 desconectada)\end{tabular} &
   Re1 = R1 &
   \begin{tabular}[c]{@{}c@{}}Incertidumbre \\ de Re1\end{tabular} \\ \hline
-1KHz &
-  50 ohms &
-  a &
-  vg &
-  f \\ \hline
+1 kHz &
+  $50\ \Omega$ &
+  1.03 V &
+  $1.028\ \Omega$ &
+  $0.025\ \Omega$ \\ \hline
 \end{tabular}%
 }
 \end{table}

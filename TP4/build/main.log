@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  10 JUN 2026 18:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  10 JUN 2026 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP3/main.tex
-(c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP3/main.tex
+**c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP4/main.tex
+(c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP4/main.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
 (plantilla.cls (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -763,7 +763,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 ) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count359
-) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP3\build\main.aux
+) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP4\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -815,7 +815,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package hyperref Info: Link coloring ON on input line 8.
-(C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP3\build\main.out) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP3\build\main.out)
+(C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP4\build\main.out) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP4\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -840,171 +840,119 @@ File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
  (parte1.tex
-<images/esquema.png, id=54, 1080.28593pt x 328.22626pt>
-File: images/esquema.png Graphic file (type png)
-<use images/esquema.png>
-Package pdftex.def Info: images/esquema.png  used on input line 19.
-(pdftex.def)             Requested size: 258.0pt x 78.38525pt.
+<images/esquema1.png, id=42, 657.95813pt x 293.59688pt>
+File: images/esquema1.png Graphic file (type png)
+<use images/esquema1.png>
+Package pdftex.def Info: images/esquema1.png  used on input line 7.
+(pdftex.def)             Requested size: 258.0pt x 115.12502pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 19--20
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-<images/punto1.jpeg, id=56, 341.77687pt x 259.7203pt>
-File: images/punto1.jpeg Graphic file (type jpg)
-<use images/punto1.jpeg>
-Package pdftex.def Info: images/punto1.jpeg  used on input line 29.
-(pdftex.def)             Requested size: 206.39685pt x 156.8479pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 
 
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 44.
+(C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 44.
+ (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-<images/punto1b.jpeg, id=57, 402.75468pt x 304.88907pt>
-File: images/punto1b.jpeg Graphic file (type jpg)
-<use images/punto1b.jpeg>
-Package pdftex.def Info: images/punto1b.jpeg  used on input line 39.
-(pdftex.def)             Requested size: 206.39685pt x 156.24503pt.
-<images/punto1c.jpeg, id=58, 415.5525pt x 318.43968pt>
-File: images/punto1c.jpeg Graphic file (type jpg)
-<use images/punto1c.jpeg>
-Package pdftex.def Info: images/punto1c.jpeg  used on input line 46.
-(pdftex.def)             Requested size: 206.39685pt x 158.16019pt.
+) (parte2.tex
+<images/esquema3.png, id=44, 595.47469pt x 241.65282pt>
+File: images/esquema3.png Graphic file (type png)
+<use images/esquema3.png>
+Package pdftex.def Info: images/esquema3.png  used on input line 7.
+(pdftex.def)             Requested size: 258.0pt x 104.69777pt.
 
-Underfull \vbox (badness 3690) has occurred while \output is active []
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--8
+ [][] 
+ []
 
 
 
 [1{C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./images/esquema.png> <./images/punto1.jpeg> <./images/punto1b.jpeg>]
-<images/esquema2.png, id=73, 525.46312pt x 162.6075pt>
-File: images/esquema2.png Graphic file (type png)
-<use images/esquema2.png>
-Package pdftex.def Info: images/esquema2.png  used on input line 75.
-(pdftex.def)             Requested size: 258.0pt x 79.84212pt.
+ <./images/esquema1.png>]
+<images/esquema4.png, id=63, 592.46344pt x 268.00125pt>
+File: images/esquema4.png Graphic file (type png)
+<use images/esquema4.png>
+Package pdftex.def Info: images/esquema4.png  used on input line 35.
+(pdftex.def)             Requested size: 258.0pt x 116.71045pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 75--76
+Overfull \hbox (6.0pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+<images/esquema4a.png, id=64, 429.85594pt x 248.42813pt>
+File: images/esquema4a.png Graphic file (type png)
+<use images/esquema4a.png>
+Package pdftex.def Info: images/esquema4a.png  used on input line 45.
+(pdftex.def)             Requested size: 258.0pt x 149.1073pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
- []
-
-<images/punto2.jpeg, id=74, 417.05812pt x 310.91156pt>
-File: images/punto2.jpeg Graphic file (type jpg)
-<use images/punto2.jpeg>
-Package pdftex.def Info: images/punto2.jpeg  used on input line 84.
-(pdftex.def)             Requested size: 206.39685pt x 153.8661pt.
-) (parte2.tex
-
-) (parte3.tex
-<images/esquema5.png, id=75, 493.0922pt x 244.66406pt>
-File: images/esquema5.png Graphic file (type png)
-<use images/esquema5.png>
-Package pdftex.def Info: images/esquema5.png  used on input line 8.
-(pdftex.def)             Requested size: 258.0pt x 128.02122pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 8--9
- [][] 
- []
-
-<images/esquema5b.png, id=76, 405.01312pt x 170.88844pt>
-File: images/esquema5b.png Graphic file (type png)
-<use images/esquema5b.png>
-Package pdftex.def Info: images/esquema5b.png  used on input line 17.
-(pdftex.def)             Requested size: 258.0pt x 108.85974pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--25
-
- []
-
-<images/punto5.jpeg, id=77, 433.62pt x 331.2375pt>
-File: images/punto5.jpeg Graphic file (type jpg)
-<use images/punto5.jpeg>
-Package pdftex.def Info: images/punto5.jpeg  used on input line 28.
-(pdftex.def)             Requested size: 206.39685pt x 157.6629pt.
-
-Underfull \vbox (badness 4543) has occurred while \output is active []
-
-
-
-[2 <./images/punto1c.jpeg> <./images/esquema2.png> <./images/punto2.jpeg> <./images/esquema5.png> <./images/esquema5b.png>]
-<images/punto5b.jpeg, id=94, 344.78813pt x 265.74281pt>
-File: images/punto5b.jpeg Graphic file (type jpg)
-<use images/punto5b.jpeg>
-Package pdftex.def Info: images/punto5b.jpeg  used on input line 35.
-(pdftex.def)             Requested size: 206.39685pt x 159.07791pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 1675) in paragraph at lines 58--59
+\OT1/ptm/m/n/10 de lec-tu-ras po-si-bles pa-ra ten-sio-nes de sa-li-da con ca-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-<images/punto5c.jpeg, id=95, 499.8675pt x 380.92313pt>
-File: images/punto5c.jpeg Graphic file (type jpg)
-<use images/punto5c.jpeg>
-Package pdftex.def Info: images/punto5c.jpeg  used on input line 66.
-(pdftex.def)             Requested size: 206.39685pt x 157.28384pt.
+) (parte3.tex
+<images/esquema5.png, id=65, 438.13687pt x 228.855pt>
+File: images/esquema5.png Graphic file (type png)
+<use images/esquema5.png>
+Package pdftex.def Info: images/esquema5.png  used on input line 7.
+(pdftex.def)             Requested size: 258.0pt x 134.76486pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 83.
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 84.
-
-
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 88.
-
-<images/punto5d.jpeg, id=96, 486.31688pt x 367.3725pt>
-File: images/punto5d.jpeg Graphic file (type jpg)
-<use images/punto5d.jpeg>
-Package pdftex.def Info: images/punto5d.jpeg  used on input line 95.
-(pdftex.def)             Requested size: 206.39685pt x 155.91542pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
+Overfull \hbox (6.0pt too wide) in paragraph at lines 7--8
+ [][] 
  []
 
-<images/punto6.jpeg, id=97, 422.32782pt x 325.215pt>
-File: images/punto6.jpeg Graphic file (type jpg)
-<use images/punto6.jpeg>
-Package pdftex.def Info: images/punto6.jpeg  used on input line 116.
-(pdftex.def)             Requested size: 206.39685pt x 158.9399pt.
+<images/ejercicio5.jpeg, id=66, 651.18282pt x 1157.07281pt>
+File: images/ejercicio5.jpeg Graphic file (type jpg)
+<use images/ejercicio5.jpeg>
+Package pdftex.def Info: images/ejercicio5.jpeg  used on input line 16.
+(pdftex.def)             Requested size: 258.0pt x 458.44237pt.
 
-
-[3 <./images/punto5.jpeg> <./images/punto5b.jpeg> <./images/punto5c.jpeg> <./images/punto5d.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
+Overfull \hbox (6.0pt too wide) in paragraph at lines 16--17
+ [][] 
  []
 
-<images/punto6b.jpeg, id=113, 398.99063pt x 303.38344pt>
-File: images/punto6b.jpeg Graphic file (type jpg)
-<use images/punto6b.jpeg>
-Package pdftex.def Info: images/punto6b.jpeg  used on input line 133.
-(pdftex.def)             Requested size: 206.39685pt x 156.9409pt.
-) (parte4.tex
 
-) (conclusiones.tex)
 
-[4 <./images/punto6.jpeg> <./images/punto6b.jpeg>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP3\build\main.aux
+[2 <./images/esquema3.png> <./images/esquema4.png> <./images/esquema4a.png> <./images/esquema5.png>]) (conclusiones.tex)
+
+
+
+[3
+
+ <./images/ejercicio5.jpeg>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP4\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1013,20 +961,20 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A9898B225BFE9B35C4B917B151C09BDA;1848.
+(rerunfilecheck)             Checksum: 17E553C65A5D3BB9D0F3828F37E13B4D;1321.
  ) 
 Here is how much of TeX's memory you used:
- 52100 strings out of 468225
- 1338358 string characters out of 5432973
- 2085568 words of memory out of 5000000
- 79973 multiletter control sequences out of 15000+600000
- 678989 words of font info for 142 fonts, out of 8000000 for 9000
+ 52049 strings out of 468225
+ 1337105 string characters out of 5432973
+ 2094006 words of memory out of 5000000
+ 79932 multiletter control sequences out of 15000+600000
+ 681001 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP3\build\main.pdf (4 pages, 774224 bytes).
+ 99i,18n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP4\build\main.pdf (3 pages, 418748 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 179 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

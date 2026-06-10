@@ -1,3 +1,44 @@
 \section{Desarrollo Experimental 7}
 
+
 \section{Desarrollo Experimental 8}
+
+En este ejercicio mediremos la respuesta en frecuencia del amplificador a lazo abierto y luego cerrado, para ello colocaremos el generador a una frecuencia de 1KHz con señal senoidal y nivel de salida anterior a la distorsión.\\
+Luego de llegar a dicho punto cambiaremos de onda senoidal a cuadrada, ajustamos la base de tiempo y pendiente de disparo para obtener un solo flanco de subida, teniendo en cuenta que la punta este en x10, obtendremos la siguiente imagen para lazo abierto:
+
+IMAGEN
+
+Luego cerramos el lazo y obtenemos la siguiente imagen:
+
+IMAGEN
+
+De dichas mediciones obtenemos los siguientes datos:
+
+\begin{equation*}
+    tc (medido,lazo abierto)= AAAAAA
+\end{equation*}
+
+\begin{equation*}
+    tc (medido,lazo cerrado)= BBBBBB
+\end{equation*}
+
+Para corregir este valor ya que este puede ser comparable con el tiempo de crecimiento del osciloscopio, aplicaremos las siguientes formulas:
+
+\begin{equation*}
+    tc (osciloscopio) = \frac{0.35}{AB(osciloscopio)}
+\end{equation*}
+
+y
+
+\begin{equation*}
+    tc (amplificador) = \sqrt{tc(medido)^2 - tc(osciloscopio)^2}
+\end{equation*}
+
+Otenemos entonces los siguientes en ancho de banda:
+
+\begin{equation*}
+    BW (lazo abierto) = \frac{0.35}{tc(lazo abierto)}
+\end{equation*}
+\begin{equation*}
+    BW (lazo cerrado) = \frac{0.35}{tc(lazo cerrado)}
+\end{equation*}
