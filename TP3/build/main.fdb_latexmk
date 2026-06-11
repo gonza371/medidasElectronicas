@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781210738.50036 "c:/Users/Admin/medidasElectronicas/TP3/main.tex" "build/main.pdf" "main" 1781210740.3911 0
+["pdflatex"] 1781211244.06808 "c:/Users/Admin/medidasElectronicas/TP3/main.tex" "build/main.pdf" "main" 1781211245.94617 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136783054 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/psyro.tfm" 1136783054 1544 23a042a74981a3e4b6ce2e350e390409 ""
@@ -245,8 +245,8 @@
   "C:/Users/Admin/AppData/Roaming/MiKTeX/tex/latex/psnfss/ot1ztmcm.fd" 1585253778 346 aee7226812ba4138ac67a018466b488d ""
   "C:/Users/Admin/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Admin/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
-  "build/main.aux" 1781210740 6350 ffbdb88c8fff6d2acba72f6c0b075aae "pdflatex"
-  "build/main.out" 1781210740 1855 97ffc07658300dc20e23ebb781b09444 "pdflatex"
+  "build/main.aux" 1781211245 6350 ffbdb88c8fff6d2acba72f6c0b075aae "pdflatex"
+  "build/main.out" 1781211245 1855 97ffc07658300dc20e23ebb781b09444 "pdflatex"
   "c:/Users/Admin/medidasElectronicas/TP3/main.tex" 1781141996 2198 7fffe973d9513a8cadd0ba2faad665f8 ""
   "conclusiones.tex" 1781210739 3627 9e489836fc488ad2ee54e524ba061e2e ""
   "images/Graficadb.png" 1781206086 102493 48301241ad965259525cad2ec50e9af4 ""
@@ -270,7 +270,7 @@
   "images/voltimetroanalogico.png" 1781209915 73722 54c9799d461b5c35013a247c21440138 ""
   "images/voltimetroanalogicodbu.png" 1781209920 325003 88895fbcd5619d77046ab0bd1bf761d6 ""
   "main.tex" 1781141996 2198 7fffe973d9513a8cadd0ba2faad665f8 ""
-  "parte1.tex" 1781141996 3504 1909cd5219f5376f3eb4dba5e2efae7b ""
+  "parte1.tex" 1781211243 3506 6512aed68a4993b8d793f90d26ef31dd ""
   "parte2.tex" 1781210483 6212 0d69308135aad97d7b761b2ea0003245 ""
   "parte3.tex" 1781206705 4737 b3c47cd099936448a6d0d11b2f7ef8e4 ""
   "parte4.tex" 1781209351 7172 fd0fb86d606578e4260282b5ac56c1bd ""
