@@ -1,3 +1,6 @@
 trigger
 Trigger
 gratícula
+capacitor
+capacitores
+DT9208A

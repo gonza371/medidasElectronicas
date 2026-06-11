@@ -1,1 +1,3 @@
 {"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QVolt/div: 2V.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QLuego se medirá la diferencia de fase mediante una figura de Lissajous utilizando el modo X-Y del osciloscopio.\\E$"}
+{"rule":"MORFOLOGIK_RULE_ES","sentence":"^\\QAhora con el multímetro para CA con TrueRMS mediremos tensión en R1, y\\E$"}

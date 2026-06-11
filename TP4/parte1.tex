@@ -1,6 +1,6 @@
 \section{Desarrollo Experimental 1}
 
-Para este experimento buscaremos medir potencias puestas en juego de un circuito. Para ello usaremos como carga un tubo fluorescente, y conectaremos  todo de la siguiente manera:
+Para este experimento buscaremos medir potencias activa (P), reactiva (Q) y aparente (S) junto a la diferencia de fase ($\varphi$). Para ello usaremos como carga inductiva un tubo fluorescente puesto en un circuito de prueba, este se representa en la siguiente figura junto a las entradas del osciloscopio:
 
 \begin{figure}[H]
     \centering
@@ -9,12 +9,62 @@ Para este experimento buscaremos medir potencias puestas en juego de un circuito
     \label{fig:conexiones1}
 \end{figure}
 
-Ahora ajustaremos la sensibilidad del canal 1 y del canal 2, para luego ajustar la base de tiempo y así ver lo siguiente:
 
-IMAGENES
+Para el desarrollo del experimento se utilizó el circuito de pruebas marcado con el número 7 del pañol.
 
-Del modo X-Y (Segunda image), podremos obtener los valores de $sen(\phi)$ y $cos(\phi)$ mediante la siguiente formula:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/prueba7.jpeg}
+    \caption{Circuito de prueba Nro. 7}
+    \label{fig:prueba7}
+\end{figure}
 
+El defasaje entre tensión y corriente se medirá utilizando el canal 1 en el punto medio del divisor resistivo para ver la forma de onda de la tensión, y el canal 2 se conectará a la resistencia R1 para medir la forma de onda de la corriente. Luego se medirá la diferencia de fase mediante una figura de Lissajous utilizando el
+modo X-Y del osciloscopio.
+
+
+Una vez ajustado el canal 1 del osciloscopio para medir la forma de onda la tensión se visualiza la siguiente señal:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/senalv1.jpeg}
+    \caption{Forma de onda en el canal 1}
+    \label{fig:senalv1}
+\end{figure}
+
+Luego ajustamos el canal 2 para medir la forma de onda de la corriente y obtenemos la siguiente señal:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/senalcanal2.jpeg}
+    \caption{Forma de onda en el canal 2}
+    \label{fig:senali1}
+\end{figure}
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|lllcll|}
+\hline
+\multicolumn{1}{|l|}{} &
+  \multicolumn{1}{c|}{Sens(V/div)} &
+  \multicolumn{1}{c|}{Vpap} \\ \hline
+\multicolumn{1}{|l|}{Canal 1} & \multicolumn{1}{l|}{20} & \multicolumn{1}{l|}{68} \\ \hline
+\multicolumn{1}{|l|}{Canal 2} & \multicolumn{1}{l|}{2} & \multicolumn{1}{l|}{11,3} \\ \hline
+
+\end{tabular}%
+}
+\end{table}
+
+Ahora se configura el osciloscopio en modo X-Y para obetener una figura de Lissajous y así poder obtener los valores de $sen(\phi)$ y $cos(\phi)$. Para esto hay que obtener los valores A y B definidos en la siguiente figura:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/lissajous.png}
+    \caption{Figura de Lissajous}
+    \label{fig:lissajous}
+\end{figure}
+
+Donde:
 \begin{equation*}
     cos(\phi) = \sqrt{1-(\frac{A}{B})^2}
 \end{equation*}
@@ -23,52 +73,200 @@ Del modo X-Y (Segunda image), podremos obtener los valores de $sen(\phi)$ y $cos
     sen(\phi) = \frac{A}{B}
 \end{equation*}
 
-Ahora con el multimetro para CA mediremos tension y corriente circulando por R1, y obtenemos los siguientes datos:
+Para realizar esto se utilizan los cursores del osciloscopio para medir los valores de A y B. En la figura \ref{fig:lissajousexp} se muestra la figura de Lissajous obtenida en el experimento y la medición del valor de B.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/lissajaus2exp.jpeg}
+    \caption{Figura de Lissajous obtenida en el experimento}
+    \label{fig:lissajousexp}
+\end{figure}
+
+\begin{equation*}
+    A = 10,2V  ;  B = 11,4V
+\end{equation*}
+
+\begin{equation*}
+    cos(\phi) = 0,44659 = \frac{6\sqrt{2}}{19}
+\end{equation*}
+
+\begin{equation*}
+    sen(\phi) = 0,89474 = \frac{17}{19}
+\end{equation*}
+
+\begin{equation*}
+    tan(\phi) = 2,00347 = \frac{17\sqrt{2}}{12}
+\end{equation*}
+
+Ahora con el multímetro para CA con TrueRMS mediremos tensión en $R1=10\ohm$ y la compararemos con el valor obtenido en el osciloscopio. Con esta medición se obtiene un valor aproximado de la corriente en la carga.
 
 \begin{table}[H]
+\centering
 \resizebox{\columnwidth}{!}{%
-\begin{tabular}{|lllcll|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-\multicolumn{1}{|l|}{} &
-  \multicolumn{1}{c|}{Sens(V/div)} &
-  \multicolumn{1}{c|}{Vpap} &
-  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Valores eficaces \\ (Tensión y corriente)\\ En Osciloscopio\end{tabular}} &
-  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Valores eficaces\\ Multímetro \\ True RMS\end{tabular}} &
-  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición\\ multimetro\end{tabular}} \\ \hline
-\multicolumn{1}{|l|}{Canal 1} & \multicolumn{1}{l|}{AA} & \multicolumn{1}{l|}{BB} & \multicolumn{1}{c|}{V =} & \multicolumn{1}{l|}{CC} & DD \\ \hline
-\multicolumn{1}{|l|}{Canal 2} & \multicolumn{1}{l|}{EE} & \multicolumn{1}{l|}{FF} & \multicolumn{1}{c|}{I =} & \multicolumn{1}{l|}{GG} & HH \\ \hline
-\multicolumn{6}{|c|}{\$Cos(\textbackslash{}phi) ; Sen(\textbackslash{}phi) ; Tan(\textbackslash{}phi)}                                      \\ \hline
-\multicolumn{6}{|c|}{Potencia Activa: P =}                                                                                                  \\ \hline
-\multicolumn{6}{|c|}{Potencia reactiva: Q = II ; Potencia Aparente: S = JJ}                                                                 \\ \hline
+ & 
+  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Valores eficaces de la\\ tensión y la corriente.\\ Osciloscopio\end{tabular}} &
+  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Valores eficaces de\\ la tensión y la\\ corriente.\\ Multímetro True RMS\end{tabular}} &
+  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición\\ multímetro\end{tabular}} \\ \hline
+V & 3,65 V & \rule{0pt}{0.6cm} 3,65 V & $\pm 34,2$ mV \\ \hline
+I & 365 mA & \rule{0pt}{0.6cm} 365 mA & --- \\ \hline
 \end{tabular}%
 }
 \end{table}
 
+En la medición con el multímetro se utilizó el rango de 6V el cual tiene una exactitud de $\pm(0.8\% + 5)$ y una resolución de $1mV$.
+
+
+\begin{equation*}
+    \Delta V = 3,65V \cdot 0.008 + 5mV = \pm 34,2 mV
+\end{equation*}
+
+Ahora calculamos las distintas potencias, para esto se utiliza $V_i= 234,5V$ que fue la tensión de entrada medida en el momento de la experiencia.
+
+\begin{equation*}
+    P = V \cdot I \cdot cos(\phi) = 234,5v \cdot 365mA \cdot \frac{6\sqrt{2}}{19} = 38,2251 W
+\end{equation*}
+\begin{equation*}
+    Q = V \cdot I \cdot sen(\phi) = 234,5V \cdot 365mA \cdot \frac{17}{19} =  76,5828 VAR
+\end{equation*}
+\begin{equation*}
+    S = V \cdot I = 234,5V \cdot 365mA = 85,5925 VA
+\end{equation*}
+
+\subsection{Deducción de las ecuaciones 1 y 2}
+
+Para determinar el desfasaje $\phi$ mediante el modo X-Y del osciloscopio se asigna el eje horizontal para la señal de tensión y el eje vertical para la señal de corriente. Las ecuaciones de ambas señales se definen como:
+
+\begin{equation*}
+    V_x(t) = V_m \cdot \sin(\omega t + \phi)
+\end{equation*}
+\begin{equation*}
+    I_y(t) = I_m \cdot \sin(\omega t )
+\end{equation*}
+
+Donde $V_m$ es la amplitud máxima de la tensión e $I_m$ es la amplitud máxima de la corriente.
+
+La sección B de la figura de Lissajous es la distancia entre la amplitud mínima y máxima de la forma de onda de la corriente, por lo que:
+\begin{equation*}
+    \pm I_m =\pm  \frac{B}{2}
+\end{equation*}
+
+La sección A de la figura de Lissajous es la distancia entre los dos cortes por el eje vertical, esto ocurre cuando $V_x(t) = 0$, para esto el ángulo de $\sin(\omega t + \phi)$ debe ser igual a $k\pi$:
+
+\begin{equation*}
+    \omega t + \phi = k\pi \implies \omega t = k\pi - \phi
+\end{equation*}
+
+Por lo que el valor de $I_y(t)$ en este punto es:
+\begin{equation*}
+    I_y(t) = I_m \cdot \sin(\omega t) = I_m \cdot \sin(k\pi - \phi)
+\end{equation*}
+
+Por identidad trigonométrica de la resta de ángulos dentro de un seno se tiene que:
+\begin{equation*}
+    I_y(t) = I_m \cdot \sin(k\pi) \cdot \cos(\phi) - I_m \cdot \cos(k\pi) \cdot \sin(\phi)
+\end{equation*}
+
+Por identidad trigonométrica de la resta de ángulos dentro de un seno se tiene que:
+\begin{equation*}
+    I_y(t) = I_m \cdot 0 \cdot \cos(\phi) - I_m \cdot \pm 1  \cdot \sin(\phi)
+\end{equation*}
+
+\begin{equation*}
+    I_y(t) = \pm I_m \cdot \sin(\phi) = \pm \frac{A}{2} 
+\end{equation*}
+
+Como $\pm I_m=\pm B/2$ se obtiene la ecuación 2:
+\begin{equation*}
+    sen(\phi) = \frac{A}{B} 
+\end{equation*}
+
+Como $sen^2(\phi) + cos^2(\phi) = 1$ se obtiene la ecuación 1:
+\begin{equation*}
+    cos(\phi) = \sqrt{1-(\frac{A}{B})^2}
+\end{equation*}
+
+
 \section{Desarrollo Experimental 2}
 
-Ahora para corregir el factor de potencia, añadiremos un capacitor como elemento reactivo que compense el desfasaje entre tensión y corriente. Para ello antes debemos calcular el valor de la capacitancia necesaria para corregir el factor de potencia.
+Ahora para corregir el factor de potencia de la carga inductiva se debe conectar un capacitor, elemento reactivo, en paralelo a la carga. Para esto se utiliza la siguiente fórmula para calcular el valor del capacitor:
 
 \begin{equation*}
     C = \frac{P \cdot tan(\phi)}{V^2 \cdot \omega}
 \end{equation*}
 
-Para este caso el valor de C es de AAAAA. Por lo que usaremos uno de FFFFF ya que tenemos que normalizar el valor.\\
+Para este caso el valor es de $C=4,4365uF$. Para esta experiencia están disponibles una serie de capacitores dedicados para esta, el valor disponible que mejor se adecuaba y utilizamos de $C=4uF$. \\
 
-Ahora conectaremos el capacitor entre los puntos A y B, paralelo a la carga y obtendremos lo siguiente:
+Una vez conectado el capacitor se pudo observar la siguiente forma de onda de la corriente.
 
-IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/senalcanal2corr.jpeg}
+    \caption{Forma de onda en el canal 2 con capacitor conectado}
+    \label{fig:senali1cor}
+\end{figure}
+
+La cual tiene un menor desfase con la forma de onda de la tensión aunque hay que considerar que con un capacitor más cercano al calculado, por ejemplo $4.5uf$, se podría obtener un menor desfase. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/defasajecor.jpeg}
+    \caption{Defasaje entre tensión y corriente con capacitor conectado}
+    \label{fig:defasajecor}
+\end{figure}
+
+En la imagen \ref{fig:senali1cor} se puede observar que la forma de onda de la corriente está deformada, esto ocurre porque la red eléctrica no es una senoidal pura, sino que está deformada con ruido causado por otros dispositivos conectados a la red eléctrica. 
+Lo que se observa en la imagen \ref{fig:senali1cor} es la onda de $50Hz$ con ruido armónico de mayor frecuencia superpuesto, esto ocurre porque el capacitor disminuye su reactancia a medida que aumenta la frecuencia permitiendo pasar los armónicos de mayor frecuencia, esta señal se suma a la de $50Hz$ que deja pasar el tubo fluorescente. En la imagen \ref{fig:senali1} se puede observar sin esos armónicos, ya que al ser una carga inductiva su reactancia aumenta a medida que aumenta la frecuencia, por lo que atenúa los armónicos de mayor frecuencia. \\
+También se puede observar que la corriente disminuye, esto es algo bueno, ya que al corregir el factor de potencia se disminuye la potencia reactiva, y por ende la demanda de corriente total.
 
 De estas mediciones obtenemos los siguientes datos:
 
 \begin{equation*}
-    V = AAAAAA
+    VR1_{rms} = 1,437V
 \end{equation*}
 \begin{equation*}
-    I = BBBBBB
+    I = 143.7mA
 \end{equation*}
 \begin{equation*}
-  S = CCCCCC
+  S = 33,7mVA
 \end{equation*}
 
-Como podemos ver estos datos son....
+Como podemos ver estos datos son menores obtenidos anteriormente, esto es algo bueno, ya que se desperdicia menos energía en la potencia reactiva, y por ende se disminuye la demanda de corriente total.
 
+\subsection{Deducción de la ecuación para el cálculo del capacitor}
+
+Si se observa el triángulo de potencias para una carga inductiva $Q_L$ se puede observar que:
+
+\begin{equation*}
+    tan(\phi) = \frac{Q_L}{P} \implies Q_L = P \cdot tan(\phi)
+\end{equation*}
+
+Ahora se busca que corregir el factor de potencia eliminando la potencia reactiva de la carga inductiva con una capacitancia que genere una potencia reactiva capacitiva $Q_C$ igual a la potencia reactiva inductiva $Q_L$:
+
+\begin{equation*}
+    Q_C = P \cdot tan(\phi)
+\end{equation*}
+
+Como $Q_C = V \cdot I_C$ y por ley de ohm $I_C = \frac{V}{X_C}$, entonces:
+\begin{equation*}
+    Q_C = V \cdot \frac{V}{X_C} = \frac{V^2}{X_C}
+\end{equation*}
+
+Donde $X_C = \frac{1}{\omega C}$ es la reactancia capacitiva. Sustituyendo:
+
+\begin{equation*}
+    Q_C = V^2 \cdot \omega C
+\end{equation*}
+
+Igualando $Q_C$ y $Q_L$:
+
+\begin{equation*}
+    P \cdot tan(\phi) = V^2 \cdot \omega C
+\end{equation*}
+
+Despejando $C$:
+
+\begin{equation*}
+    C = \frac{P \cdot tan(\phi)}{V^2 \cdot \omega}
+\end{equation*}

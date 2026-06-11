@@ -1,6 +1,6 @@
 \documentclass{plantilla}
 % --- Metadatos del Informe ---
-\titulo{Trabajo práctico Nro 2}
+\titulo{Trabajo práctico Nro 4}
 \autores{Filsinger Gonzalo, Perea Ignacio, Leon Parfait Manuel}
 \materia{Medidas Electrónicas}
 \comision{4R2}
@@ -10,11 +10,11 @@
 \maketitle
 
 \begin{abstract}
-En este informe se realizarán mediciones de un amplificador operacional tanto a lazo abierto como en lazo cerrado, utilizando un osciloscopio para observar las formas de onda resultantes y ademas se hará uso de la escada de dB para analizar la ganancia del amplificador. 
+En este informe se presentan los resultados obtenidos de cuatro experiencias donde se tomó mediciones de defasaje($\phi$) entre señales de tensión y corriente y como se corrige este. Además de la medición de las potencias P, Q y S. También se analiza la diferencia entre utilizar un multímetro digital con función True RMS y uno sin esta función en señales no senoidales puras. Por último se analiza el factor de potencia en un circuito con control de ángulo de conducción.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Amplificador operacional, osciloscopio, ganancia, lazo abierto, lazo cerrado, dB.
+Factor de potencia, True RMS, Valor medio, Figuras de Lissajous, Potencia reactiva, Potencia aparente, Potencia activa, Compensación capacitiva.
 \end{IEEEkeywords}
 
 \section{Integrantes y Fechas}
@@ -25,17 +25,15 @@ Amplificador operacional, osciloscopio, ganancia, lazo abierto, lazo cerrado, dB
 \hline
 \rowcolor[HTML]{CBCEFB} 
 \multicolumn{1}{|c|}{\cellcolor[HTML]{CBCEFB}Apellido y Nombre} & Coordinador & \multicolumn{1}{c|}{\cellcolor[HTML]{CBCEFB}Operador} & Documentador \\ \hline
-\multicolumn{1}{|c|}{Perea Ignacio}       &  & \multicolumn{1}{c|}{}  & X \\ \hline
-\multicolumn{1}{|c|}{Filsinger Gonzalo}   & X  & \multicolumn{1}{c|}{} &   \\ \hline
-\multicolumn{1}{|c|}{Leon Parfait Manuel} &   & \multicolumn{1}{c|}{X}  &  \\ \hline
-\multicolumn{2}{|l|}{\cellcolor[HTML]{FFCCC9}Fecha de Presentación:}          & \multicolumn{2}{c|}{10/06/2026}                                      \\ \hline
+\multicolumn{1}{|c|}{Perea Ignacio}       & X & \multicolumn{1}{c|}{}  &  \\ \hline
+\multicolumn{1}{|c|}{Filsinger Gonzalo}   &   & \multicolumn{1}{c|}{X} &   \\ \hline
+\multicolumn{1}{|c|}{Leon Parfait Manuel} &   & \multicolumn{1}{c|}{}  & X \\ \hline
+\multicolumn{2}{|l|}{\cellcolor[HTML]{FFCCC9}Fecha de Presentación:}          & \multicolumn{2}{c|}{11/06/2026}                                      \\ \hline
 \multicolumn{2}{|l|}{\cellcolor[HTML]{FFCCC9}Fecha de Coloquio:}          & \multicolumn{2}{c|}{17/06/2026}                                      \\ \hline
 \end{tabular}%
 }
 \end{table}
 
-\section{Introducción}
-\IEEEPARstart{E}{n} el siguiente informe utilizaremos un amplificador operacional para realizar mediciones y determinar las características del mismo, usaremos instrumentos con escala en dB tal como el voltimetro analógico y además daremos el grado de incertidumbre de las mediciones.
 
 \input{parte1}
 
@@ -49,9 +47,20 @@ Amplificador operacional, osciloscopio, ganancia, lazo abierto, lazo cerrado, dB
 
 
 % Referencias bibliográficas
-\begin{thebibliography}{1}
-\bibitem{IEEEhowto:kopka}
-TP2 version definitiva V 02 2026 Medidas Electrónicas I
+\begin{thebibliography}{99}
+
+\bibitem{tp4_medidas}
+TP4\_version\_definitiva\_V\_01\_2026\_Medidas Electrónicas I, UTNFRC.
+
+\bibitem{hoja_uni_t}
+Hoja de datos Multímetro Digital UNI-T UT89X.
+
+\bibitem{moreno2019}
+Moreno, C. (2019). Apéndice A: Medición de diferencias de fase. Laboratorio 3, Departamento de Física, FCEyN - UBA.
+
+\bibitem{hoja_dt9208a}
+Hoja de datos multímetro digital DT9208A.
+
 \end{thebibliography}
 
 

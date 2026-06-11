@@ -1,6 +1,6 @@
 \section{Desarrollo Experimental 3}
 
-Para este experimento montaremos el siguiente circuito usando solamente dos multimetros, uno true RMS y otro de Vmedio.
+Para este experimento montaremos el siguiente circuito usando dos multímetros, uno true RMS y otro de valor medio.
 
 \begin{figure}[H]
     \centering
@@ -9,26 +9,79 @@ Para este experimento montaremos el siguiente circuito usando solamente dos mult
     \label{fig:conexiones3}
 \end{figure}
 
-Seleccionamos los rangos de los instrumentos y completamos la siguiente tabla:
+Para completar la siguiente tabla se utilizó el multímetro de valor medio en la escala de 20V y el multímetro true RMS en la escala de 6V, se utilizaron estas escalas ya que eran las menores disponibles. En las imágenes \ref{fig:medcuadrada} y \ref{fig:medtrangular} se pueden ver las mediciones realizadas, a la izquierda está el multímetro de valor medio y a la derecha el multímetro true RMS.
 
 \begin{table}[H]
+\centering
 \resizebox{\columnwidth}{!}{%
-\begin{tabular}{c|cc|c}
-\cline{2-3}
-\multicolumn{1}{l|}{}                                                                   & \multicolumn{2}{l|}{Rango: 4V C.A.} & \multicolumn{1}{l}{}         \\ \hline
-\multicolumn{1}{|c|}{Generador} &
-  \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}RMS\\ lectura\end{tabular}} &
-  \begin{tabular}[c]{@{}c@{}}Vmedio\\ lectura\end{tabular} &
-  \multicolumn{1}{c|}{$e\%$} \\ \hline
-\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}50Hz\\ 5Vpap\\ Cuadrada\end{tabular}}   & \multicolumn{1}{c|}{2.521}  & 2.75  & \multicolumn{1}{c|}{9.56\%}  \\ \hline
-\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}50Hz\\ 5Vpap\\ Triangular\end{tabular}} & \multicolumn{1}{c|}{1.418}  & 1.3   & \multicolumn{1}{c|}{-7.62\%} \\ \hline
+\begin{tabular}{|c|c|c|c|}
+\hline
+Generador &
+\begin{tabular}[c]{@{}c@{}}RMS\\ lectura\end{tabular} &
+\begin{tabular}[c]{@{}c@{}}Vmedio\\ lectura\end{tabular} &
+$e\%$ \\ \hline
+\begin{tabular}[c]{@{}c@{}}50Hz\\ 5Vpap\\ Cuadrada\end{tabular} & 2.518 & 2.75 & 9.21\% \\ \hline
+\begin{tabular}[c]{@{}c@{}}50Hz\\ 5Vpap\\ Triangular\end{tabular} & 1.418 & 1.31 & -7.62\% \\ \hline
 \end{tabular}%
 }
 \end{table}
 
+Donde:
+\begin{equation*}
+    e\% = \frac{V_{medio} - V_{RMS}}{V_{RMS}} \cdot 100
+\end{equation*}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/cuadrada.jpeg}
+    \caption{Onda cuadrada de $50Hz$ y $5V_{pap}$}
+    \label{fig:cuadrada}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/triangular.jpeg}
+    \caption{Onda triangular de $50Hz$ y $5V_{pap}$}
+    \label{fig:triangular}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/medcuadrada.jpeg}
+    \caption{Mediciones realizadas en onda cuadrada}
+    \label{fig:medcuadrada}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/medtrangular.jpeg}
+    \caption{Mediciones realizadas en onda triangular}
+    \label{fig:medtrangular}
+\end{figure}
+
+El factor de corrección para que el valor medido con el multímetro de valor medio sea el correcto, el medido con el multímetro RMS, se obtiene de la siguiente manera:
+
+\begin{equation*}
+    V_{RMS} = k \cdot V_{medio}
+\end{equation*}
+
+\begin{equation*}
+    k = \frac{V_{RMS}}{V_{medio}}
+\end{equation*}
+
+Reemplazando con los valores medidos obtenemos el factor de corrección para onda cuadrada $k_C$ y para onda triangular $k_T$:
+
+\begin{equation*}
+    k_C = \frac{2.518}{2.75} = 0.9156
+\end{equation*}
+
+\begin{equation*}
+    k_T = \frac{1.418}{1.31} = 1.0824
+\end{equation*}
+
 \section{Desarrollo Experimental 4}
 
-En este experimento mediremos la forma de onda proveniente de un circuito con control de ángulo de conducción, para ello haremos uso de un circuito controlador de angulo de conducción del tipo que se emplea como regulador de brillo en lámparas incandescentes (Dimmer). 
+En este experimento mediremos la forma de onda proveniente de un circuito con control de ángulo de conducción del tipo que se emplea como regulador de brillo en lámparas incandescentes (Dimmer). 
 
 \begin{figure}[H]
     \centering
@@ -37,7 +90,7 @@ En este experimento mediremos la forma de onda proveniente de un circuito con co
     \label{fig:conexiones4}
 \end{figure}
 
-Para mayor seguridad usaremos un transformador de aislamiento de línea para protejer el osciloscopio.\\
+Para mayor seguridad usaremos un transformador de aislamiento de línea para proteger el osciloscopio.\\
 La conexión a realizar es la siguiente: 
 
 \begin{figure}[H]
@@ -46,8 +99,26 @@ La conexión a realizar es la siguiente:
     \caption{Conexiones realizadas}
     \label{fig:conexiones4a}
 \end{figure}
+\newpage
 
-Ajustamos el osciloscopio en 5V/div y XXms/div, ademas de tener previamente la punta en x10.\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/imple4.jpeg}
+    \caption{Implementación experimento 4}
+    \label{fig:conexiones4b}
+\end{figure}
+
+Ajustamos el osciloscopio para medir el ángulo de conducción del circuito con Triac en:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Osciloscopio} & \textbf{V/div} & \textbf{T/div} & \textbf{\begin{tabular}[c]{@{}c@{}}Aten.\\ punta\end{tabular}} \\ \hline
+\textbf{Canal 1}      & \textbf{100}     &      1ms          & \textbf{X10}                                                   \\ \hline
+\textbf{Canal 2}      & \textbf{100}     &        2ms        & \textbf{X10}                                                   \\ \hline
+\end{tabular}
+\end{table}
 
 Ahora mediremos el valor de tensión de entrada
 
@@ -55,9 +126,17 @@ Ahora mediremos el valor de tensión de entrada
     V_{in} = 234.5V
 \end{equation*}
 
-Y luego variaremos el control del ángulo de conduccion del circuito con Triac. Obtendremos la mayor candidad de lecturas posibles para tensiones de salida con cada instrumento, mientras verificamos el angulo de conduccion con el osciloscopio.\\
+Ahora se varía el ángulo de conducción del Triac y se miden los valores de tensión de salida para cada ángulo de la siguiente tabla, para esto se calcula cuanto tiempo tiene que durar el disparo con ayuda de los cursores del osciloscopio.
 
-Luego de obtener las lecturas, completamos la siguiente tabla:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/30g.jpeg}
+    \caption{Disparo a 30 grados.}
+    \label{fig:30g}
+\end{figure}
+\newpage
+Luego de obtener las lecturas, completamos la siguiente tabla donde $Vo(1)$ es la tensión medida con el multímetro TRUE RMS y $Vo(2)$ es la tensión medida con el multímetro de valor medio:
+
 
 \begin{table}[H]
 \resizebox{\columnwidth}{!}{%
@@ -68,14 +147,35 @@ Luego de obtener las lecturas, completamos la siguiente tabla:
   \begin{tabular}[c]{@{}c@{}}Vo(2)\\ Volts\end{tabular} &
   \begin{tabular}[c]{@{}c@{}}Vo/Vi\\ (1)\end{tabular} &
   \begin{tabular}[c]{@{}c@{}}Vo/Vi\\ (2)\end{tabular} &
-  \begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición 1\end{tabular} &
-  \begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición 2\end{tabular} \\ \hline
-0      & 0     & 0   & 0    & 0    & AAAA  & BBBB \\ \hline
-30     & 40    & 14  & 0.17 & 0.06 & CCCC  & DDDD \\ \hline
-60     & 112.7 & 60  & 0.48 & 0.25 & EEEE  & FFFF \\ \hline
-90     & 173.3 & 121 & 0.74 & 0.51 & GGGG  & HHHH \\ \hline
-120    & 208   & 170 & 0.88 & 0.72 & IIIII & JJJJ \\ \hline
-148.32 & 228.3 & 211 & 0.97 & 0.9  & KKKK  & LLLL \\ \hline
+  \begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición 1(V)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Incertidumbre\\ medición 2(V)\end{tabular} \\ \hline
+0      & 0     & 0   & 0    & 0    &  0,5 & 5 \\ \hline
+30     & 40    & 14  & 0.17 & 0.06 & 0,82  & 5,17 \\ \hline
+60     & 112.7 & 60  & 0.48 & 0.25 & 1,4  & 5,72 \\ \hline
+90     & 173.3 & 121 & 0.74 & 0.51 & 1,89  & 6,45 \\ \hline
+120    & 208   & 170 & 0.88 & 0.72 & 2,16 & 7,5 \\ \hline
+148.32 & 228.3 & 211 & 0.97 & 0.9  & 2,33  & 7,74 \\ \hline
 \end{tabular}%
 }
 \end{table}
+
+En la medición con el multímetro TRUE RMSse utilizó el rango de 600V el cual tiene una exactitud de $\pm(0.8\% + 5)$ y una resolución de $100mV$. Para la medición con el multímetro de valor medio se utilizó el rango de 750V el cual tiene una exactitud de $\pm(1.2\% + 5)$ y una resolución de $1V$. \\
+
+Se desarrolló hasta $148,32\circ$ ya que es el ángulo de conducción máximo que se puede obtener con el circuito utilizado.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/148g.jpeg}
+    \caption{Disparo a 148,32 grados.}
+    \label{fig:148g}
+\end{figure}
+
+Ahora llevamos las mediciones al un gráfico que está normalizado en su eje de ordenadas, es decir, se grafica $Vo/Vi$ en función del ángulo de conducción.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/ejer4.png}
+    \caption{Relación de tensión respecto al ángulo de conducción.}
+    \label{fig:14}
+\end{figure}
+
