@@ -1,44 +1,160 @@
 \section{Desarrollo Experimental 7}
+Para determinar el ancho de banda del amplificador, se procedió a realizar un barrido de frecuencia manteniendo constante la amplitud de la señal de entrada. Se tomó como referencia central la frecuencia de $1\text{ KHz}$. En este punto, se ajustó el generador para obtener la máxima excursión de salida sin distorsión, estableciendo este nivel de tensión como nuestra referencia de $\mathbf{0\text{ dB}}$.
+
+\begin{equation*}
+\text{ dB}= 20 \cdot \log_{10}\left(\frac{V_{\text{O}}}{V_{\text{O}_1Khz}}\right) 
+\end{equation*}
+
+Se midió un valor de $V_{\text{O}_1Khz}=6,08pp$. este valor se utilizó como referencia para calcular las frecuencias a las cuales la ganancia del amplificador cae a $\mathbf{-3\text{ dB}}$ respecto a esta referencia.
+
+Usando como referencia el valor de $V_{\text{O}_1Khz}=6,08pp$ podemos determinar el valor de $V_{\text{O}}$ para el cual la ganancia cae a $\mathbf{-3\text{ dB}}$:
+
+\begin{equation*}
+V_{\text{O}} = V_{\text{O}_1Khz} \cdot 10^{\frac{-3}{20}} = 6,08pp \cdot 10^{\frac{-3}{20}} = 4,3pp
+\end{equation*}
+
+Sabiendo esto, se procedió a realizar el barrido de frecuencia y se registraron las frecuencias a las cuales la salida del amplificador cae a $4,3pp$. Se obtuvieron los siguientes resultados:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+  $\mathbf{-3\text{ dB}}$& Fhz  \\
+\hline
+$Fhz_{inf}$ & 88Hz  \\
+\hline
+$Fhz_{sup}$ &  99Khz \\
+\hline
+\end{tabular}
+\end{center}
+
+Con el mismo razonamiento se obtuvo los valores de $Fhz_{inf}$ y $Fhz_{sup}$ para una caida de $\mathbf{-2\text{ dB}}$:
+
+\begin{equation*}
+V_{\text{O}} = V_{\text{O}_1Khz} \cdot 10^{\frac{-2}{20}} = 6,08pp \cdot 10^{\frac{-2}{20}} = 4,8pp
+\end{equation*}
+
+Al realizar el barrido de frecuencia para este nuevo valor de referencia se obtuvieron los siguientes resultados:
+
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+ $\mathbf{-2\text{ dB}}$ & Fhz  \\
+\hline
+$Fhz_{inf}$ & 117Hz  \\
+\hline
+$Fhz_{sup}$ &  77Khz \\
+\hline
+\end{tabular}
+\end{center}
+
+Ahora para observar el efecto de la realimentación sobre el ancho de banda, se procedió a \textbf{cerrar el lazo de realimentación} y se repitió el procedimiento para determinar los nuevos valores de $Fhz_{inf}$ y $Fhz_{sup}$ para las caídas de $\mathbf{-3\text{ dB}}$ y $\mathbf{-2\text{ dB}}$ respectivamente. Se obtuvieron los siguientes resultados:
+
+
+\begin{equation*}
+ V_{\text{O}_1Khz} = 7,48pp
+\end{equation*}
+
+\begin{equation*}
+V_{\text{O}} = V_{\text{O}_1Khz} \cdot 10^{\frac{-3}{20}} = 7,48pp \cdot 10^{\frac{-3}{20}} = 5,3pp
+\end{equation*}
+
+Por lo tanto, para una caída de $\mathbf{-3\text{ dB}}$ se obtuvieron los siguientes resultados:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+ $\mathbf{-3\text{ dB}}$ & Fhz  \\
+\hline
+$Fhz_{inf}$ & 34Hz  \\
+\hline
+$Fhz_{sup}$ &  2,2Mhz \\
+\hline
+\end{tabular}
+\end{center}
+
+Repitiendo el procedimiento para una caída de $\mathbf{-2\text{ dB}}$ se obtuvieron los siguientes resultados:
+
+
+\begin{equation*}
+V_{\text{O}} = V_{\text{O}_1Khz} \cdot 10^{\frac{-2}{20}} = 7,48pp \cdot 10^{\frac{-2}{20}} = 5,9pp
+\end{equation*}
+
+Al realizar el barrido de frecuencia para este nuevo valor de referencia se obtuvieron los siguientes resultados:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+ $\mathbf{-2\text{ dB}}$ & Fhz  \\
+\hline
+$Fhz_{inf}$ &  44Hz  \\
+\hline
+$Fhz_{sup}$ &  1,74Mhz \\
+\hline
+\end{tabular}
+\end{center}
+
+Con estos resultados se puede realizar una comparación entre la respuesta en frecuencia a lazo abierto y cerrado, observando el efecto de la realimentación sobre el ancho de banda del amplificador.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/Graficadb.png}
+    \caption{Respuesta en frecuencia a lazo abierto y cerrado}
+\end{figure}
+
+Se observó que al cerrar el lazo de realimentación, las frecuencias de corte se desplazan hacia los extremos. La $f_{corte-inf}$ se hace más chica y la $f_{corte-sup}$ se hace más grande, lo que resulta en un Ancho de Banda significativamente mayor comparado con el circuito a lazo abierto.
+
+
 
 
 \section{Desarrollo Experimental 8}
 
-En este ejercicio mediremos la respuesta en frecuencia del amplificador a lazo abierto y luego cerrado, para ello colocaremos el generador a una frecuencia de 1KHz con señal senoidal y nivel de salida anterior a la distorsión.\\
-Luego de llegar a dicho punto cambiaremos de onda senoidal a cuadrada, ajustamos la base de tiempo y pendiente de disparo para obtener un solo flanco de subida, teniendo en cuenta que la punta este en x10, obtendremos la siguiente imagen para lazo abierto:
+Para este experimento, se utilizó un osciloscopio Rigol DS1052E, el cual posee un ancho de banda propio de $50\text{ MHz}$. Según la teoría expuesta en la guía, el instrumento introduce su propio tiempo de crecimiento, el cual debe calcularse para corregir las mediciones posteriores:
+\begin{equation}
+    t_{c(osc)} = \frac{0,35}{AB_{osc}} = \frac{0,35}{50 \times 10^6\text{ Hz}} = 7\text{ ns}
+\end{equation}
 
-IMAGEN
+\subsubsection*{1. Medición a Lazo Abierto}
 
-Luego cerramos el lazo y obtenemos la siguiente imagen:
 
-IMAGEN
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/lazoabierto.jpeg}
+    \caption{Respuesta en frecuencia a lazo abierto }
+\end{figure}
 
-De dichas mediciones obtenemos los siguientes datos:
 
-\begin{equation*}
-    tc (medido,lazo abierto)= AAAAAA
-\end{equation*}
+A partir de lo obtenido en osciloscopio, se midió un tiempo de crecimiento visual (entre el 10\% y el 90\% del flanco de subida) de $t_{c(medido)} = 2,5\ \mu\text{s} = 2500\text{ ns}$. Se procedió a aplicar la corrección por el error del instrumento:
+\begin{equation}
+    t_{c(amp)} = \sqrt{t_{c(medido)}^2 - t_{c(osc)}^2} = \sqrt{2500^2 - 7^2} \approx 2499,99\text{ ns}
+\end{equation}
+Dado que el flanco de subida no presentó oscilaciones ni sobreimpulsos considerables, se asumió un comportamiento de caída exponencial ($k = 0,35$) para el cálculo del Ancho de Banda (AB):
+\begin{equation}
+    AB_{LA} = \frac{0,35}{t_{c(amp)}} = \frac{0,35}{2,5 \times 10^{-6}\text{ s}} = 140.000\text{ Hz} = 140\text{ kHz}
+\end{equation}
 
-\begin{equation*}
-    tc (medido,lazo cerrado)= BBBBBB
-\end{equation*}
+\subsubsection*{2. Medición a Lazo Cerrado (Con Realimentación)}
 
-Para corregir este valor ya que este puede ser comparable con el tiempo de crecimiento del osciloscopio, aplicaremos las siguientes formulas:
 
-\begin{equation*}
-    tc (osciloscopio) = \frac{0.35}{AB(osciloscopio)}
-\end{equation*}
 
-y
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/lazocerrado.jpeg}
+    \caption{Respuesta en frecuencia a lazo cerrado}
+\end{figure}
 
-\begin{equation*}
-    tc (amplificador) = \sqrt{tc(medido)^2 - tc(osciloscopio)^2}
-\end{equation*}
 
-Otenemos entonces los siguientes en ancho de banda:
 
-\begin{equation*}
-    BW (lazo abierto) = \frac{0.35}{tc(lazo abierto)}
-\end{equation*}
-\begin{equation*}
-    BW (lazo cerrado) = \frac{0.35}{tc(lazo cerrado)}
-\end{equation*}
+Con la realimentación activada, el flanco de subida se volvió considerablemente más abrupto. El tiempo de crecimiento medido en pantalla se redujo a $t_{c(medido)} = 175\text{ ns}$. Corrigiendo este valor temporal:
+\begin{equation}
+    t_{c(amp)} = \sqrt{175^2 - 7^2} \approx 174,86\text{ ns}
+\end{equation}
+Calculando el nuevo ancho de banda bajo la misma constante $k = 0,35$:
+\begin{equation}
+    AB_{LC} = \frac{0,35}{174,86 \times 10^{-9}\text{ s}} \approx 2.001.601\text{ Hz} \approx 2,0\text{ MHz}
+\end{equation}
+
+\subsubsection*{Análisis y Conclusiones del Experimento}
+Los resultados obtenidos empíricamente mediante el método de la onda cuadrada ($AB_{LA} = 140\text{ kHz}$ y $AB_{LC} = 2,0\text{ MHz}$) resultan sumamente coherentes con los calculados en el Experimento 7 mediante el barrido analítico de frecuencias ($99\text{ kHz}$ y $2,2\text{ MHz}$ respectivamente). 
+
+Las leves diferencias observadas son esperables y se justifican en que el análisis por respuesta al escalón se fundamenta en un modelo matemático ideal. Esto constituye una excelente y rápida aproximación práctica durante el trabajo. No obstante, ambos métodos corroboran fehacientemente el principio teórico buscado: la realimentación negativa expande drásticamente el ancho de banda útil del amplificador.

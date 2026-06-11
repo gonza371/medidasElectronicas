@@ -1,1 +1,18 @@
-\section{Conclusión}
+\section{Conclusiones}
+
+
+
+A partir de los ensayos y mediciones realizados a lo largo del Trabajo Práctico, se exponen las siguientes conclusiones en respuesta a los interrogantes planteados en la guía:
+
+\begin{enumerate}
+    \item \textbf{Corrección por cambio de rango en la medición de decibeles:} Si durante la medición de la ganancia es necesario cambiar la escala del multímetro analógico (como el UNIVO), la lectura directa de la aguja pierde validez absoluta. La escala de $0\text{ dB}$ (referenciada a $0,775\text{ V}$ sobre $600\ \Omega$) está calibrada estrictamente para el rango menor. Al pasar a una escala mayor para evitar que la aguja haga tope, se debe sumar un factor de corrección constante (por ejemplo, $+10\text{ dB}$ o $+20\text{ dB}$) para compensar la atenuación interna del instrumento.
+
+    \item \textbf{Uso de multímetros digitales modernos:} A diferencia de los instrumentos analógicos, los multímetros digitales con capacidad de medición en decibeles simplifican el procedimiento al poseer auto-rango y cálculo logarítmico interno. No requieren correcciones manuales por cambio de escala y muchos permiten configurar una impedancia de referencia distinta a los $600\ \Omega$ estándar, automatizando por completo el cálculo de conversión de la Ecuación 1.
+
+    \item \textbf{Ventajas de la escala en decibeles para ganancias:} La ventaja fundamental radica en la conversión de operaciones multiplicativas y divisivas (propias de la conexión en cascada de etapas amplificadoras) en simples sumas y restas lineales. Asimismo, el uso de la escala logarítmica permite representar rangos dinámicos de voltaje sumamente amplios en números pequeños y manejables, facilitando el trazado de las curvas de respuesta en frecuencia en papel semilogarítmico.
+
+    \item \textbf{Aumento de la impedancia de entrada:} Se comprobó que la realimentación negativa de tensión con mezcla en serie incrementa notablemente la impedancia de entrada del amplificador. Al oponerse la tensión de realimentación a la de la fuente de señal, la corriente de entrada demandada disminuye. Por la Ley de Ohm ($Z = V/I$), esta reducción de corriente se traduce en una impedancia vista por el generador multiplicada por el factor $(1 + A \cdot B)$. Esto representa una ventaja técnica significativa al evitar cargar y deformar la señal de la etapa previa.
+
+    \item \textbf{El costo de la expansión del ancho de banda:} Si bien la realimentación negativa aumentó el ancho de banda del amplificador de manera contundente (de $\sim 99\text{ kHz}$ a $\sim 2,2\text{ MHz}$), este beneficio requirió sacrificar ganancia de tensión en la banda pasante. Dado que el producto Ganancia por Ancho de Banda (GBW) se mantiene relativamente constante en estos sistemas, la expansión en frecuencia se paga directamente con una menor capacidad de amplificación de amplitud.
+\item \textbf{Teorema de la máxima transferencia frente a la nueva $R_o'$:} Aunque la realimentación redujo la resistencia de salida ($R_o'$) a fracciones de ohm, sería un error aplicar ciegamente el Teorema de la Máxima Transferencia. Conectar una carga $R_L$ de valor equivalente a esta pequeña $R_o'$ exigiría a los transistores de salida (BC337) una corriente destructiva, superando ampliamente sus límites de disipación térmica y las capacidades de la fuente de $+12\text{ V}$. Esto generaría un recorte severo de la señal o la quema del componente, demostrando que la potencia útil máxima sigue limitada por las restricciones físicas del hardware y no por la $R_o'$ aparente.
+\end{enumerate}
