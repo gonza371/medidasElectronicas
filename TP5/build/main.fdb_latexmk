@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1788914908.50144 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP5/main.tex" "build/main.pdf" "main" 1788914909.95236 0
+["pdflatex"] 1788915797.32263 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP5/main.tex" "build/main.pdf" "main" 1788915798.78572 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781135025 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1750266454 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635 13234938 d58bb3502aaad703297f3d501f0c0d64 ""
@@ -233,8 +233,8 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "build/main.aux" 1788914909 4157 7b5ea89464f62d5f28ebb3501114be60 "pdflatex"
-  "build/main.out" 1788914909 1504 5296fd8f29c1f03e7b72d34a151788fb "pdflatex"
+  "build/main.aux" 1788915798 4297 64b870dc1f5889a0144e1da0b3231be8 "pdflatex"
+  "build/main.out" 1788915798 1504 e0ff93e52639d990615bec17f6c12897 "pdflatex"
   "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP5/main.tex" 1788903398 1692 571981fce99262effe64690e0e14208c ""
   "conclusiones.tex" 1781216873 21 b282e418bc9c406da89d1ec70ba0c9dd ""
   "images/epp200.jpeg" 1788914758 83377 31bbd66d99cd0d672d3577bd24da59d2 ""
@@ -247,11 +247,12 @@
   "images/medicion2.png" 1788904411 19055 009b84f085c25ce834cc0072111bd83d ""
   "images/ondacuadrada1.jpeg" 1788914758 78007 6e801dfd1ae148986ba180c548cd8814 ""
   "images/placa2.jpeg" 1788904223 115189 b30f2dc995b7dbfdb1fa97f3eb78b69c ""
+  "images/señalexp2.jpeg" 1788904999 52270 1a754d23f9e0f4d8605616bcd805146e ""
   "images/transformador.jpeg" 1788914758 47892 eb6531b5b2b3d85cff114ad72d56a382 ""
   "images/transformador1.jpeg" 1788914758 47759 5bebee6902fc49e4259c1cdc7bd3faf7 ""
   "main.tex" 1788903398 1692 571981fce99262effe64690e0e14208c ""
   "parte1.tex" 1788914758 4284 89dd591672b47f55629231277a3908e6 ""
-  "parte2.tex" 1788914908 3426 3e37d63e7da877bb36e473709eb5d912 ""
+  "parte2.tex" 1788915796 3743 da54d80f72e97472fba3efcb6302d1a6 ""
   "parte3.tex" 1788903398 0 d41d8cd98f00b204e9800998ecf8427e ""
   "plantilla.cls" 1781216873 2510 a471c7aeaed056b8e25b86d6a5c2d473 ""
   (generated)
