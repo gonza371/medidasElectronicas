@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  9 SEP 2026 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  22 SEP 2026 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP5/main.tex
-(c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP5/main.tex
+**c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex
+(c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
 (plantilla.cls (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
@@ -763,11 +763,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 ) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count359
-) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP5\build\main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported  on input line 11.
+(babel)             Reported  on input line 12.
 )
 \openout1 = `main.aux'.
 
@@ -815,7 +815,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package hyperref Info: Link coloring ON on input line 8.
-(c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP5\build\main.out) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP5\build\main.out)
+(c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.out) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -839,236 +839,37 @@ File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
- (parte1.tex
-<images/transformador.jpeg, id=46, 359.84438pt x 391.4625pt>
-File: images/transformador.jpeg Graphic file (type jpg)
-<use images/transformador.jpeg>
-Package pdftex.def Info: images/transformador.jpeg  used on input line 6.
-(pdftex.def)             Requested size: 258.0pt x 280.68799pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 6--7
- [][] 
- []
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-<images/transformador1.jpeg, id=47, 403.5075pt x 302.63063pt>
-File: images/transformador1.jpeg Graphic file (type jpg)
-<use images/transformador1.jpeg>
-Package pdftex.def Info: images/transformador1.jpeg  used on input line 12.
-(pdftex.def)             Requested size: 258.0pt x 193.50284pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 12--13
- [][] 
- []
-
-
-
-<images/esquema1.png, id=48, 248.127pt x 130.68825pt>
-File: images/esquema1.png Graphic file (type png)
-<use images/esquema1.png>
-Package pdftex.def Info: images/esquema1.png  used on input line 18.
-(pdftex.def)             Requested size: 258.0pt x 135.88863pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 18--19
- [][] 
- []
-
-<images/ondacuadrada1.jpeg, id=50, 508.90125pt x 388.45125pt>
-File: images/ondacuadrada1.jpeg Graphic file (type jpg)
-<use images/ondacuadrada1.jpeg>
-Package pdftex.def Info: images/ondacuadrada1.jpeg  used on input line 24.
-(pdftex.def)             Requested size: 258.0pt x 196.93983pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 24--25
- [][] 
- []
+ (parte1.tex) (parte2.tex) (parte3.tex) (parte4.tex) (parte5.tex) (conclusiones.tex)
 
 
 
 [1{C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./images/transformador.jpeg> <./images/transformador1.jpeg> <./images/esquema1.png>]
-<images/esquemamedicion.png, id=67, 307.1475pt x 148.1535pt>
-File: images/esquemamedicion.png Graphic file (type png)
-<use images/esquemamedicion.png>
-Package pdftex.def Info: images/esquemamedicion.png  used on input line 30.
-(pdftex.def)             Requested size: 258.0pt x 124.45486pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 30--31
- [][] 
- []
-
-<images/epp50.jpeg, id=68, 499.11469pt x 386.94562pt>
-File: images/epp50.jpeg Graphic file (type jpg)
-<use images/epp50.jpeg>
-Package pdftex.def Info: images/epp50.jpeg  used on input line 64.
-(pdftex.def)             Requested size: 258.0pt x 200.0202pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 64--65
- [][] 
- []
-
-
-
-<images/er50.jpeg, id=69, 488.57532pt x 373.395pt>
-File: images/er50.jpeg Graphic file (type jpg)
-<use images/er50.jpeg>
-Package pdftex.def Info: images/er50.jpeg  used on input line 69.
-(pdftex.def)             Requested size: 258.0pt x 197.18051pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 69--70
- [][] 
- []
-
-<images/epp200.jpeg, id=70, 466.74374pt x 357.58594pt>
-File: images/epp200.jpeg Graphic file (type jpg)
-<use images/epp200.jpeg>
-Package pdftex.def Info: images/epp200.jpeg  used on input line 74.
-(pdftex.def)             Requested size: 258.0pt x 197.67137pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 74--75
- [][] 
- []
-
-<images/er200.jpeg, id=71, 458.46281pt x 373.395pt>
-File: images/er200.jpeg Graphic file (type jpg)
-<use images/er200.jpeg>
-Package pdftex.def Info: images/er200.jpeg  used on input line 79.
-(pdftex.def)             Requested size: 258.0pt x 210.13672pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 79--80
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[2 <./images/ondacuadrada1.jpeg> <./images/esquemamedicion.png> <./images/epp50.jpeg> <./images/er50.jpeg>]) (parte2.tex
-<images/placa2.jpeg, id=87, 542.025pt x 542.025pt>
-File: images/placa2.jpeg Graphic file (type jpg)
-<use images/placa2.jpeg>
-Package pdftex.def Info: images/placa2.jpeg  used on input line 9.
-(pdftex.def)             Requested size: 206.39685pt x 206.39343pt.
-
-
-<images/esquema2.png, id=88, 392.96812pt x 283.0575pt>
-File: images/esquema2.png Graphic file (type png)
-<use images/esquema2.png>
-Package pdftex.def Info: images/esquema2.png  used on input line 18.
-(pdftex.def)             Requested size: 206.39685pt x 148.67218pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-<images/medicion2.png, id=89, 453.19313pt x 240.9pt>
-File: images/medicion2.png Graphic file (type png)
-<use images/medicion2.png>
-Package pdftex.def Info: images/medicion2.png  used on input line 30.
-(pdftex.def)             Requested size: 206.39685pt x 109.71259pt.
-
-Underfull \hbox (badness 1755) in paragraph at lines 35--36
-[]\OT1/ptm/m/n/10 Como ve-mos en la fi-gu-ra del es-que-ma de la pla-ca
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 35--36
-\OT1/ptm/m/n/10 es-tar to-do con-cen-tra-do en el mis-mo ca-pa-ci-tor, no-so-tros
- []
-
-
-Underfull \hbox (badness 1515) in paragraph at lines 35--36
-\OT1/ptm/m/n/10 bus-ca-re-mos una fi-gu-ra si-mi-lar a la de ``eC + eR'' en
- []
-
-
-Underfull \hbox (badness 3312) in paragraph at lines 35--36
-\OT1/ptm/m/n/10 nue-va-men-te el dis-pa-ro ex-terno pa-ra el os-ci-los-co-pio y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-
- []
-
-
-
-[3 <./images/epp200.jpeg> <./images/er200.jpeg> <./images/placa2.jpeg> <./images/esquema2.png> <./images/medicion2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-<images/señalexp2.jpeg, id=102, 354.57469pt x 280.04625pt>
-File: images/señalexp2.jpeg Graphic file (type jpg)
-<use images/señalexp2.jpeg>
-Package pdftex.def Info: images/señalexp2.jpeg  used on input line 43.
-(pdftex.def)             Requested size: 206.39685pt x 163.01662pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 47--48
-[]\OT1/ptm/m/n/10 Para esa ima-gen usa-mos el ca-pa-ci-tor de 4.7 $\OML/ztmcm/m/it/10 ^^V$\OT1/ptm/m/n/10 F, y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-) (parte3.tex
-<images/circuitoaplicado3.jpeg, id=103, 454.69875pt x 477.785pt>
-File: images/circuitoaplicado3.jpeg Graphic file (type jpg)
-<use images/circuitoaplicado3.jpeg>
-Package pdftex.def Info: images/circuitoaplicado3.jpeg  used on input line 11.
-(pdftex.def)             Requested size: 258.0pt x 271.1009pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--12
- [][] 
- []
-
-
-
-<images/señalresonancia.jpeg, id=104, 422.57875pt x 324.21124pt>
-File: images/señalresonancia.jpeg Graphic file (type jpg)
-<use images/señalresonancia.jpeg>
-Package pdftex.def Info: images/señalresonancia.jpeg  used on input line 22.
-(pdftex.def)             Requested size: 258.0pt x 197.94666pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 22--23
- [][] 
- []
-
-
-
-[4 <./images/señalexp2.jpeg> <./images/circuitoaplicado3.jpeg> <./images/señalresonancia.jpeg>]) (conclusiones.tex
-
-)
-
-[5] (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP5\build\main.aux
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
+] (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.aux
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CA51CF451EC3DF3CAE8C70DF6AE93975;2302.
+(rerunfilecheck)             Checksum: 0B0405B9C08440FC519F74F40663608D;684.
  ) 
 Here is how much of TeX's memory you used:
- 52106 strings out of 468225
- 1338788 string characters out of 5432973
- 2087312 words of memory out of 5000000
- 79977 multiletter control sequences out of 15000+600000
- 683858 words of font info for 149 fonts, out of 8000000 for 9000
+ 51902 strings out of 468225
+ 1334525 string characters out of 5432973
+ 2073683 words of memory out of 5000000
+ 79821 multiletter control sequences out of 15000+600000
+ 662294 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP5\build\main.pdf (5 pages, 946571 bytes).
+ 99i,11n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.pdf (1 page, 45792 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 59 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

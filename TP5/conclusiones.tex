@@ -1,1 +1,24 @@
-\section{Conclusión}
+\section{Conclusiones}
+
+\subsection{Tratamiento de Datos y Matemáticas}
+
+\begin{itemize}
+	\item \textbf{Mediana o valor medio:} La mediana funciona como un filtro que descarta valores atípicos que sí se verían reflejados si se utiliza el valor medio. Esto se observa en las mediciones, ya que para 50 Hz y 100 Hz se obtiene un valor similar y, en cambio, en 200 Hz se obtiene un valor muy diferente.
+	\item \textbf{Condiciones iniciales no nulas:} Como la corriente triangular es una sucesión continua de rampas, el inductor se opone al cambio brusco que se produce en las pendientes (de positiva a negativa) de la rampa. Por lo tanto, la única manera de que la pendiente de esta corriente cambie es que se aplique una tensión contraria ($-e_L$) que logre forzar dicho cambio. Por esta razón, la tensión medida en el osciloscopio va a estar dada por $e_{pp} = 2 e_L$, ya que la amplitud total debe contemplar el salto instantáneo desde la tensión positiva ($+e_L$) hasta la negativa ($-e_L$).
+\end{itemize}
+
+
+\subsection{Análisis de Señales y Ruido}
+
+
+\begin{itemize}
+\item \textbf{El ruido en el inductor:} La guía menciona correctamente que el circuito, así como está conectado, actúa como un derivador. En el laboratorio, las puntas de prueba y los cables sin blindaje funcionan como antenas que captan el ruido electromagnético irradiado por el ambiente (la red eléctrica, tubos fluorescentes o las fuentes de alimentación del propio instrumental). Justamente por este comportamiento derivador, cualquier impulso de ruido de alta frecuencia que se acople al circuito será naturalmente incrementado en la señal observada en el osciloscopio.
+\end{itemize}
+
+\subsection{Componentes y Límites Prácticos}
+
+\begin{itemize}
+\item \textbf{La RSE en fuentes conmutadas:} En bajas frecuencias la RSE no tiene efectos significativos, pero en aplicaciones de alta frecuencia como fuentes conmutadas, esta resistencia de los capacitores genera ripple y disipa energía en forma de calor térmico ($P = I^2 \cdot \text{RSE}$). Esto eleva la temperatura interna, reduce drásticamente la vida útil del electrolito y disminuye la eficiencia de la fuente.
+\item \textbf{Límites de los métodos:} Están condicionados por la resistencia interna del generador, el ancho de banda del instrumental y las reactancias parásitas del montaje. Estos efectos se ven reflejados por ejemplo en el experimento 3, donde el valor teórico se aleja del valor práctico medido.
+\item \textbf{¿Realmente se determinó la impedancia?:} Lo que se determinó fueron los parámetros aislados del modelo equivalente (inductancia y resistencia serie). La impedancia es una magnitud vectorial con módulo y fase (desfasaje entre tensión y corriente para una frecuencia dada). Se podría decir que solo determinamos el módulo de las impedancias medidas.
+\end{itemize}
