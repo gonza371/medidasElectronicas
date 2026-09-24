@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790285086.99231 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex" "build/main.pdf" "main" 1790285088.63072 0
+["pdflatex"] 1790285326.00742 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex" "build/main.pdf" "main" 1790285327.45886 0
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781135025 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1750266454 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635 13234938 d58bb3502aaad703297f3d501f0c0d64 ""
@@ -230,9 +230,9 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "build/main.aux" 1790285088 6591 e9413decad2fc4c8b3eb1c113c7633df "pdflatex"
-  "build/main.out" 1790285088 1675 70eb49d697291c5850457fa122e33fd4 "pdflatex"
-  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex" 1790284612 1330 bb7f5526367c29900f8675b3ead1dfbb ""
+  "build/main.aux" 1790285327 6590 3bd5dbf6911c3da18b2c00710094d3e1 "pdflatex"
+  "build/main.out" 1790285327 1675 a4d09a27e0fe271e1abd6eb2b977f7a5 "pdflatex"
+  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP6/main.tex" 1790285325 1413 f12b6263a59d0b51cf819de1a7d82bbf ""
   "conclusiones.tex" 1790285086 24 200a26bf56f8ce55af7bdf33584c2bc7 ""
   "images/1.jpg" 1790209680 131272 ccd02ce5a23ac989786b09bad1dc99be ""
   "images/2.jpg" 1790209680 162972 f62963e4f069b9541f97cecdb1658cc0 ""
@@ -256,13 +256,13 @@
   "images/motor2.jpg" 1790212020 183170 fdc601a449bf9a38da3d8c19649965aa ""
   "images/motor3.jpg" 1790212020 242391 2a7e57970d5533ba4ee32f607ffaad4d ""
   "images/motor4.jpg" 1790213970 145765 80d4f0becc7e3a35ac375be1a833fdda ""
-  "main.tex" 1790284612 1330 bb7f5526367c29900f8675b3ead1dfbb ""
-  "parte1.tex" 1790284168 2698 f6a55c1c0fb1279c806ab7f45eda21d5 ""
+  "main.tex" 1790285325 1413 f12b6263a59d0b51cf819de1a7d82bbf ""
+  "parte1.tex" 1790285292 2666 c10980d828fec23bc7d56cea9e83be95 ""
   "parte2.tex" 1790284118 1364 1d7ed77b1af11b8e92709b46a2cbdbf8 ""
   "parte3.tex" 1790284208 1210 ec97f9d23beaf3f098504b1b6eb3f316 ""
   "parte4.tex" 1790284612 1087 d634e8302a25105df7403cdae8ffbc38 ""
-  "parte5.tex" 1790282090 3386 83df00007d248e0cd8b328f24084d3da ""
-  "plantilla.cls" 1790282090 2510 a471c7aeaed056b8e25b86d6a5c2d473 ""
+  "parte5.tex" 1790285126 3386 83df00007d248e0cd8b328f24084d3da ""
+  "plantilla.cls" 1790285247 2647 28c46ba566b98e108cd26a2d774396d3 ""
   (generated)
   "build/main.aux"
   "build/main.log"

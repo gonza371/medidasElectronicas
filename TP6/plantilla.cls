@@ -42,6 +42,12 @@
     \fontsize{24}{28}\selectfont\bfseries #1
   }
 }
+\newcommand{\subtitulo}[1]{
+  \g@addto@macro\@title{
+    \par\vspace{0.2cm}
+    {\fontsize{14}{17}\selectfont\normalfont #1}
+  }
+}
 \newcommand{\autores}[1]{
   \author{
     \vspace{0.25cm}

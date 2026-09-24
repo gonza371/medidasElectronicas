@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  24 SEP 2026 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  24 SEP 2026 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,28 +775,28 @@ LaTeX Warning: Label `fig:experimento4b' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 -- Lines per column: 58 (exact).
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
 (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count360
@@ -818,31 +818,31 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-Package hyperref Info: Link coloring ON on input line 8.
+Package hyperref Info: Link coloring ON on input line 9.
 (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.out) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 28.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 28.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 28.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 27.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 28.
  (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
  (parte1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
@@ -878,43 +878,40 @@ Package pdftex.def Info: images/1.jpg  used on input line 35.
 <images/2.jpg, id=59, 1606.0pt x 1204.5pt>
 File: images/2.jpg Graphic file (type jpg)
 <use images/2.jpg>
-Package pdftex.def Info: images/2.jpg  used on input line 41.
+Package pdftex.def Info: images/2.jpg  used on input line 38.
 (pdftex.def)             Requested size: 154.80157pt x 116.10118pt.
 <images/4.jpg, id=60, 1204.5pt x 1606.0pt>
 File: images/4.jpg Graphic file (type jpg)
 <use images/4.jpg>
-Package pdftex.def Info: images/4.jpg  used on input line 47.
+Package pdftex.def Info: images/4.jpg  used on input line 44.
 (pdftex.def)             Requested size: 154.80157pt x 206.38579pt.
-
-Underfull \vbox (badness 3646) has occurred while \output is active []
-
 
 
 [1{C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
  <./images/1.jpg> <./images/2.jpg>]
-<images/6.jpg, id=73, 1204.5pt x 1606.0pt>
+<images/6.jpg, id=72, 1204.5pt x 1606.0pt>
 File: images/6.jpg Graphic file (type jpg)
 <use images/6.jpg>
-Package pdftex.def Info: images/6.jpg  used on input line 53.
+Package pdftex.def Info: images/6.jpg  used on input line 50.
 (pdftex.def)             Requested size: 144.47937pt x 192.63817pt.
-<images/7.jpg, id=74, 1204.5pt x 1606.0pt>
+<images/7.jpg, id=73, 1204.5pt x 1606.0pt>
 File: images/7.jpg Graphic file (type jpg)
 <use images/7.jpg>
-Package pdftex.def Info: images/7.jpg  used on input line 59.
+Package pdftex.def Info: images/7.jpg  used on input line 56.
 (pdftex.def)             Requested size: 154.80157pt x 206.38579pt.
-<images/5.jpg, id=75, 1204.5pt x 1606.0pt>
+<images/5.jpg, id=74, 1204.5pt x 1606.0pt>
 File: images/5.jpg Graphic file (type jpg)
 <use images/5.jpg>
-Package pdftex.def Info: images/5.jpg  used on input line 65.
+Package pdftex.def Info: images/5.jpg  used on input line 62.
 (pdftex.def)             Requested size: 154.80157pt x 206.38579pt.
 
 
-<images/8.jpg, id=76, 1204.5pt x 1606.0pt>
+<images/8.jpg, id=75, 1204.5pt x 1606.0pt>
 File: images/8.jpg Graphic file (type jpg)
 <use images/8.jpg>
-Package pdftex.def Info: images/8.jpg  used on input line 71.
+Package pdftex.def Info: images/8.jpg  used on input line 68.
 (pdftex.def)             Requested size: 154.80157pt x 206.38579pt.
 ) (parte2.tex
 
@@ -928,24 +925,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<images/motor1.jpg, id=86, 903.375pt x 1204.5pt>
+<images/motor1.jpg, id=85, 903.375pt x 1204.5pt>
 File: images/motor1.jpg Graphic file (type jpg)
 <use images/motor1.jpg>
 Package pdftex.def Info: images/motor1.jpg  used on input line 22.
 (pdftex.def)             Requested size: 176.39923pt x 235.1982pt.
-<images/motor4.jpg, id=87, 1204.5pt x 903.375pt>
+<images/motor4.jpg, id=86, 1204.5pt x 903.375pt>
 File: images/motor4.jpg Graphic file (type jpg)
 <use images/motor4.jpg>
 Package pdftex.def Info: images/motor4.jpg  used on input line 28.
 (pdftex.def)             Requested size: 201.60077pt x 151.2008pt.
-<images/motor2.jpg, id=88, 1204.5pt x 1606.0pt>
+<images/motor2.jpg, id=87, 1204.5pt x 1606.0pt>
 File: images/motor2.jpg Graphic file (type jpg)
 <use images/motor2.jpg>
 Package pdftex.def Info: images/motor2.jpg  used on input line 34.
 (pdftex.def)             Requested size: 201.60077pt x 268.80144pt.
 
 
-<images/motor3.jpg, id=89, 1204.5pt x 1606.0pt>
+<images/motor3.jpg, id=88, 1204.5pt x 1606.0pt>
 File: images/motor3.jpg Graphic file (type jpg)
 <use images/motor3.jpg>
 Package pdftex.def Info: images/motor3.jpg  used on input line 40.
@@ -953,7 +950,7 @@ Package pdftex.def Info: images/motor3.jpg  used on input line 40.
 ) (parte3.tex
 
 [3 <./images/motor1.jpg> <./images/motor4.jpg> <./images/motor2.jpg> <./images/motor3.jpg>]
-<images/exp3.jpeg, id=98, 542.025pt x 432.11438pt>
+<images/exp3.jpeg, id=97, 542.025pt x 432.11438pt>
 File: images/exp3.jpeg Graphic file (type jpg)
 <use images/exp3.jpeg>
 Package pdftex.def Info: images/exp3.jpeg  used on input line 8.
@@ -963,7 +960,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-<images/50hz3.jpeg, id=99, 280.04625pt x 236.38312pt>
+<images/50hz3.jpeg, id=98, 280.04625pt x 236.38312pt>
 File: images/50hz3.jpeg Graphic file (type jpg)
 <use images/50hz3.jpeg>
 Package pdftex.def Info: images/50hz3.jpeg  used on input line 15.
@@ -976,7 +973,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 15--16
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 ) (parte4.tex
-<images/exp4.jpeg, id=100, 722.7pt x 849.1725pt>
+<images/exp4.jpeg, id=99, 722.7pt x 849.1725pt>
 File: images/exp4.jpeg Graphic file (type jpg)
 <use images/exp4.jpeg>
 Package pdftex.def Info: images/exp4.jpeg  used on input line 9.
@@ -989,7 +986,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
 
 
 ) (parte5.tex
-<images/exp4b.jpeg, id=101, 601.24625pt x 314.17375pt>
+<images/exp4b.jpeg, id=100, 601.24625pt x 314.17375pt>
 File: images/exp4b.jpeg Graphic file (type jpg)
 <use images/exp4b.jpeg>
 Package pdftex.def Info: images/exp4b.jpeg  used on input line 11.
@@ -1002,7 +999,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 11--12
 
 
 [4 <./images/exp3.jpeg> <./images/50hz3.jpeg> <./images/exp4.jpeg>]
-<images/exp4b_2.jpeg, id=111, 722.7pt x 856.19875pt>
+<images/exp4b_2.jpeg, id=110, 722.7pt x 856.19875pt>
 File: images/exp4b_2.jpeg Graphic file (type jpg)
 <use images/exp4b_2.jpeg>
 Package pdftex.def Info: images/exp4b_2.jpeg  used on input line 18.
@@ -1012,17 +1009,17 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<images/acopladosinruido.jpeg, id=112, 422.57875pt x 297.11pt>
+<images/acopladosinruido.jpeg, id=111, 422.57875pt x 297.11pt>
 File: images/acopladosinruido.jpeg Graphic file (type jpg)
 <use images/acopladosinruido.jpeg>
 Package pdftex.def Info: images/acopladosinruido.jpeg  used on input line 40.
 (pdftex.def)             Requested size: 219.30157pt x 154.1898pt.
-<images/acopladoruido.jpeg, id=113, 497.86pt x 365.365pt>
+<images/acopladoruido.jpeg, id=112, 497.86pt x 365.365pt>
 File: images/acopladoruido.jpeg Graphic file (type jpg)
 <use images/acopladoruido.jpeg>
 Package pdftex.def Info: images/acopladoruido.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 219.30157pt x 160.93948pt.
-<images/desacopladosinruido.jpeg, id=114, 422.57875pt x 315.1775pt>
+<images/desacopladosinruido.jpeg, id=113, 422.57875pt x 315.1775pt>
 File: images/desacopladosinruido.jpeg Graphic file (type jpg)
 <use images/desacopladosinruido.jpeg>
 Package pdftex.def Info: images/desacopladosinruido.jpeg  used on input line 52.
@@ -1032,17 +1029,17 @@ Underfull \vbox (badness 1675) has occurred while \output is active []
 
 
 
-<images/desacopladoruido.jpeg, id=115, 572.1375pt x 466.74374pt>
+<images/desacopladoruido.jpeg, id=114, 572.1375pt x 466.74374pt>
 File: images/desacopladoruido.jpeg Graphic file (type jpg)
 <use images/desacopladoruido.jpeg>
 Package pdftex.def Info: images/desacopladoruido.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 219.30157pt x 178.9028pt.
-<images/fueraconmotor.jpeg, id=116, 546.04pt x 460.72125pt>
+<images/fueraconmotor.jpeg, id=115, 546.04pt x 460.72125pt>
 File: images/fueraconmotor.jpeg Graphic file (type jpg)
 <use images/fueraconmotor.jpeg>
 Package pdftex.def Info: images/fueraconmotor.jpeg  used on input line 65.
 (pdftex.def)             Requested size: 206.39685pt x 174.14792pt.
-<images/fuerasinmotor.jpeg, id=117, 593.21625pt x 449.68pt>
+<images/fuerasinmotor.jpeg, id=116, 593.21625pt x 449.68pt>
 File: images/fuerasinmotor.jpeg Graphic file (type jpg)
 <use images/fuerasinmotor.jpeg>
 Package pdftex.def Info: images/fuerasinmotor.jpeg  used on input line 71.
@@ -1071,20 +1068,20 @@ L3 programming layer <2025-05-26>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 70EB49D697291C5850457FA122E33FD4;1675.
+(rerunfilecheck)             Checksum: A4D09A27E0FE271E1ABD6EB2B977F7A5;1675.
  ) 
 Here is how much of TeX's memory you used:
- 52207 strings out of 468225
- 1340870 string characters out of 5432973
- 2085414 words of memory out of 5000000
- 80087 multiletter control sequences out of 15000+600000
- 672434 words of font info for 129 fonts, out of 8000000 for 9000
+ 52210 strings out of 468225
+ 1340896 string characters out of 5432973
+ 2085543 words of memory out of 5000000
+ 80090 multiletter control sequences out of 15000+600000
+ 674538 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP6\build\main.pdf (6 pages, 2405982 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
