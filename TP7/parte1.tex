@@ -1,2 +1,39 @@
 \section{Experimento 1}
 
+Para este primer experimento buscaremos obtener una forma de onda cuadrada para analizar.\\
+Para ello primero calibramos la punta de prueba y luego conectamos la salida del generador de funciones a la entrada del osciloscopio.\\
+Pondremos las siguientes configuraciones en el generador de funciones: frecuencia de 1 kHz, sin CC y con media vuelta de perilla del nivel de salida.\\
+Ahora verificamos que el osciloscopio tenga la siguiente configuración: acople en CC, sin límite de ancho de banda, sonda en x10 y sin inversión de la señal.\\
+
+IMAGEN\\
+
+Ahora pondremos el menú matemático del osciloscopio y seleccionaremos la opción de FFT, para el CH1 con zoom en x1.\\
+
+Ahora veremos el espectro de la señal de entrada, y con el control de Posición Horizontal, pondremos el espectro en el centro de pantalla para luego poner el zoom en x10 y así poder ver mejor la señal.\\
+
+OBSERVACIONES\\
+
+Ahora con los Cursores propios del osciloscopio para frecuencia, mediremos las componentes espectrales de la señal, para ello seleccionaremos los siguientes ajustes:
+
+\begin{itemize}
+    \item Modo de adquisición: Promedio
+    \item Número de cuentas: 64
+    \item Ventana: Rectangular
+\end{itemize}
+
+CUADRO\\
+
+Ahora cambiamos la ventana a Flattop y con los cursores de amplitud mediremos las amplitudes de las 7 primeras componentes espectrales de la señal, al estar en dBv, para poder calcular la amplitud en V, utilizaremos la siguiente ecuación:
+
+\begin{equation*}
+    V = 10^{\frac{dBv}{20}}
+\end{equation*}
+
+CUADRO\\
+
+Y con estos datos calculamos el valor eficaz:
+
+\begin{equation*}
+    V_{ef} = \sqrt{\sum_{i=1}^{n} V_i^2}
+\end{equation*}
+
