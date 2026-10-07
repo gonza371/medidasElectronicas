@@ -5,13 +5,25 @@ Para ello primero calibramos la punta de prueba y luego conectamos la salida del
 Pondremos las siguientes configuraciones en el generador de funciones: frecuencia de 1 kHz, sin CC y con media vuelta de perilla del nivel de salida.\\
 Ahora verificamos que el osciloscopio tenga la siguiente configuración: acople en CC, sin límite de ancho de banda, sonda en x10 y sin inversión de la señal.\\
 
-IMAGEN\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp1-2.jpeg}
+    \caption{Señal cuadrada de 1 kHz}
+\end{figure}
 
 Ahora pondremos el menú matemático del osciloscopio y seleccionaremos la opción de FFT, para el CH1 con zoom en x1.\\
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp1-1.jpeg}
+    \caption{Espectro de la señal cuadrada}
+\end{figure}
+
 Ahora veremos el espectro de la señal de entrada, y con el control de Posición Horizontal, pondremos el espectro en el centro de pantalla para luego poner el zoom en x10 y así poder ver mejor la señal.\\
 
-OBSERVACIONES\\
+Las observaciones realizadas son que al poner la señal entre los modos de Adquisición de Normal - Pico y Promedio de 64 muestras, vemos que en Normal y Pico la señal fluctua mucho, mientras que en Promedio se ve más estable.\\
+
+Por otro lado, si variamos en el menú matemático la ventana de Flattop - Rectangular y Hanning, vemos que en Flattop los picos de la señal se curvan, esto es optimo para tener mayor precisión en la medición de amplitud, mientras que Rectangular los picos son mas notorios y esta sirve para análisis de transitorios, y Hanning es un punto intermedio entre las dos anteriores sirve para parfa tener una mejor resolución en frecuencia.\\
 
 Ahora con los Cursores propios del osciloscopio para frecuencia, mediremos las componentes espectrales de la señal, para ello seleccionaremos los siguientes ajustes:
 
@@ -21,7 +33,16 @@ Ahora con los Cursores propios del osciloscopio para frecuencia, mediremos las c
     \item Ventana: Rectangular
 \end{itemize}
 
-CUADRO\\
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Componente\\ Espectral\end{tabular} & 1   & 2     & 3     & 4  & 5     & 6     & 7      \\ \hline
+Frec.(Hz)                                                      & 950 & 2.95K & 5.05K & 7K & 8.95K & 10.8K & 12.95K \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 Ahora cambiamos la ventana a Flattop y con los cursores de amplitud mediremos las amplitudes de las 7 primeras componentes espectrales de la señal, al estar en dBv, para poder calcular la amplitud en V, utilizaremos la siguiente ecuación:
 
@@ -29,7 +50,17 @@ Ahora cambiamos la ventana a Flattop y con los cursores de amplitud mediremos la
     V = 10^{\frac{dBv}{20}}
 \end{equation*}
 
-CUADRO\\
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+\begin{tabular}[c]{@{}c@{}}Componente\\ Espectral\end{tabular} & 1     & 2     & 3     & 4     & 5     & 6     & 7     \\ \hline
+dBv                                                            & 11.5  & 1.85  & -2.55 & -5-35 & -7.75 & -9.35 & -10.9 \\ \hline
+V                                                              & 3.758 & 1.237 & 0.746 & 0.54  & 0.41  & 0.341 & 0.285 \\ \hline
+$V^2$                                                          & 14.12 & 1.53  & 0.56  & 0.29  & 0.17  & 0.12  & 0.08  \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 Y con estos datos calculamos el valor eficaz:
 
@@ -37,3 +68,14 @@ Y con estos datos calculamos el valor eficaz:
     V_{ef} = \sqrt{\sum_{i=1}^{n} V_i^2}
 \end{equation*}
 
+\begin{equation*}
+    V_{ef} = \sqrt{14.12 + 1.53 + 0.56 + 0.29 + 0.17 + 0.12 + 0.08}
+\end{equation*}
+
+\begin{equation*}
+    V_{ef} = \sqrt{16.87}
+\end{equation*}
+
+\begin{equation*}
+    V_{ef} = 4.11 V   
+\end{equation*}
