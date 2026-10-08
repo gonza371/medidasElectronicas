@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  7 OCT 2026 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  7 OCT 2026 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -854,11 +854,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<images/exp1-1.jpeg, id=39, 417.81094pt x 316.18124pt>
+<images/exp1-1.jpeg, id=39, 411.78844pt x 311.66437pt>
 File: images/exp1-1.jpeg Graphic file (type jpg)
 <use images/exp1-1.jpeg>
 Package pdftex.def Info: images/exp1-1.jpeg  used on input line 18.
-(pdftex.def)             Requested size: 206.39685pt x 156.19418pt.
+(pdftex.def)             Requested size: 206.39685pt x 156.21225pt.
 
 
 
@@ -885,45 +885,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 ) (parte2.tex
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-) (parte3.tex
-
-[2]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -934,8 +900,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+<images/exp2-2.jpeg, id=51, 294.34969pt x 224.33812pt>
+File: images/exp2-2.jpeg Graphic file (type jpg)
+<use images/exp2-2.jpeg>
+Package pdftex.def Info: images/exp2-2.jpeg  used on input line 14.
+(pdftex.def)             Requested size: 206.39685pt x 157.30603pt.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+<images/exp2-1.jpeg, id=52, 373.395pt x 289.83281pt>
+File: images/exp2-1.jpeg Graphic file (type jpg)
+<use images/exp2-1.jpeg>
+Package pdftex.def Info: images/exp2-1.jpeg  used on input line 48.
+(pdftex.def)             Requested size: 206.39685pt x 160.20457pt.
+
+
+[2 <./images/exp2-2.jpeg> <./images/exp2-1.jpeg>]) (parte3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 7--8
 []\OT1/ptm/m/n/10 En el os-ci-los-co-pio ve-ri-fi-ca-mos que la se[]nal se vea
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
  []
 
 
@@ -948,18 +953,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
+<images/exp3-1.jpg, id=68, 758.835pt x 570.63188pt>
+File: images/exp3-1.jpg Graphic file (type jpg)
+<use images/exp3-1.jpg>
+Package pdftex.def Info: images/exp3-1.jpg  used on input line 15.
+(pdftex.def)             Requested size: 206.39685pt x 155.20459pt.
+<images/exp3-2.jpg, id=69, 745.28438pt x 564.60938pt>
+File: images/exp3-2.jpg Graphic file (type jpg)
+<use images/exp3-2.jpg>
+Package pdftex.def Info: images/exp3-2.jpg  used on input line 21.
+(pdftex.def)             Requested size: 206.39685pt x 156.35788pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
+<images/exp3-4.png, id=70, 432.11438pt x 328.97906pt>
+File: images/exp3-4.png Graphic file (type png)
+<use images/exp3-4.png>
+Package pdftex.def Info: images/exp3-4.png  used on input line 31.
+(pdftex.def)             Requested size: 206.39685pt x 157.1351pt.
+<images/exp3-3.jpg, id=72, 468.24937pt x 356.83313pt>
+File: images/exp3-3.jpg Graphic file (type jpg)
+<use images/exp3-3.jpg>
+Package pdftex.def Info: images/exp3-3.jpg  used on input line 37.
+(pdftex.def)             Requested size: 206.39685pt x 157.29018pt.
 ) (parte4.tex) (parte5.tex) (parte6.tex) (parte7.tex) (conclusiones.tex)
 
-
-
-[3
-
-] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.aux
+[3 <./images/exp3-1.jpg> <./images/exp3-2.jpg> <./images/exp3-4.png> <./images/exp3-3.jpg>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -968,20 +991,20 @@ LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1979C80D69CA9C809519B82205711ECF;906.
+(rerunfilecheck)             Checksum: DE9DAC6041BEDA7EFDF649D0FBC75276;907.
  ) 
 Here is how much of TeX's memory you used:
- 51999 strings out of 468225
- 1336071 string characters out of 5432973
- 2086812 words of memory out of 5000000
- 79883 multiletter control sequences out of 15000+600000
- 680964 words of font info for 144 fonts, out of 8000000 for 9000
+ 52052 strings out of 468225
+ 1337234 string characters out of 5432973
+ 2086813 words of memory out of 5000000
+ 79925 multiletter control sequences out of 15000+600000
+ 681759 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,105p,822b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.pdf (3 pages, 216264 bytes).
+<C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.pdf (3 pages, 1272482 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 

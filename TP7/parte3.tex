@@ -1,5 +1,3 @@
-\newpage
-
 \section{Experimento 3} 
 
 En este experimento analizaremos la frecuencia de Alias. Para ello seguiremos los siguentes pasos:\\
@@ -8,9 +6,35 @@ Primero pondremos en el generador de funciones  una onda senoidal de 10 kHz, con
 
 En el osciloscopio verificamos que la señal se vea correctamente, y luego pondremos el menú matemático del osciloscopio y seleccionaremos la opción de FFT, Hanning, para el CH1 con zoom en x1.\\
 
-Ajustamos la perilla de Sec/div para llevar la frecuencia de muestreo a 25 kHs/s. Y verificamos con la opción de Cursores que la frecuencia del generador sea efectivamente de 10 kHz.\\ 
+Ajustamos la perilla de Sec/div para llevar la frecuencia de muestreo a 25 kS/s. Y verificamos con la opción de Cursores que la frecuencia del generador sea efectivamente de 10 kHz.\\ 
 
 Ahora sin tocar el cursor que se uso para verificar la frecuencia del generador, aumentamos progresivamente la frecuencia del generador y observamos cómo se profuce el repliegue en la frecuencia de Nysquist de 12.5 kHz, y cómo se produce el efecto de aliasing.\\
 
-Ahora cambiamos la salida del generador a una onda cuadrada y repetimos los pasos:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp3-1.jpg}
+    \caption{Señal de 10 kHz con frecuencia de muestreo de 25 kS/s}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp3-2.jpg}
+    \caption{Frecuencia de Nyquist de 12.5 kHz}
+\end{figure}
+
+Cambiamos la salida del generador a una onda cuadrada y repetimos los pasos.\\
+
+Como resultado obtenemos:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp3-4.png}
+    \caption{Señal cuadrada de 10 kHz con frecuencia de muestreo de 25 kS/s}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp3-3.jpg}
+    \caption{Frecuencia de Nyquist de 10.25 kHz}
+\end{figure}
 

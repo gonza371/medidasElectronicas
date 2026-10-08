@@ -1,6 +1,3 @@
-\newpage
-
-
 \section{Experimento 2}
 
 Para este experimento analizaremos la función matemática de un tren de pulsos. Para ello realizaremos los siguientes pasos:\\
@@ -10,25 +7,82 @@ En el generador ajustamos la señal para obtener un tren de pulsos con periodo d
 Ahora en el osciloscopio verificamos que la señal se vea correctamente, y luego pondremos el menú matemático del osciloscopio y seleccionaremos la opción de FFT, con ventana rectangular, para el CH1 con zoom en x1.\\
 
 
-Ahora pondremos el modo de adquisición en Promedio, con 64 cuentas y con el control de Posición Horizontal, pondremos el espectro en el centro de pantalla para luego poner el zoom en x10 y así poder ver mejor la señal.\\
+Pondremos el modo de adquisición en Promedio, con 64 cuentas y con el control de Posición Horizontal, pondremos el espectro en el centro de pantalla para luego poner el zoom en x10 y así poder ver mejor la señal.\\
 
-OBSERVACIONES Y FOTO\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp2-2.jpeg}
+    \caption{Espectro de frecuencia del tren de pulsos}
+\end{figure}
+
+Vemos que si cambiamos el modo de ventana a Flattop, los picos de la señal se curvan, y además se ven los valles de la señal, mientras que en Rectangular los picos son mas notorios y no se distinguen bien los valles de la señal, y Hanning se notan lobulos de la señal, pero no se distinguen bien los valles de la señal.\\
 
 Ahora pasamos a la medición de los datos de frecuencia, para ello primero colocaremos el cursos en la componente de CC, es decir en f=0 Hz, mientras que el cursos dos se situará en cada una de las componentes a medir, y completaremos la siguiente tabla con los datos obtenidos:
 
-TABLA\\
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Cursor 2      & f1= 1kHz & f2= 5.5kHz & f3= 9.5kHz & f4= 13.5kHz & f5= 17.5kHz \\ \hline
+$\Delta f_n $ & 1kHz     & 4.5kHz     & 4kHz       & 4kHz        & 4kHz        \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Con estos datos podemos calcular un promedio de $\Delta f_n$ y así poder calcular el ancho del pulso:
+
+\begin{equation*}
+    \Delta f_{min(promedio)} = \frac{1}{5} \sum_{n=1}^{5} \Delta f_n = 3.5 kHz
+\end{equation*}
+
+Y con este valor calculamos el periodo del pulso:
+
+\begin{equation*}
+    T = \frac{1}{\Delta f_{min(promedio)}} = 286 \mu s
+\end{equation*}
 
 Ahora cambiamos la ventana a Flattop y mediremos los valores de frecuencia correspondiente a los Valles de la gráfica, completando la siguiente tabla con los datos obtenidos:
 
-TABLA\\
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/exp2-1.jpeg}
+    \caption{Espectro de frecuencia del tren de pulsos con ventana Flattop}
+\end{figure}
+
+
+\begin{table}[H]
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|c|c|c|c|}
+\hline
+Cursor 2      & fa= 4kHz & fb= 7.6kHz & fc= 11.8kHz \\ \hline
+$\Delta fmin$ & 4kHz     & 3.6kHz     & 4.2kHz      \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Con estos datos calculamos un promedio de $\Delta f_{min}$ y así poder calcular el ancho del pulso:
+
+\begin{equation*}
+    \Delta f_{min(promedio)} = \frac{1}{3} \sum_{n=1}^{3} \Delta f_n = 3.93 kHz
+\end{equation*}
 
 Calculamos el ancho del pulso:
 
 \begin{equation*}
-    T_{o} = \frac{1}{\Delta f_{min(promedio)}}
+    T_{o} = \frac{1}{\Delta f_{min(promedio)}} = 254.5 \mu s
 \end{equation*}
 
 Ahora con el cursor de amplitud medimos la componente de CC:
+
+\begin{equation*}
+    V_{CC} = 1.295 V
+\end{equation*}
+
+Y comparamos con el valor medido por el multímetro: 
+
+\begin{equation*}
+    V_{CC(medido)} = -2.03 V
+\end{equation*}
 
 
 
