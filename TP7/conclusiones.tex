@@ -1,1 +1,63 @@
 \section{Conclusiones}
+
+
+\begin{itemize}
+    \item  \textbf {Error de 6 dB en la componente de CC:} Al contrastar la tensión continua medida con el multímetro ($-2,03\text{ V}$) frente al valor obtenido mediante el osciloscopio en FFT ($1,295\text{ V}$), se aprecia que el osciloscopio no tiene en cuenta el signo negativo, dado que la FFT representa únicamente el módulo de las componentes e ignora la fase. En segundo lugar, se observa que la magnitud indicada por el osciloscopio es aproximadamente la mitad del valor real medido con el multímetro. Esto responde al denominado error de 6 dB en la componente de CC ($20\log_{10}(0,5) \approx -6\text{ dB}$): debido a la forma en que el algoritmo interno de la FFT pondera y escala las muestras para representar valores eficaces de señales alternas en un espectro unilateral, la componente de frecuencia cero ($0\text{ Hz}$) sufre una atenuación sistemática de un factor de 2 ($-6\text{ dB}$).
+    El manual siguiere seguir el siguiente paso para corregir este error: ``Gire el mando POSICIÓN VERTICAL de la forma de onda 
+    para centrarla verticalmente (cero divisiones).
+    De este modo se garantiza que la FFT mostrará un valor de CC
+    verdadero.''\\
+\end{itemize}
+\begin{centering}
+\textbf{Listado de ventajas y desventajas}\\
+\textbf{Ventajas del dominio de la frecuencia:}
+\begin{itemize}
+    \item \textbf{Identificación y cuantificación de armónicos de pequeña amplitud:} Permite distinguir componentes espectrales que en el dominio del tiempo no se pueden apreciar. Esto resultó evidente en el \textit{Experimento 7}, donde al cerrar el lazo de realimentación del amplificador la distorsión armónica cayó del $24,3\%$ al $0,66\%$, una deformación imposible de apreciar visualmente en el dominio del tiempo.
+    \item \textbf{Análisis directo de señales moduladas e intermodulación:} En los \textit{Experimentos 4, 5 y 6} (AM, IMD y FM), la visualización temporal muestra trazos superpuestos complejos difíciles de medir con precisión. Por ejemplo en el experimento de AM, en el dominio de la frecuencia se separan limpiamente la portadora ($50\text{ kHz}$), las bandas laterales ($\pm 1\text{ kHz}$) para obtener el índice de modulación ($m = 0,50$).
+    \item \textbf{Cálculo indirecto de parámetros temporales y valor eficaz:} Como se verificó en los \textit{Experimentos 1 y 2}, a partir de las componentes espectrales fue posible reconstruir el valor eficaz de la onda cuadrada ($4,1\text{ V}$ calculados frente a $3,9\text{ V}$ medidos con multímetro) y deducir el ancho de pulso ($254,5\text{ }\mu\text{s}$ obtenidos a partir de los valles de la envolvente frente a los $250\text{ }\mu\text{s}$ configurados).
+\end{itemize}
+
+\textbf{Desventajas y limitaciones del dominio de la frecuencia:}
+\begin{itemize}
+    \item \textbf{Pérdida de la información de fase y polaridad:} El módulo FFT representa únicamente la magnitud absoluta de las componentes espectrales. Por ello, en el \textit{Experimento 2} todos los lóbulos de la envolvente aparecen positivos y la componente de CC se lee como positiva ($1,295\text{ V}$) cuando en realidad era negativa ($-2,03\text{ V}$). Asimismo, no permite observar relaciones temporales de fase ni tiempos de subida o bajada.
+    \item \textbf{Vulnerabilidad al \textit{Aliasing} por submuestreo:} Como se comprobó en el \textit{Experimento 3}, si la frecuencia de muestreo ($25\text{ kS/s}$) no cumple el criterio de Nyquist ($f_{\text{máx}} < 12,5\text{ kHz}$) para todas las componentes armónicas de la señal, las frecuencias superiores se repliegan en el espectro generando componentes falsas (\textit{alias}) que inducen a lecturas erróneas si no se limita previamente el ancho de banda.
+    \item \textbf{Errores de escalado en frecuencia cero:} Presenta el mencionado error sistemático de $6\text{ dB}$ en la medición de la componente de continua ($0\text{ Hz}$).
+\end{itemize}
+\end{centering}
+\newpage
+\begin{centering}
+\textbf{Ventanas de ponderación:}\\
+\textbf{1. Ventana Rectangular:}
+\begin{itemize}
+    \item Posee el lóbulo principal más estrecho de las tres opciones, lo que proporciona la máxima resolución en frecuencia para separar componentes espectrales muy próximas entre sí. Resultó óptima en los \textit{Experimentos 1 y 2} para determinar la ubicación en frecuencia de las armónicas de la onda cuadrada y del tren de pulsos, así como para el análisis de transitorios.
+\end{itemize}
+
+\textbf{2. Ventana Hanning:}
+\begin{itemize}
+    \item Ofrece mejor relación general entre resolución en frecuencia y reducción de lóbulos laterales. Atenúa suavemente los extremos del registro temporal, disminuyendo notablemente la dispersión espectral. Por esta razón fue la más adecuada en los \textit{Experimentos 3, 4 y 6} para resolver con claridad la portadora y las múltiples bandas laterales separadas por $1\text{ kHz}$ en las señales moduladas en AM y FM, así como para observar el fenómeno de \textit{aliasing}.
+\end{itemize}
+
+\textbf{3. Ventana Flattop:}
+\begin{itemize}
+    \item Su respuesta en frecuencia posee un lóbulo principal de cresta plana, lo que garantiza la máxima exactitud en la medición de amplitudes (error mínimo, menor a $0,1\text{ dB}$) sin importar si la frecuencia coincide exactamente con un punto de la FFT. Fue indispensable para medir en $\text{dBV}$ las amplitudes de las armónicas en el \textit{Experimento 1} (cálculo de $V_{\text{ef}}$), el rechazo de IMD en el \textit{Experimento 5} ($32,4\text{ dB}$), la distorsión armónica en el \textit{Experimento 7}, y para visualizar de forma definida los valles (cruces por cero de la envolvente) en el \textit{Experimento 2}.\\
+    \end{itemize}
+    \end{centering}
+\vspace{0.7cm}
+\begin{centering}
+\textbf{Análisis del fenómeno de Aliasing:}
+\begin{itemize}
+    \item Al ser la frecuencia de muestreo del osciloscopio $f_s = 25\text{ kS/s}$, la frecuencia máxima reconstruible sin ambigüedad según el criterio de Nyquist es $f_N = f_s / 2 = 12,5\text{ kHz}$. 
+
+    \item Con una entrada senoidal de $10\text{ kHz}$ ($f < f_N$), el espectro se visualizó correctamente. Sin embargo, al superar los $12,5\text{ kHz}$, se produjo un repliegue espectral definido por: $f_{\text{alias}} = |f_s - f_{\text{real}}|$ (por ejemplo, para $13,5\text{ kHz}$ apareció un pico erroneo en $11,5\text{ kHz}$, como se observa en la Figura 6).
+\end{itemize}
+\end{centering}
+
+\vspace{0.7cm}
+\begin{centering}
+\textbf{Modos de muestreo:}
+\begin{itemize}
+    \item \textbf{Muestreo Normal:} El instrumento toma muestras equiespaciadas sin procesamiento adicional. En el dominio de la frecuencia, esto se traduce en un piso de ruido inestable que fluctúa continuamente en pantalla, dificultando la lectura precisa con los cursores.
+    \item \textbf{Detección de Pico:} Captura los valores máximos y mínimos de alta frecuencia entre intervalos de muestreo. Si bien es útil en el dominio del tiempo para detectar transitorios rápidos, en la FFT acentúa el ruido de alta frecuencia y mantiene una elevada fluctuación en el espectro.
+    \item \textbf{Promedio:} Calcula el valor medio punto a punto sobre un determinado número de adquisiciones sucesivas de señales periódicas. Esto reduce drásticamente el ruido y estabiliza la visualización del espectro, permitiendo lecturas más precisas de amplitud y frecuencia.
+\end{itemize}
+\end{centering}

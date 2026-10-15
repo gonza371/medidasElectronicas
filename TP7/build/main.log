@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.24)  8 OCT 2026 18:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.8.24)  15 OCT 2026 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -765,6 +765,10 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 ) (c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `tab:mediciones_fft' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -841,7 +845,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-<images/exp1-2.jpeg, id=38, 414.04688pt x 308.65312pt>
+<images/exp1-2.jpeg, id=46, 414.04688pt x 308.65312pt>
 File: images/exp1-2.jpeg Graphic file (type jpg)
 <use images/exp1-2.jpeg>
 Package pdftex.def Info: images/exp1-2.jpeg  used on input line 10.
@@ -851,7 +855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<images/exp1-1.jpeg, id=39, 411.78844pt x 311.66437pt>
+<images/exp1-1.jpeg, id=47, 411.78844pt x 311.66437pt>
 File: images/exp1-1.jpeg Graphic file (type jpg)
 <use images/exp1-1.jpeg>
 Package pdftex.def Info: images/exp1-1.jpeg  used on input line 18.
@@ -897,7 +901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<images/exp2-2.jpeg, id=51, 294.34969pt x 224.33812pt>
+<images/exp2-2.jpeg, id=59, 294.34969pt x 224.33812pt>
 File: images/exp2-2.jpeg Graphic file (type jpg)
 <use images/exp2-2.jpeg>
 Package pdftex.def Info: images/exp2-2.jpeg  used on input line 14.
@@ -907,7 +911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<images/exp2-1.jpeg, id=52, 373.395pt x 289.83281pt>
+<images/exp2-1.jpeg, id=60, 373.395pt x 289.83281pt>
 File: images/exp2-1.jpeg Graphic file (type jpg)
 <use images/exp2-1.jpeg>
 Package pdftex.def Info: images/exp2-1.jpeg  used on input line 48.
@@ -942,12 +946,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-<images/exp3-1.jpg, id=68, 758.835pt x 570.63188pt>
+<images/exp3-1.jpg, id=76, 758.835pt x 570.63188pt>
 File: images/exp3-1.jpg Graphic file (type jpg)
 <use images/exp3-1.jpg>
 Package pdftex.def Info: images/exp3-1.jpg  used on input line 15.
 (pdftex.def)             Requested size: 206.39685pt x 155.20459pt.
-<images/exp3-2.jpg, id=69, 745.28438pt x 564.60938pt>
+<images/exp3-2.jpg, id=77, 745.28438pt x 564.60938pt>
 File: images/exp3-2.jpg Graphic file (type jpg)
 <use images/exp3-2.jpg>
 Package pdftex.def Info: images/exp3-2.jpg  used on input line 21.
@@ -957,28 +961,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-<images/exp3-4.png, id=70, 432.11438pt x 328.97906pt>
+<images/exp3-4.png, id=78, 432.11438pt x 328.97906pt>
 File: images/exp3-4.png Graphic file (type png)
 <use images/exp3-4.png>
 Package pdftex.def Info: images/exp3-4.png  used on input line 31.
 (pdftex.def)             Requested size: 206.39685pt x 157.1351pt.
-<images/exp3-3.jpg, id=72, 468.24937pt x 356.83313pt>
+<images/exp3-3.jpg, id=80, 468.24937pt x 356.83313pt>
 File: images/exp3-3.jpg Graphic file (type jpg)
 <use images/exp3-3.jpg>
 Package pdftex.def Info: images/exp3-3.jpg  used on input line 37.
 (pdftex.def)             Requested size: 206.39685pt x 157.29018pt.
 ) (parte4.tex [3 <./images/exp3-1.jpg> <./images/exp3-2.jpg> <./images/exp3-4.png> <./images/exp3-3.jpg>]
-<images/esquemaE4.jpeg, id=84, 494.84875pt x 235.88126pt>
+<images/esquemaE4.jpeg, id=92, 494.84875pt x 235.88126pt>
 File: images/esquemaE4.jpeg Graphic file (type jpg)
 <use images/esquemaE4.jpeg>
 Package pdftex.def Info: images/esquemaE4.jpeg  used on input line 11.
 (pdftex.def)             Requested size: 206.39685pt x 98.38199pt.
-<images/image1.jpg, id=85, 611.28375pt x 460.72125pt>
+<images/image1.jpg, id=93, 611.28375pt x 460.72125pt>
 File: images/image1.jpg Graphic file (type jpg)
 <use images/image1.jpg>
 Package pdftex.def Info: images/image1.jpg  used on input line 27.
 (pdftex.def)             Requested size: 206.39685pt x 155.5535pt.
-<images/image6.jpg, id=86, 724.20563pt x 556.32843pt>
+<images/image6.jpg, id=94, 724.20563pt x 556.32843pt>
 File: images/image6.jpg Graphic file (type jpg)
 <use images/image6.jpg>
 Package pdftex.def Info: images/image6.jpg  used on input line 35.
@@ -986,23 +990,23 @@ Package pdftex.def Info: images/image6.jpg  used on input line 35.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<images/image4.jpg, id=87, 515.67656pt x 384.6872pt>
+<images/image4.jpg, id=95, 515.67656pt x 384.6872pt>
 File: images/image4.jpg Graphic file (type jpg)
 <use images/image4.jpg>
 Package pdftex.def Info: images/image4.jpg  used on input line 56.
 (pdftex.def)             Requested size: 206.39685pt x 153.96606pt.
-<images/image14.jpg, id=88, 680.5425pt x 507.39563pt>
+<images/image14.jpg, id=96, 680.5425pt x 507.39563pt>
 File: images/image14.jpg Graphic file (type jpg)
 <use images/image14.jpg>
 Package pdftex.def Info: images/image14.jpg  used on input line 79.
 (pdftex.def)             Requested size: 206.39685pt x 153.88443pt.
-<images/image5.jpg, id=89, 687.31781pt x 522.45187pt>
+<images/image5.jpg, id=97, 687.31781pt x 522.45187pt>
 File: images/image5.jpg Graphic file (type jpg)
 <use images/image5.jpg>
 Package pdftex.def Info: images/image5.jpg  used on input line 84.
 (pdftex.def)             Requested size: 206.39685pt x 156.88823pt.
  [4 <./images/esquemaE4.jpeg> <./images/image1.jpg> <./images/image6.jpg> <./images/image4.jpg>]) (parte5.tex
-<images/image8.jpg, id=98, 509.65407pt x 382.42876pt>
+<images/image8.jpg, id=106, 509.65407pt x 382.42876pt>
 File: images/image8.jpg Graphic file (type jpg)
 <use images/image8.jpg>
 Package pdftex.def Info: images/image8.jpg  used on input line 16.
@@ -1010,7 +1014,70 @@ Package pdftex.def Info: images/image8.jpg  used on input line 16.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (parte6.tex) (parte7.tex) (conclusiones.tex) [5 <./images/image14.jpg> <./images/image5.jpg> <./images/image8.jpg>] (c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.aux
+) (parte6.tex
+<images/experimento6.png, id=107, 290.2845pt x 91.542pt>
+File: images/experimento6.png Graphic file (type png)
+<use images/experimento6.png>
+Package pdftex.def Info: images/experimento6.png  used on input line 5.
+(pdftex.def)             Requested size: 258.0pt x 81.36037pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+<images/exp6.jpg, id=108, 720.44156pt x 538.26094pt>
+File: images/exp6.jpg Graphic file (type jpg)
+<use images/exp6.jpg>
+Package pdftex.def Info: images/exp6.jpg  used on input line 13.
+(pdftex.def)             Requested size: 258.0pt x 192.75536pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [5 <./images/image14.jpg> <./images/image5.jpg> <./images/image8.jpg> <./images/experimento6.png>]) (parte7.tex
+<images/experimento7.png, id=118, 284.262pt x 103.587pt>
+File: images/experimento7.png Graphic file (type png)
+<use images/experimento7.png>
+Package pdftex.def Info: images/experimento7.png  used on input line 5.
+(pdftex.def)             Requested size: 273.47937pt x 99.6605pt.
+
+Overfull \hbox (21.47937pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+<images/fft_abierto.jpg, id=119, 668.4975pt x 490.08093pt>
+File: images/fft_abierto.jpg Graphic file (type jpg)
+<use images/fft_abierto.jpg>
+Package pdftex.def Info: images/fft_abierto.jpg  used on input line 22.
+(pdftex.def)             Requested size: 258.0pt x 189.14912pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
+<images/fft_cerrado.jpg, id=120, 619.56468pt x 481.04718pt>
+File: images/fft_cerrado.jpg Graphic file (type jpg)
+<use images/fft_cerrado.jpg>
+Package pdftex.def Info: images/fft_cerrado.jpg  used on input line 54.
+(pdftex.def)             Requested size: 258.0pt x 200.31349pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [6 <./images/exp6.jpg> <./images/experimento7.png> <./images/fft_abierto.jpg>]) (conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+[7 <./images/fft_cerrado.jpg>]) [8] (c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1018,21 +1085,25 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: ADA0DBD1898DB9A51711634BA62D04A6;907.
+(rerunfilecheck)             Checksum: DBAC413C0FF2DD03A26B0514E2B2C278;1769.
  ) 
 Here is how much of TeX's memory you used:
- 52526 strings out of 474485
- 1344641 string characters out of 5753549
- 2095011 words of memory out of 5000000
- 74124 multiletter control sequences out of 15000+600000
- 614354 words of font info for 148 fonts, out of 8000000 for 9000
+ 52598 strings out of 474485
+ 1346168 string characters out of 5753549
+ 2095520 words of memory out of 5000000
+ 74181 multiletter control sequences out of 15000+600000
+ 617075 words of font info for 151 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,107p,807b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,17n,107p,1018b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.pdf (5 pages, 2030900 bytes).
+Output written on c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.pdf (8 pages, 2557782 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

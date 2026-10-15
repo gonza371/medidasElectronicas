@@ -629,19 +629,60 @@ INPUT .\parte6.tex
 INPUT .\parte6.tex
 INPUT .\parte6.tex
 INPUT parte6.tex
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\experimento6.png
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT .\images\exp6.jpg
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT .\parte7.tex
 INPUT .\parte7.tex
 INPUT .\parte7.tex
 INPUT .\parte7.tex
 INPUT parte7.tex
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\experimento7.png
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_abierto.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT .\images\fft_cerrado.jpg
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
 INPUT conclusiones.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\Admin\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.aux
 INPUT c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.out
 INPUT c:\Users\Admin\Desktop\medidasElectronicas\TP7\build\main.out
