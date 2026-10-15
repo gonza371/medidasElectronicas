@@ -3,22 +3,29 @@
 
 En este experimento, observaremos el funcionamiento de una máquina de tracción-compresión, llamada Maquina Universal de Ensayo.
 
-\subsection{Sensores que utiliza}
-
-Los sensores que utiliza la máquina son:\\
-
-En la primera y segunda imagen se puede observar un transductor de desplazamiento lineal potenciométrico con punta de bola y resorte de retorno, se utiliza para medir el desplazamiento de la máquina.\\
-
-En la tercera, cuarta y quinta imagen se observa un transmisor o sensor de presión hidráulica, la fuerza que se aplica a la probeta es transmitida a través de un fluido hidráulico, y este sensor mide la presión que ejerce el fluido.\\
-
-La sexta imagen corresponde a una unidad de potencia hidráulica, que es el motor eléctrico conectado a la bomba hidráulica, además se puede observar a la derecha el filtro hidráulico con un indicador visual de saturación.
-
-La ultima imagen corresponde a una servoválvula que es el conjunto de electroválvulas y servoválvula hidráulica que controla el caudal y la dirección del fluido hidráulico hacia el actuador con gran precisión.
-
-
 \subsection{Procedimiento y Datos}
 
-Durante el experimento se puso en marcha la máquina de tracción-compresión, y se aplicó una fuerza a la probeta hasta su punto de ruptura.\\
+Durante el experimento se puso en marcha la máquina de tracción-compresión, y se aplicó una fuerza a la probeta hasta su punto de ruptura.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{images/maquina.png}
+	\caption{Máquina de ensayo universal de tracción-compresión.}
+\end{figure}
+
+El funcionamiento de la maquina se basa en el sensado a través de dos transductores. Un transductor es el encargado de sensar la distancia (alargamiento) en milimetros [mm] y el otro el encargado de detectar la presión en bares [br]. La gráfica que muestra la maquina es en eje ’x’, alargamiento [mm] y en eje ’y’ la
+fuerza [kg]. Podemos notar entonces que del sensado de la presión se obtiene la
+fuerza:
+
+\begin{equation*}
+	\sigma = \frac{F}{A}
+\end{equation*}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{images/graficaexp1.png}
+	\caption{Gráfica de la máquina de ensayo universal de tracción-compresión.}
+\end{figure}
 
 Alguno de los datos obtenidos durante el experimento fueron:\\
 
@@ -28,16 +35,37 @@ Alguno de los datos obtenidos durante el experimento fueron:\\
 	\item Peso de ruptura de la probeta: 4200kg
 \end{itemize}
 
-\subsection{Imagenes}
+\subsection{Sensores que utiliza}
+
+Los sensores que utiliza la máquina son:\\
+
+En la primera y segunda imagen se puede observar un transductor de desplazamiento lineal potenciométrico con punta de bola y resorte de retorno, se utiliza para medir el desplazamiento de la máquina.\\
+
+El sensor es un GEFRAN PY2C100.
 
 \begin{figure}[H]
 	\centering
 \includegraphics[width=0.3\textwidth]{images/1}
-\caption{Imagen 1 de la máquina universal de ensayo.}
+\caption{Sensor de desplazamiento.}
 \vspace{0.5cm}
 \includegraphics[width=0.3\textwidth]{images/2}
-\caption{Imagen 2 de la máquina universal de ensayo.}
+\caption{Sensor de desplazamiento.}
 \end{figure}
+
+Algunas características del sensor son: 
+
+\begin{itemize}
+	\item Resolución: Tiene resolución infinita, es decir, a medida que el palpador se desliza a lo largo del elemento resistivo, la resistencia eléctrica y la señal de salida cambian de forma perfectamente continua, sin importar cuán pequeña sea la distancia que recorra, por lo que se dice que no tiene escalones perceptible, ya que es un elemento sin saltos ni pasos. 
+	\item Recorrido: Es configurable entre 10mm y 100mm
+	\item Linealidad: La linealidad es de ±0.1\%, lo que indica que la relación entre la posición del palpador y la señal de salida es muy precisa y consistente a lo largo de todo el recorrido del sensor.
+	\item Temperatura de funcionamiento: Tiene un rango de temperatura de funcionamiento de -30°C a +100°C. 
+
+\end{itemize}
+
+En la tercera, cuarta y quinta imagen se observa un transmisor o sensor de presión hidráulica, la fuerza que se aplica a la probeta es transmitida a través de un fluido hidráulico, y este sensor mide la presión que ejerce el fluido.\\
+
+El sensor es un IDA330-2C
+
 
 \begin{figure}[H]
 	\centering
@@ -57,14 +85,55 @@ Alguno de los datos obtenidos durante el experimento fueron:\\
 \caption{Imagen 5 de la máquina universal de ensayo.}
 \end{figure}
 
+Características del sensor de presión hidráulica:
+
+\begin{itemize}
+	\item Rango: Abarca un rango de presión de 0 a 200 bar.
+	\item Resolución: Resolución infinita.
+	\item Tiempo de respuesta: Tiene como máximo un tiempo de 300 microsegundos, lo que significa que puede detectar cambios en la presión de manera muy rápida y precisa.
+\end{itemize}
+
+
+La sexta imagen corresponde a una unidad de potencia hidráulica, que es el motor eléctrico conectado a la bomba hidráulica, además se puede observar a la derecha el filtro hidráulico con un indicador visual de saturación.
+
 \begin{figure}[H]
 	\centering
 \includegraphics[width=0.3\textwidth]{images/5}
 \caption{Imagen 6 de la máquina universal de ensayo.}
 \end{figure}
 
+
+La ultima imagen corresponde a una servoválvula que es el conjunto de electroválvulas y servoválvula hidráulica que controla el caudal y la dirección del fluido hidráulico hacia el actuador con gran precisión.
+
 \begin{figure}[H]
 	\centering
 \includegraphics[width=0.3\textwidth]{images/8}
 \caption{Imagen 7 de la máquina universal de ensayo.}
 \end{figure}
+
+
+Para obrtener la resolución que debería tener el ADC debemos tener en cuenta el rando de medición y la precisión que queremos obtener. En nuestro caso queremos un rango de 100mm con una precisión de 0.1mm.\\
+
+La resolución porcentual es de (0.1 / 100) * (100) = 0.1 %. El número de pasos
+discretos que se necesitan para lograr esta precisión es: 100mm / 0.1mm = 1000
+pasos.
+
+Para determinar los bits tendremos:
+
+\begin{equation*}
+	2^n = Numero de pasos
+\end{equation*}
+
+Por lo que con 9 o 10 bits cumplimos con la resolución requerida. En nuestro caso, utilizaremos un ADC de 10 bits. Si elegimos un ADC mayor a 10 bits, la resolución será mejor, por ejemplo el LTC1857 que es un ADC de 16 bits, con una resolución de 0.0015\% y un rango de 0 a 5V.\\
+
+En el caso de la precisión de la medición de presión, queremos un rango de 200 bar con una precisión de 2.9mV/V equivalente a 0.66 bar. La resolución porcentual es de (0.66 / 200) * (100) = 0.33\%. El número de pasos discretos que se necesitan para lograr esta precisión es: 200 bar / 0.66 bar = 303 pasos.
+
+Para determinar los bits tendremos:
+
+\begin{equation*}
+	2^n = Numero de pasos
+\end{equation*}
+
+Por lo que con 8 bits cumplimos con la resolución requerida. En nuestro caso, utilizaremos un ADC de 8 bits. Por lo que elegiremos el mismo ADC ya que es de grado industrial y sirve de sobra para ambos casos.\\
+
+La tensión de referencia del ADC es el valor máximo de tensión de la señal de salida del acondicionamiento, qu en este caso es de 10V. Esto maximiza el rando dinámico del conversor y asegura que la señal completa del sensor se digitalice correctamente. 

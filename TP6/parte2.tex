@@ -3,19 +3,34 @@
 
 \section{Experimento 2}
 
+\subsection{Procedimiento y Datos}
+
+El torque de un motor de combustión interna es el resultado de la fuerza ejercida
+por los gases de combustión interna sobre el pistón, transmitida de la biela y
+transformada en un movimiento de giro del cigueñal. Sin embargo, dicha fuerza no
+puede medirse directamente dentro del cilindro; por ello, en la práctica se emplea un
+dinamómetro acoplado al motor en un banco de pruebas. Este dispositivo absorbe
+la potencia mecánica entregada por el motor, oponiéndose al giro y generando una
+fuerza de reacción que es mediante un brazo de palanca y un transductor de fuerza
+o celda de carga. El torque se calcula multiplicando la fuerza por la longitud del brazo de palanca.\\
+
+\begin{equation*}
+	T = F \cdot L
+\end{equation*}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{images/banco.png}
+	\caption{Banco de prueba de un motor.}
+\end{figure}
+
 \subsection{Sensores que utiliza}
 
 Los sensores que utiliza la máquina son los mostrados en las imágenes a continuación, y corresponden a bancos de prueba de un motor.
  
 La primera imagen corresponde a una celda de carga o sensor de torque que es un transductor de fuerza el cual va conectado al brazo del freno del motor, para medir la fuerza de torsión que el motor está ejerciendo.\\
 
-La segunda y tercera imagen corresponde a un sensor de velocidad, un sensor magnético o inductivo.\\
-
-La ultima imagen corresponde a la carcasa metálica que corresponde al cuerpo del freno dinamométrico o del motor del banco de prueba.
-
-
-
-\subsection{Imagenes}
+Esta es una celda de carga S-beam Zemic.
 
 \begin{figure}[H]
 	\centering
@@ -23,25 +38,94 @@ La ultima imagen corresponde a la carcasa metálica que corresponde al cuerpo de
 	\caption{Celda de carga o sensor de torque.}
 \end{figure}
 
+Algunos datos de la celda de carga son:
+
+\begin{itemize}
+	\item Capacidad: Tiene una capacidad de 500kg.
+	\item Material: Acero de aleación niquelado.
+	\item Diseño: S-beam, lo que significa que tiene una forma de "S" que permite medir la fuerza de tracción y compresión.
+	\item Sensibilidad de Salida: 2.0-3.0 mV/V.
+	\item Voltaje de excitación: 10V DC/AC.
+	\item Resistencia de entrada: Es de aproximadamente $380 \omega$
+	\item Resistencia de salida: Es de aproximadamente $350 \omega$
+	\item Sobrecarga segura: 150\% de la capacidad nominal.
+\end{itemize}
+
+
+La segunda imagen corresponde a la carcasa metálica que corresponde al cuerpo del freno dinamométrico o del motor del banco de prueba.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\columnwidth]{images/motor4}
+	\includegraphics[width=0.7\columnwidth]{images/motor4}
 	\caption{Carcasa metálica del freno dinamométrico o motor.}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\columnwidth]{images/motor2}
-	\caption{Sensor de velocidad magnético o inductivo.}
-\end{figure}
+
+
+La tercera y cuarta imagen corresponde a un sensor de velocidad, un sensor magnético o inductivo.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\columnwidth]{images/motor3}
+	\includegraphics[width=0.7\columnwidth]{images/motor3}
 	\caption{Sensor de velocidad magnético o inductivo.}
 \end{figure}
 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\columnwidth]{images/motor2}
+	\caption{Sensor de velocidad magnético o inductivo.}
+\end{figure}
 
+Este es un sensor de RPM de efecto Hall.\\
 
+Algunos datos del sensor son:
 
+\begin{itemize}
+	\item Tipo de sensor: Es un sensor inductivo que no requiere alimentación eléctrica externa, utiliza un imán permanente y una bobina.
+	\item Señal de salida: Es de tipo analógica sinusoidal. La unidad de contro del motor interpreta la señal para determinar la posición y la velocidad de rotación del cigueñal.
+\end{itemize}
+
+Al igual que en experimento analizaremos la resolución del ADC, para este caso si deseamos una precisión de 1 RPM, y el rango de medición es de 5000 RPM calculamos:
+
+\begin{equation*}
+	\mathrm{Resoluci\acute{o}n} = \frac{\mathrm{Rango}}{2^{n}}
+\end{equation*}
+
+\begin{equation*}
+	1RPM = \frac{5000RPM}{2^{n}}
+\end{equation*}
+
+\begin{equation*}
+	2^{n} = \frac{5000RPM}{1RPM}
+\end{equation*}
+
+\begin{equation*}
+	\ln(2^{n}) = \ln(\frac{5000}{1})
+\end{equation*}
+
+\begin{equation*}
+	n = \frac{\ln(5000)}{\ln(2)} \approx 12.29
+\end{equation*}
+
+Por lo que 16 bits de resolución es suficiente para este caso, ya que $2^{16}$ = 65536 pasos discretos.
+
+Para el caso de la celda de carga, si deseamos una precisión de 0.1 kg y el rango de medición es de 500 kg calculamos:
+
+\begin{equation*}
+	1.5kg = \frac{500kg}{2^{n}}
+\end{equation*}
+
+\begin{equation*}
+	2^{n} = \frac{500kg}{1.5kg}
+\end{equation*}
+
+\begin{equation*}
+	\ln(2^{n}) = \ln(\frac{500}{1.5})
+\end{equation*}
+
+\begin{equation*}
+	n = \frac{\ln(333.33)}{\ln(2)} \approx 8.38
+\end{equation*}
+
+Por lo tanto, 10 bits de resolución es suficiente para este caso, ya que $2^{10}$ = 1024 pasos discretos.
