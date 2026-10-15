@@ -1,1 +1,24 @@
 \section{Conclusiones}
+\textbf{Interferencia de la red eléctrica:}
+La interferencia de la red eléctrica es sumamente común, ya que esta se genera a través de los cables debido al acoplamiento inductivo, por lo que cualquier elemento que se utilice y necesite estar conectado a la red eléctrica va a generar esta interferencia. Como esta interferencia no se puede eliminar, va a estar siempre presente en sistemas electrónicos, se debe intentar mitigarla a través del diseño, por ejemplo, utilizando filtros y blindajes tanto para las placas como para los cables de conexión del circuito. \\
+\\
+\textbf{Otro tipo de interferencia:}
+En el Experimento 4-Segunda parte se observó como afecta la interferencia electromagnética a los circuitos, con un taladro como fuente de esta, y como afecta la no utilización de mallas y blindajes en el circuito. Además, se puede destacar que al estar más concurrido el laboratorio aumento el ruido medido debido al movimiento y a las conversaciones de las personas.\\
+\\
+\textbf{Propuestas de mejora para mitigar interferencias:} A partir de los resultados obtenidos en el Experimento 4, donde se observó que la ausencia del gabinete metálico y la desconexión de la malla incrementan el nivel de ruido cuando se enciende el motor, se proponen las siguientes mejoras sobre el sistema completo:
+\begin{itemize}
+    \item \textbf{Armado de cables y conexionado:} En el experimento se utilizaron tramos de cables expuestos, lo que genera lazos susceptibles al acoplamiento inductivo. Se propone utilizar cable de par trenzado y mallado en todos los cables hasta el gabinete, reduciendo al mínimo la longitud de los conductores y conectando la malla a GND en un único punto para evitar lazos de masa.
+    \item \textbf{Filtrado:} Dado que la señal de interés de la celda de carga es de muy baja frecuencia y las perturbaciones (red de $50\text{ Hz}$ y motor) son de mayor frecuencia, se puede incorporar un filtro pasabajos RC en las entradas del amplificador.\\
+\end{itemize} 
+
+\textbf{Nota de aplicación para la mitigación de interferencias:}
+
+\textbf{Tacuna Systems -- \textit{Reducing Noise in Very Sensitive Load Cell Applications}:} Esta guía de aplicación establece pautas críticas para proteger las señales diferenciales de celdas de carga, tales como la conexión a tierra de la malla del cable en un único extremo (evitando lazos de masa), el uso de conductores de par trenzado, el filtrado pasabajos previo a la amplificación y el distanciamiento físico respecto a fuentes inductivas como motores.\\
+\\
+\textbf{Factor determinante en la elección del sistema embebido:} En aplicaciones de instrumentación como la máquina universal de ensayo (Experimento 1) y el banco de pruebas de motores (Experimento 2), el factor de mayor peso para la selección del sistema embebido es la resolución del conversor analógico-digital (ADC), que depende de la estabilidad de su tensión de referencia y al nivel de ruido del sistema:
+\begin{itemize}
+    \item \textbf{Resolución del ADC:} Es el de más peso debido a que determina el incremento mínimo de la variable física que puede cuantificarse. Por ejemplo, para alcanzar la precisión requerida de $0,1\text{ mm}$ en recorrido y $15\text{ kg}$ en fuerza sobre un rango que supera los $4200\text{ kg}$, se necesita un número de bits efectivos (ENOB) suficiente para que el error de cuantificación sea menor a la tolerancia exigida.
+    \item \textbf{Frecuencia de muestreo y transmisión:} Dado que las variables mecánicas e hidráulicas relevadas varían a velocidades bajas o moderadas, el teorema de muestreo de Nyquist y la velocidad de transmisión serie hacia la PC no son el requerimiento más difícil de poder cumplir, por lo que la exactitud y resolución del ADC son el criterio principal de diseño.
+\end{itemize}
+
+

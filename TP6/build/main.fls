@@ -643,6 +643,10 @@ INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
 INPUT .\conclusiones.tex
 INPUT conclusiones.tex
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\manul\AppData\Local\Programs\Paquete_Latex\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.aux
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.out
 INPUT c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.out

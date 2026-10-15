@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  3 OCT 2026 19:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  15 OCT 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,9 +1026,34 @@ Package pdftex.def Info: images/fuerasinmotor.jpeg  used on input line 71.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./images/exp4b.jpeg> <./images/exp4b_2.jpeg> <./images/acopladosinruido.jpeg> <./images/acopladoruido.jpeg> <./images/desacopladosinruido.jpeg>]) (conclusiones.tex) [6
+ [5 <./images/exp4b.jpeg> <./images/exp4b_2.jpeg> <./images/acopladosinruido.jpeg> <./images/acopladoruido.jpeg> <./images/desacopladosinruido.jpeg>]) (conclusiones.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
 
- <./images/desacopladoruido.jpeg> <./images/fueraconmotor.jpeg> <./images/fuerasinmotor.jpeg>] (c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.aux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+
+ []
+
+
+Underfull \hbox (badness 4792) in paragraph at lines 16--20
+\OT1/ptm/m/n/10 En apli-ca-cio-nes de ins-tru-men-ta-ci[]on co-mo la m[]aqui-na
+ []
+
+[6 <./images/desacopladoruido.jpeg> <./images/fueraconmotor.jpeg> <./images/fuerasinmotor.jpeg>]) [7
+
+] (c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1044,17 +1069,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A4D09A27E0FE271E1ABD6EB2B977F7A5;1675.
  ) 
 Here is how much of TeX's memory you used:
- 52547 strings out of 474486
- 1356227 string characters out of 5740472
- 2082294 words of memory out of 5000000
- 74164 multiletter control sequences out of 15000+600000
- 605782 words of font info for 128 fonts, out of 8000000 for 9000
+ 52554 strings out of 474486
+ 1356290 string characters out of 5740472
+ 2082320 words of memory out of 5000000
+ 74168 multiletter control sequences out of 15000+600000
+ 607903 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,107p,818b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/urw/times/utmb8a.pfb><C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/urw/times/utmr8a.pfb><C:/Users/manul/AppData/Local/Programs/Paquete_Latex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.pdf" (6 pages, 2405924 bytes).
+Output written on "c:\Users\manul\Desktop\4to año\medidasElectronicas\TP6\build\main.pdf" (7 pages, 2414406 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
