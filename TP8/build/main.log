@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  15 OCT 2026 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  15 OCT 2026 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,7 +789,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 35.
 ) (C:\Users\gonfi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count367
-) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.aux
+) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -841,7 +841,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package hyperref Info: Link coloring ON on input line 9.
-(c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.out) (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.out)
+(C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.out) (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1051,7 +1051,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--33
 
 (conclusiones.tex)
 
-[3 <./images/exp1.png> <./images/exp2.png> <./images/exp3.png> <./images/exp4.png>] (c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.aux
+[3 <./images/exp1.png> <./images/exp2.png> <./images/exp3.png> <./images/exp4.png>] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1071,7 +1071,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,11n,105p,822b,2244s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.pdf (3 pages, 2586717 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP8\build\main.pdf (3 pages, 2586717 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  62 named destinations out of 1000 (max. 500000)
