@@ -20,7 +20,7 @@ Vemos que si cambiamos el modo de ventana a Flattop, los picos de la señal se c
 Ahora pasamos a la medición de los datos de frecuencia, para ello primero colocaremos el cursos en la componente de CC, es decir en f=0 Hz, mientras que el cursos dos se situará en cada una de las componentes a medir, y completaremos la siguiente tabla con los datos obtenidos:
 
 \begin{table}[H]
-\caption{Frecuencias de las componentes espectrales del tren de pulsos}
+
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
@@ -28,6 +28,7 @@ Cursor 2      & f1= 1kHz & f2= 5.5kHz & f3= 9.5kHz & f4= 13.5kHz & f5= 17.5kHz \
 $\Delta f_n $ & 1kHz     & 4.5kHz     & 4kHz       & 4kHz        & 4kHz        \\ \hline
 \end{tabular}%
 }
+\caption{Frecuencias de las componentes espectrales del tren de pulsos}
 \end{table}
 
 Con estos datos podemos calcular un promedio de $\Delta f_n$ y así poder calcular el ancho del pulso:
@@ -52,7 +53,6 @@ Ahora cambiamos la ventana a Flattop y mediremos los valores de frecuencia corre
 
 
 \begin{table}[H]
-\caption{Frecuencias de los valles del espectro con ventana Flattop}
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|c|c|c|c|}
 \hline
@@ -60,6 +60,7 @@ Cursor 2      & fa= 4kHz & fb= 7.6kHz & fc= 11.8kHz \\ \hline
 $\Delta fmin$ & 4kHz     & 3.6kHz     & 4.2kHz      \\ \hline
 \end{tabular}%
 }
+\caption{Frecuencias de los valles del espectro con ventana Flattop}
 \end{table}
 
 Con estos datos calculamos un promedio de $\Delta f_{min}$ y así poder calcular el ancho del pulso:
