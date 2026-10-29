@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  29 OCT 2026 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  29 OCT 2026 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -768,10 +768,6 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported  on input line 11.
-
-
-LaTeX Warning: Label `tab:mediciones_fft' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1081,10 +1077,10 @@ Overfull \hbox (21.47937pt too wide) in paragraph at lines 5--6
 <images/fft_abierto.jpg, id=117, 668.4975pt x 490.08093pt>
 File: images/fft_abierto.jpg Graphic file (type jpg)
 <use images/fft_abierto.jpg>
-Package pdftex.def Info: images/fft_abierto.jpg  used on input line 22.
+Package pdftex.def Info: images/fft_abierto.jpg  used on input line 23.
 (pdftex.def)             Requested size: 258.0pt x 189.14912pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 22--23
+Overfull \hbox (6.0pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
@@ -1094,10 +1090,10 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 22--23
 <images/fft_cerrado.jpg, id=128, 619.56468pt x 481.04718pt>
 File: images/fft_cerrado.jpg Graphic file (type jpg)
 <use images/fft_cerrado.jpg>
-Package pdftex.def Info: images/fft_cerrado.jpg  used on input line 54.
+Package pdftex.def Info: images/fft_cerrado.jpg  used on input line 60.
 (pdftex.def)             Requested size: 258.0pt x 200.31349pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 54--55
+Overfull \hbox (6.0pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
@@ -1111,16 +1107,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
 
 [7 <./images/fft_cerrado.jpg>]
+Underfull \vbox (badness 1102) has occurred while \output is active []
 
 
 
-[8])
+)
 
-
-
-[9
-
-] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.aux
+[8] (C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1128,25 +1121,21 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DBAC413C0FF2DD03A26B0514E2B2C278;1769.
  ) 
 Here is how much of TeX's memory you used:
  52193 strings out of 468225
- 1340263 string characters out of 5432973
- 2089322 words of memory out of 5000000
- 80037 multiletter control sequences out of 15000+600000
+ 1340285 string characters out of 5432973
+ 2090395 words of memory out of 5000000
+ 80038 multiletter control sequences out of 15000+600000
  685831 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,105p,1033b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.pdf (9 pages, 2558540 bytes).
+Output written on C:\Users\gonfi\Documents\Github\Gonza\medidasElectronicas\TP7\build\main.pdf (8 pages, 2557739 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
  193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
