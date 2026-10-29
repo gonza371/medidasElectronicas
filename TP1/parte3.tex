@@ -27,6 +27,21 @@ Luego se realizó la medición de la resistencia de puesta a tierra en el exteri
 
 En las especificaciones del telurímetro se indica que en el rango de 40 ohms hay un $\pm 2\%$ de error proporcional de lectura y 20 de error por dígitos menos significativos, como se tienen 2 decimales la resolución es de 0.01 ohms.
 
+\begin{table}[H]
+\centering
+\begingroup
+\renewcommand{\tablename}{Tabla}
+\caption{Exactitud del telurímetro UNI-T UT522 en la escala de $40\ \Omega$.}
+\label{tab:especificaciones_telurimetro}
+\endgroup
+\renewcommand{\arraystretch}{1.4}
+\begin{tabular}{|c|c|c|}
+\hline 
+\textbf{Rango} & \textbf{Resolución} & \textbf{Exactitud especificada} \\ \hline
+$40\ \Omega$ & $0.01\ \Omega$ & $\pm (2\%\text{ de lectura} + 20\text{ dígitos})$ \\ \hline
+\end{tabular}
+\end{table}
+
 \begin{equation*}
 \begin{split}
     \Delta R &= R_{medida} \cdot \frac{error_{prop}}{100} + error_{digitos} \\

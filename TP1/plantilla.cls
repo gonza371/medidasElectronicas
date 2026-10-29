@@ -18,6 +18,7 @@
 \RequirePackage{caption}
 \RequirePackage[table]{xcolor}
 
+\usetikzlibrary{arrows.meta}
 \usetikzlibrary{plotmarks}
 \captionsetup{font=footnotesize, justification=centering, labelsep=period}
 \pgfplotsset{compat=1.18}

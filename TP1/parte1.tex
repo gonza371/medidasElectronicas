@@ -1,5 +1,9 @@
 \section{Desarrollo Experimental 1}
-Primero debemos armar el circuito mostrado en la figura \ref{circuito1} utilizando una fuente de tensión continua, un multimetro digital ($V_p$) y un voltímetro analógico($V_C$). Luego, se deben realizar lecturas de tensión en $V_P$ para cada valor obtenido en $V_C$, es decir para 1V en el voltímetro analógico cuanto voltaje se obtiene en el multímetro digital. Haremos esto de 0 a 15V y luego de 15 a 0V. Luego completaremos la tabla \ref{tabla1} con los valores obtenidos y calcularemos la variación máxima entre ambos instrumentos.
+Primero debemos armar el circuito mostrado en la figura \ref{circuito1} utilizando una fuente de tensión continua, un multímetro digital ($V_P$) como instrumento patrón y un voltímetro analógico ($V_C$) como instrumento a contrastar. 
+
+\textbf{Criterio de selección del instrumento patrón:} Para seleccionar adecuadamente un instrumento patrón en un ensayo de contrastación, el criterio metrológico fundamental establece que su incertidumbre o error límite debe ser significativamente menor que el del instrumento bajo prueba —generalmente entre 4 y 10 veces menor (un orden de magnitud más exacto)—, además de contar con mayor resolución y cubrir el alcance de medición requerido. De esta manera, el error propio del patrón resulta despreciable frente al del instrumento contrastado y su lectura puede tomarse como el valor verdadero convencional. En este experimento se seleccionó el multímetro digital UNI-T UT89X como patrón debido a que su exactitud en tensión continua ($\pm 0.5\% + 2\text{ dígitos}$) es muy superior a la del voltímetro analógico Ganz Univó (Clase 2.5).
+
+Luego, se deben realizar lecturas de tensión en $V_P$ para cada valor obtenido en $V_C$, es decir, para 1V en el voltímetro analógico cuánto voltaje se obtiene en el multímetro digital. Haremos esto de 0 a 15V y luego de 15 a 0V. Luego completaremos la tabla \ref{tabla1} con los valores obtenidos y calcularemos la variación máxima entre ambos instrumentos.
 
 \vspace{1cm}
 
@@ -22,7 +26,7 @@ Primero debemos armar el circuito mostrado en la figura \ref{circuito1} utilizan
 \endgroup
 \end{figure}
 
-Luego en base a los $\Delta V$ calculados, armaremos una gráfica de correción para saber cuanto se debe corregir el valor obtenido en el multímetro digital para cada valor del voltímetro analógico. Una vez obtenida la gráfica, calcularemos el indice de calse y comprobaremos si esta tiene coherencia con la indicada en la hoja de datos del instrumento.
+Luego en base a los $\Delta V$ calculados, armaremos una gráfica de corrección para saber cuánto se debe corregir el valor leído en el voltímetro analógico ($V_C$) para obtener el valor verdadero medido por el patrón ($V_P$). Una vez obtenida la gráfica, calcularemos el índice de clase y comprobaremos si este tiene coherencia con el indicado en el instrumento.
 
 \subsection{Resultados}
 
@@ -54,7 +58,6 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 
 \begin{table}[H]
 \begin{center}
-
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
@@ -68,13 +71,13 @@ $V_L$                                                & 1 & 2 & 3 & 4 & 5 & 6 & 7
 \end{center}
 \end{table}
 
-En base a los valores obtenidos, podemos realizar la tabla de corrección para cada valor del voltímetro analógico, es decir, para cada valor de $V_C$ cuanto se debe corregir el valor obtenido en el multímetro digital $V_P$. Esto se muestra en la figura a continuación.
+En base a los valores obtenidos, podemos realizar la curva de corrección ($C = V_P - V_L$) para cada valor del voltímetro analógico, como se muestra en el siguiente gráfico.
 
 \begin{figure}[H]
 \centering
 \resizebox{9.2cm}{5cm}{%
 \begin{tikzpicture}[transform shape]
-	% Paths, nodes and wires:
+	% Encabezado de la tabla de calibración:
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (6.5, 9.5){} node[anchor=center, align=center, text width=2.711cm, inner sep=4.1pt] at (6.5, 9.5){Inst. Contrastado};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (9.5, 9.5){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (9.5, 9.5){Patrón};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=0.465cm] at (12.5, 9.5){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (12.5, 9.5){Fecha};
@@ -83,6 +86,7 @@ En base a los valores obtenidos, podemos realizar la tabla de corrección para c
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (9.5, 8.625){} node[anchor=north west, align=left, text width=2.577cm, inner sep=6pt] at (8, 9.25){\footnotesize Marca: Uni-T\\Nro: UT89X};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (12.5, 8.625){} node[anchor=center, align=center, text width=2.577cm, inner sep=6pt] at (12.5, 8.625){\large 10/04/26};
 	\node[shape=rectangle, draw, line width=1pt, minimum width=2.965cm, minimum height=1.215cm] at (15.5, 8.625){} node[anchor=west, align=left, text width=2.711cm, inner sep=4.1pt] at (14, 8.625){Gonzalo Filsinger};
+	% Grilla:
 	\draw (6, 8) -- (6, 3);
 	\draw (6.5, 8) -- (6.5, 3);
 	\draw (2, 3) -- (17, 3);
@@ -125,6 +129,7 @@ En base a los valores obtenidos, podemos realizar la tabla de corrección para c
 	\draw (3, 8) -- (3, 3);
 	\draw (2.5, 3) -- (2.5, 8);
 	\draw (2, 8) -- (2, 3);
+	% Etiquetas eje X:
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.78, 5.567){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.53, 5.817){0};
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (2.75, 5.25){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (2.5, 5.5){1};
 	\node[shape=rectangle, minimum width=0.436cm, minimum height=0.465cm] at (3.765, 5.25){} node[anchor=north west, align=left, text width=0.047cm, inner sep=6pt] at (3.529, 5.5){2};
@@ -141,21 +146,23 @@ En base a los valores obtenidos, podemos realizar la tabla de corrección para c
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (14.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (14.375, 5.5){13};
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (15.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (15.375, 5.5){14};
 	\node[shape=rectangle, minimum width=0.715cm, minimum height=0.465cm] at (16.75, 5.25){} node[anchor=north west, align=left, text width=0.327cm, inner sep=6pt] at (16.375, 5.5){15};
-	\node[circ] at (3, 5.75){};
-	\node[circ] at (3.995, 5.55){};
-	\node[circ] at (5.005, 5.284){};
-	\node[circ] at (6, 6.186){};
-	\node[circ] at (7, 6.044){};
-	\node[circ] at (8, 5.795){};
-	\node[circ] at (9.006, 5.595){};
-	\node[circ] at (10, 5.208){};
-	\node[circ] at (10.997, 5.107){};
-	\node[circ] at (12.003, 4.787){};
-	\node[circ] at (13, 7.287){};
-	\node[circ, yscale=-1] at (14, 7.351){};
-	\node[circ] at (15, 7.05){};
-	\node[circ] at (16, 7.153){};
-	\node[circ] at (16.995, 6.208){};
+	% Puntos con signo invertido (reflejados respecto al eje 0V en y = 5.5):
+	\node[circ] at (3, 5.25){};         % 1V:  -0.05V
+	\node[circ] at (3.995, 5.45){};     % 2V:  -0.01V
+	\node[circ] at (5.005, 5.716){};    % 3V:  +0.04V
+	\node[circ] at (6, 4.814){};        % 4V:  -0.13V
+	\node[circ] at (7, 4.956){};        % 5V:  -0.11V
+	\node[circ] at (8, 5.205){};        % 6V:  -0.06V
+	\node[circ] at (9.006, 5.405){};    % 7V:  -0.02V
+	\node[circ] at (10, 5.792){};       % 8V:  +0.06V
+	\node[circ] at (10.997, 5.893){};   % 9V:  +0.08V
+	\node[circ] at (12.003, 6.213){};   % 10V: +0.14V
+	\node[circ] at (13, 3.713){};       % 11V: -0.36V
+	\node[circ] at (14, 3.649){};       % 12V: -0.37V
+	\node[circ] at (15, 3.95){};        % 13V: -0.31V
+	\node[circ] at (16, 3.847){};       % 14V: -0.33V
+	\node[circ] at (16.995, 4.792){};   % 15V: -0.14V
+	% Etiquetas eje Y:
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 6.129){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 6.379){+0.1};
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 6.629){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 6.879){+0.2};
 	\node[shape=rectangle, minimum width=0.465cm, minimum height=0.465cm] at (1.293, 7.129){} node[anchor=north west, align=left, text width=0.077cm, inner sep=6pt] at (1.043, 7.379){+0.3};
@@ -180,14 +187,13 @@ En base a los valores obtenidos, podemos realizar la tabla de corrección para c
 
 \vspace{0.5cm}
 
-Ahora debemos calcular la clase utilizando la fórmula 
+Ahora debemos calcular la clase utilizando la fórmula:
 $$Clase = \frac{\text{Error absoluto máximo}}{\text{Valor de fondo de escala}} \cdot 100$$
 
-El error absoluto máximo se obtiene de la tabla \ref{tabla1}, el cual es 0.37V, y el valor de fondo de escala es 15V, por lo tanto, la clase es:
-$$Clase = \frac{0.37V}{15V} \cdot 100 = 2.466$$
+El error absoluto máximo se obtiene de la tabla \ref{tabla1}, el cual es $0.37\text{ V}$, y el valor de fondo de escala es $30\text{ V}$, por lo tanto, el error porcentual máximo respecto al fondo de escala es:
+$$Clase = \frac{0.37\text{ V}}{30\text{ V}} \cdot 100 = 1.233\%$$
 
-Redondeando:
+Adoptando el índice de clase normalizado inmediato superior:
+$$Clase = 1.5$$
 
-$$Clase = 2.5$$
-
-Comparando con la clase del instrumento indicada en el mismo dispositivo, que es de 2.5, podemos ver que estamos dentro de lo esperado, ya que el error máximo obtenido es coherente con la clase del instrumento. Esto nos indica que las mediciones realizadas con el multímetro digital son confiables dentro de los límites establecidos por su clase.
+Comparando con la clase nominal del instrumento indicada en su cuadrante (Clase 2.5), verificamos que el instrumento cumple holgadamente con su especificación, ya que en el rango ensayado el error máximo obtenido ($1.233\%$) se mantiene por debajo del límite de $1.5\%$ y muy dentro del límite de $2.5\%$ garantizado por el fabricante.
