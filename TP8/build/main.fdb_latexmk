@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1792098998.97675 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/main.tex" "build/main.pdf" "main" 1792099000.72405 0
-  "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791943246.23299 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1793293438.34594 "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/main.tex" "build/main.pdf" "main" 1793293440.28876 0
+  "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1792886629.04534 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1750266454.65037 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/gonfi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750263635.6902 13234938 30f860a347630bc1469083995ce6332b ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -242,11 +242,11 @@
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/gonfi/AppData/Local/Programs/MiKTeX/tex/latex/xfrac/xfrac.sty" 1718270407 14945 a207ee7fd6b8cf6d82afb367c583ddd3 ""
-  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/build/main.aux" 1792099000.46634 1957 dc928949647449317a9a5152e25546d7 ""
-  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/build/main.out" 1792099000.46986 462 c919ca05b5a80bfb249a28e0b6da73a4 ""
-  "build/main.aux" 1792099000.46634 1957 dc928949647449317a9a5152e25546d7 "pdflatex"
-  "build/main.out" 1792099000.46986 462 c919ca05b5a80bfb249a28e0b6da73a4 "pdflatex"
-  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/main.tex" 1792098998.39329 1341 e34a29571a5611fdab50a8d256ab2b8b ""
+  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/build/main.aux" 1793293439.97833 1957 dc928949647449317a9a5152e25546d7 ""
+  "C:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/build/main.out" 1793293439.98834 462 c919ca05b5a80bfb249a28e0b6da73a4 ""
+  "build/main.aux" 1793293439.97833 1957 dc928949647449317a9a5152e25546d7 "pdflatex"
+  "build/main.out" 1793293439.98834 462 c919ca05b5a80bfb249a28e0b6da73a4 "pdflatex"
+  "c:/Users/gonfi/Documents/Github/Gonza/medidasElectronicas/TP8/main.tex" 1793293436.43042 1315 b9f552ab74f10fb66d0ebd13234c4fd1 ""
   "conclusiones.tex" 1791147887.25783 24 365a7c9fc233ae725edbb893b273eb01 ""
   "images/esquema.png" 1792093408.43201 14608 c4d15e9597e7d9649be158e27c953218 ""
   "images/exp1.png" 1792088924.86889 305782 fd7f85e643da0e1f383e99ead0cdec22 ""
